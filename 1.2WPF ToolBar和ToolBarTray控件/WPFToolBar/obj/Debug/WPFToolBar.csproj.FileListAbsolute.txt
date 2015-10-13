@@ -1,0 +1,40 @@
+D:\Expression Blend NewBook\Example\WPFToolBar\WPFToolBar\bin\Debug\WPFToolBar.exe
+D:\Expression Blend NewBook\Example\WPFToolBar\WPFToolBar\bin\Debug\WPFToolBar.pdb
+D:\Expression Blend NewBook\Example\WPFToolBar\WPFToolBar\obj\Debug\ResolveAssemblyReference.cache
+D:\Expression Blend NewBook\Example\WPFToolBar\WPFToolBar\obj\Debug\MainWindow.baml
+D:\Expression Blend NewBook\Example\WPFToolBar\WPFToolBar\obj\Debug\MainWindow.g.cs
+D:\Expression Blend NewBook\Example\WPFToolBar\WPFToolBar\obj\Debug\App.g.cs
+D:\Expression Blend NewBook\Example\WPFToolBar\WPFToolBar\obj\Debug\WPFToolBar_MarkupCompile.cache
+D:\Expression Blend NewBook\Example\WPFToolBar\WPFToolBar\obj\Debug\WPFToolBar.g.resources
+D:\Expression Blend NewBook\Example\WPFToolBar\WPFToolBar\obj\Debug\WPFToolBar.exe
+D:\Expression Blend NewBook\Example\WPFToolBar\WPFToolBar\obj\Debug\WPFToolBar.pdb
+D:\Expression Blend NewBook\Example\1WPF的ToolBar控件\WPFToolBar\bin\Debug\WPFToolBar.exe
+D:\Expression Blend NewBook\Example\1WPF的ToolBar控件\WPFToolBar\bin\Debug\WPFToolBar.pdb
+D:\Expression Blend NewBook\Example\1WPF的ToolBar控件\WPFToolBar\obj\Debug\ResolveAssemblyReference.cache
+D:\Expression Blend NewBook\Example\1WPF的ToolBar控件\WPFToolBar\obj\Debug\MainWindow.baml
+D:\Expression Blend NewBook\Example\1WPF的ToolBar控件\WPFToolBar\obj\Debug\MainWindow.g.cs
+D:\Expression Blend NewBook\Example\1WPF的ToolBar控件\WPFToolBar\obj\Debug\App.g.cs
+D:\Expression Blend NewBook\Example\1WPF的ToolBar控件\WPFToolBar\obj\Debug\WPFToolBar_MarkupCompile.cache
+D:\Expression Blend NewBook\Example\1WPF的ToolBar控件\WPFToolBar\obj\Debug\WPFToolBar.g.resources
+D:\Expression Blend NewBook\Example\1WPF的ToolBar控件\WPFToolBar\obj\Debug\WPFToolBar.exe
+D:\Expression Blend NewBook\Example\1WPF的ToolBar控件\WPFToolBar\obj\Debug\WPFToolBar.pdb
+D:\Expression Blend NewBook\Example\1.2WPF的ToolBar控件\WPFToolBar\bin\Debug\WPFToolBar.exe
+D:\Expression Blend NewBook\Example\1.2WPF的ToolBar控件\WPFToolBar\bin\Debug\WPFToolBar.pdb
+D:\Expression Blend NewBook\Example\1.2WPF的ToolBar控件\WPFToolBar\obj\Debug\ResolveAssemblyReference.cache
+D:\Expression Blend NewBook\Example\1.2WPF的ToolBar控件\WPFToolBar\obj\Debug\MainWindow.baml
+D:\Expression Blend NewBook\Example\1.2WPF的ToolBar控件\WPFToolBar\obj\Debug\MainWindow.g.cs
+D:\Expression Blend NewBook\Example\1.2WPF的ToolBar控件\WPFToolBar\obj\Debug\App.g.cs
+D:\Expression Blend NewBook\Example\1.2WPF的ToolBar控件\WPFToolBar\obj\Debug\WPFToolBar_MarkupCompile.cache
+D:\Expression Blend NewBook\Example\1.2WPF的ToolBar控件\WPFToolBar\obj\Debug\WPFToolBar.g.resources
+D:\Expression Blend NewBook\Example\1.2WPF的ToolBar控件\WPFToolBar\obj\Debug\WPFToolBar.exe
+D:\Expression Blend NewBook\Example\1.2WPF的ToolBar控件\WPFToolBar\obj\Debug\WPFToolBar.pdb
+G:\WPF\光盘案例\项目\Example\1.2WPF ToolBar和ToolBarTray控件\WPFToolBar\bin\Debug\WPFToolBar.exe
+G:\WPF\光盘案例\项目\Example\1.2WPF ToolBar和ToolBarTray控件\WPFToolBar\bin\Debug\WPFToolBar.pdb
+G:\WPF\光盘案例\项目\Example\1.2WPF ToolBar和ToolBarTray控件\WPFToolBar\obj\Debug\ResolveAssemblyReference.cache
+G:\WPF\光盘案例\项目\Example\1.2WPF ToolBar和ToolBarTray控件\WPFToolBar\obj\Debug\MainWindow.baml
+G:\WPF\光盘案例\项目\Example\1.2WPF ToolBar和ToolBarTray控件\WPFToolBar\obj\Debug\MainWindow.g.cs
+G:\WPF\光盘案例\项目\Example\1.2WPF ToolBar和ToolBarTray控件\WPFToolBar\obj\Debug\App.g.cs
+G:\WPF\光盘案例\项目\Example\1.2WPF ToolBar和ToolBarTray控件\WPFToolBar\obj\Debug\WPFToolBar_MarkupCompile.cache
+G:\WPF\光盘案例\项目\Example\1.2WPF ToolBar和ToolBarTray控件\WPFToolBar\obj\Debug\WPFToolBar.g.resources
+G:\WPF\光盘案例\项目\Example\1.2WPF ToolBar和ToolBarTray控件\WPFToolBar\obj\Debug\WPFToolBar.exe
+G:\WPF\光盘案例\项目\Example\1.2WPF ToolBar和ToolBarTray控件\WPFToolBar\obj\Debug\WPFToolBar.pdb

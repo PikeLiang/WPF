@@ -1,0 +1,96 @@
+﻿<Window
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d"
+	x:Class="WPFToolBar.MainWindow"
+	x:Name="Window"
+	Title="WPF的工具条"
+	Width="760" Height="480" WindowStartupLocation="CenterScreen">
+
+	<Grid x:Name="LayoutRoot">
+		<Grid.Background>
+			<LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+				<GradientStop Color="Blue" Offset="0.194"/>
+				<GradientStop Color="White" Offset="1"/>
+			</LinearGradientBrush>
+		</Grid.Background>
+		<Menu Height="28" VerticalAlignment="Top">
+			<MenuItem x:Name="menu1" Header="课程介绍" Margin="0" Cursor="Hand">
+				<MenuItem x:Name="menu11" Header="教学大纲" Cursor="Hand"/>
+				<Separator Height="1" RenderTransformOrigin="0.5,0.5">
+					<Separator.RenderTransform>
+						<TransformGroup>
+							<ScaleTransform ScaleY="-1"/>
+							<SkewTransform/>
+							<RotateTransform/>
+							<TranslateTransform/>
+						</TransformGroup>
+					</Separator.RenderTransform>
+				</Separator>
+				<MenuItem x:Name="tuichu" Header="退出" Cursor="Hand" Click="tuichu_Click"/>
+			</MenuItem>
+		</Menu>
+		<ToolBarTray x:Name="toolbartray" Margin="0,31,140,0" Background="{x:Null}" Width="612" Height="86" VerticalAlignment="Top" ScrollViewer.VerticalScrollBarVisibility="Auto" ScrollViewer.HorizontalScrollBarVisibility="Auto">
+			<ToolBar x:Name="toolbar1" Header="工具1" Height="34" VerticalAlignment="Top" d:LayoutOverrides="Height" Width="269">
+				<Button x:Name="b1" HorizontalAlignment="Stretch" Height="29" VerticalAlignment="Stretch" Width="29" Click="b1_Click">
+					<Image Height="22" Source="icon/icon1.png" Width="22"/>
+				</Button>
+				<Button x:Name="b2" HorizontalAlignment="Stretch" Height="29" VerticalAlignment="Stretch" Width="29" Margin="0,0,0,-2">
+					<Image Height="25" Source="icon/icon2.png" Stretch="Fill" Width="25"/>
+				</Button>
+				<Button x:Name="b3" HorizontalAlignment="Stretch" Height="29" VerticalAlignment="Stretch" Width="29" Margin="0,0,0,-2">
+					<Image Height="25" Source="icon/icon3.png" Stretch="Fill" Width="25"/>
+				</Button>
+				<Separator Margin="0,13.5,0,14.5" Background="Blue" RenderTransformOrigin="0.5,0.5" Width="21" d:LayoutOverrides="HorizontalAlignment">
+					<Separator.RenderTransform>
+						<TransformGroup>
+							<ScaleTransform/>
+							<SkewTransform/>
+							<RotateTransform Angle="-90"/>
+							<TranslateTransform/>
+						</TransformGroup>
+					</Separator.RenderTransform>
+				</Separator>
+				<Button x:Name="b4" HorizontalAlignment="Stretch" Height="29" VerticalAlignment="Stretch" Width="29" Margin="0,1,0,-1">
+					<Image Height="25" Source="icon/icon6.png" Stretch="Fill" Width="25"/>
+				</Button>
+				<Button x:Name="b5" HorizontalAlignment="Stretch" Height="29" VerticalAlignment="Stretch" Width="29" Margin="0,1,0,-1">
+					<Image Height="25" Source="icon/icon5.png" Stretch="Fill" Width="25"/>
+				</Button>
+				<Button x:Name="b6" HorizontalAlignment="Stretch" Height="29" VerticalAlignment="Stretch" Width="29" Margin="0,1,0,-1">
+					<Image Height="25" Source="icon/icon9.png" Stretch="Fill" Width="25"/>
+				</Button>
+			</ToolBar>
+			<ToolBar x:Name="toolbar2" Header="工具2" Height="34" VerticalAlignment="Top" d:LayoutOverrides="Height" HorizontalAlignment="Left" Margin="0" Width="269">
+				<Button x:Name="b7" HorizontalAlignment="Stretch" Height="29" VerticalAlignment="Stretch" Width="29">
+					<Image Height="25" Source="icon/icon20.png" Stretch="Fill" Width="25"/>
+				</Button>
+				<Button x:Name="b8" HorizontalAlignment="Stretch" Height="29" VerticalAlignment="Stretch" Width="29" Margin="0,0,0,-2">
+					<Image Height="25" Source="icon/icon21.png" Stretch="Fill" Width="25"/>
+				</Button>
+				<Button x:Name="b9" HorizontalAlignment="Stretch" Height="29" VerticalAlignment="Stretch" Width="29" Margin="0,0,0,-2">
+					<Image Height="25" Source="icon/icon24.png" Stretch="Fill" Width="25"/>
+				</Button>
+				<Separator Margin="0,13.5,0,14.5" Background="Blue" RenderTransformOrigin="0.5,0.5" Width="21" d:LayoutOverrides="HorizontalAlignment">
+					<Separator.RenderTransform>
+						<TransformGroup>
+							<ScaleTransform/>
+							<SkewTransform/>
+							<RotateTransform Angle="-90"/>
+							<TranslateTransform/>
+						</TransformGroup>
+					</Separator.RenderTransform>
+				</Separator>
+				<Button x:Name="b10" HorizontalAlignment="Stretch" Height="29" VerticalAlignment="Stretch" Width="29" Margin="0,1,0,-1">
+					<Image Height="25" Source="icon/icon23.png" Stretch="Fill" Width="25"/>
+				</Button>
+				<Button x:Name="b11" HorizontalAlignment="Stretch" Height="29" VerticalAlignment="Stretch" Width="29" Margin="0,1,0,-1">
+					<Image Height="25" Source="icon/icon19.png" Stretch="Fill" Width="25"/>
+				</Button>
+				<Button x:Name="b12" HorizontalAlignment="Stretch" Height="29" VerticalAlignment="Stretch" Width="29" Margin="0,1,0,-1">
+					<Image Height="25" Source="icon/icon16.png" Stretch="Fill" Width="25"/>
+				</Button>
+			</ToolBar>
+		</ToolBarTray>
+	</Grid>
+</Window>
