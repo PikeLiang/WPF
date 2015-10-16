@@ -1,0 +1,17 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfTwodimensionalImage", "WpfTwodimensionalImage\WpfTwodimensionalImage.csproj", "{5ef0d6d8-1b65-40b7-a735-a413456c1fb9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5EF0D6D8-1B65-40B7-A735-A413456C1FB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EF0D6D8-1B65-40B7-A735-A413456C1FB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EF0D6D8-1B65-40B7-A735-A413456C1FB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EF0D6D8-1B65-40B7-A735-A413456C1FB9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,73 @@
+﻿<Window
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	x:Class="WpfTwodimensionalImage.Window2"
+	x:Name="Window"
+	Title="Window2"
+	Width="520" Height="400" WindowStartupLocation="CenterScreen">
+
+	<Grid x:Name="LayoutRoot">
+		<TextBlock Height="26" TextWrapping="Wrap" Text="Geometry类绘制复合图形" FontSize="18.667" Margin="129,0,129,20" VerticalAlignment="Bottom"/>
+		<Button x:Name="button1" Content="GeometryGroup" Height="25" Width="140" Cursor="Hand" FontSize="13.333" Click="button1_Click" HorizontalAlignment="Left" Margin="96,0,0,50" VerticalAlignment="Bottom"/>
+		<Canvas x:Name="canvas1" Background="#FFE9F3DC" Margin="30,24,8,83">
+			<Path Data="M0,17 L616,17" Height="1" Stretch="Fill" Stroke="#FFD8D8D8" Canvas.Top="10" Width="474"/>
+			<Path Data="M0,17 L616,17" Height="1" Stretch="Fill" Stroke="#FFD8D8D8" Canvas.Top="20" Width="474"/>
+			<Path Data="M0,17 L616,17" Height="1" Stretch="Fill" Stroke="#FFD8D8D8" Canvas.Top="30" Width="474"/>
+			<Path Data="M0,17 L616,17" Height="1" Stretch="Fill" Stroke="#FFD8D8D8" Canvas.Top="40" Width="474"/>
+			<Path Data="M0,17 L616,17" Height="1" Stretch="Fill" Stroke="#FF9D9C9C" Canvas.Top="50" Width="474"/>
+			<Path Data="M0,17 L616,17" Height="1" Stretch="Fill" Stroke="#FFD8D8D8" Canvas.Top="60" Width="474"/>
+			<Path Data="M0,17 L616,17" Height="1" Stretch="Fill" Stroke="#FFD8D8D8" Canvas.Top="70" Width="474"/>
+			<Path Data="M0,17 L616,17" Height="1" Stretch="Fill" Stroke="#FFD8D8D8" Canvas.Top="80" Width="474"/>
+			<Path Data="M0,17 L616,17" Height="1" Stretch="Fill" Stroke="#FFD8D8D8" Canvas.Top="90" Width="474"/>
+			<Path Data="M0,17 L616,17" Height="1" Stretch="Fill" Stroke="#FF9D9C9C" Canvas.Top="100" Width="474"/>
+			<Path Data="M0,17 L616,17" Height="1" Stretch="Fill" Stroke="#FFD8D8D8" Canvas.Top="110" Width="474"/>
+			<Path Data="M0,17 L616,17" Height="1" Stretch="Fill" Stroke="#FFD8D8D8" Canvas.Top="120" Width="474"/>
+			<Path Data="M0,17 L616,17" Height="1" Stretch="Fill" Stroke="#FFD8D8D8" Canvas.Top="130" Width="474"/>
+			<Path Data="M0,17 L616,17" Height="1" Stretch="Fill" Stroke="#FFD8D8D8" Canvas.Top="140" Width="474"/>
+			<Path Data="M0,17 L616,17" Height="1" Stretch="Fill" Stroke="#FF9D9C9C" Canvas.Top="150" Width="474"/>
+			<Path Data="M0,17 L616,17" Height="1" Stretch="Fill" Stroke="#FFD8D8D8" Canvas.Top="160" Width="474"/>
+			<Path Data="M0,17 L616,17" Height="1" Stretch="Fill" Stroke="#FFD8D8D8" Canvas.Top="170" Width="474"/>
+			<Path Data="M0,17 L616,17" Height="1" Stretch="Fill" Stroke="#FFD8D8D8" Canvas.Top="180" Width="474"/>
+			<Path Data="M0,17 L616,17" Height="1" Stretch="Fill" Stroke="#FFD8D8D8" Canvas.Top="190" Width="474"/>
+			<Path Data="M0,17 L616,17" Height="1" Stretch="Fill" Stroke="#FF9D9C9C" Canvas.Top="200" Width="474"/>
+			<Path Data="M0,17 L616,17" Height="1" Stretch="Fill" Stroke="#FFD8D8D8" Canvas.Top="210" Width="474"/>
+			<Path Data="M0,17 L616,17" Height="1" Stretch="Fill" Stroke="#FFD8D8D8" Canvas.Top="220" Width="474"/>
+			<Path Data="M0,17 L616,17" Height="1" Stretch="Fill" Stroke="#FFD8D8D8" Canvas.Top="230" Width="474"/>
+			<Path Data="M0,17 L616,17" Height="1" Stretch="Fill" Stroke="#FFD8D8D8" Canvas.Top="240" Width="474"/>
+			<Path Data="M0,17 L616,17" Height="1" Stretch="Fill" Stroke="#FF9D9C9C" Canvas.Top="250" Width="474"/>
+			<Path Data="M21,0 L21,255" Height="250" Canvas.Left="20" Stretch="Fill" Stroke="#FFDAD8D8" Width="1"/>
+			<Path Data="M21,0 L21,255" Height="250" Canvas.Left="40" Stretch="Fill" Stroke="#FFDAD8D8" Width="1"/>
+			<Path Data="M21,0 L21,255" Height="250" Canvas.Left="60" Stretch="Fill" Stroke="#FFDAD8D8" Width="1"/>
+			<Path Data="M21,0 L21,255" Height="250" Canvas.Left="80" Stretch="Fill" Stroke="#FFDAD8D8" Width="1"/>
+			<Path Data="M21,0 L21,255" Height="250" Canvas.Left="100" Stretch="Fill" Stroke="#FFA3A3A3" Width="1"/>
+			<Path Data="M21,0 L21,255" Height="250" Canvas.Left="120" Stretch="Fill" Stroke="#FFDAD8D8" Width="1"/>
+			<Path Data="M21,0 L21,255" Height="250" Canvas.Left="140" Stretch="Fill" Stroke="#FFDAD8D8" Width="1"/>
+			<Path Data="M21,0 L21,255" Height="250" Canvas.Left="160" Stretch="Fill" Stroke="#FFDAD8D8" Width="1"/>
+			<Path Data="M21,0 L21,255" Height="250" Canvas.Left="180" Stretch="Fill" Stroke="#FFDAD8D8" Width="1"/>
+			<Path Data="M21,0 L21,255" Height="250" Canvas.Left="200" Stretch="Fill" Stroke="#FFA3A3A3" Width="1"/>
+			<Path Data="M21,0 L21,255" Height="250" Canvas.Left="220" Stretch="Fill" Stroke="#FFDAD8D8" Width="1"/>
+			<Path Data="M21,0 L21,255" Height="250" Canvas.Left="240" Stretch="Fill" Stroke="#FFDAD8D8" Width="1"/>
+			<Path Data="M21,0 L21,255" Height="250" Canvas.Left="260" Stretch="Fill" Stroke="#FFDAD8D8" Width="1"/>
+			<Path Data="M21,0 L21,255" Height="250" Canvas.Left="280" Stretch="Fill" Stroke="#FFDAD8D8" Width="1"/>
+			<Path Data="M21,0 L21,255" Height="250" Canvas.Left="300" Stretch="Fill" Stroke="#FFA3A3A3" Width="1"/>
+			<Path Data="M21,0 L21,255" Height="250" Canvas.Left="320" Stretch="Fill" Stroke="#FFDAD8D8" Width="1"/>
+			<Path Data="M21,0 L21,255" Height="250" Canvas.Left="340" Stretch="Fill" Stroke="#FFDAD8D8" Width="1"/>
+			<Path Data="M21,0 L21,255" Height="250" Canvas.Left="360" Stretch="Fill" Stroke="#FFDAD8D8" Width="1"/>
+			<Path Data="M21,0 L21,255" Height="250" Canvas.Left="380" Stretch="Fill" Stroke="#FFDAD8D8" Width="1"/>
+			<Path Data="M21,0 L21,255" Height="250" Canvas.Left="400" Stretch="Fill" Stroke="#FFA7A4A4" Width="1"/>
+			<Path Data="M21,0 L21,255" Height="250" Canvas.Left="420" Stretch="Fill" Stroke="#FFDAD8D8" Width="1"/>
+			<Path Data="M21,0 L21,255" Height="250" Canvas.Left="440" Stretch="Fill" Stroke="#FFDAD8D8" Width="1"/>
+			<Path Data="M21,0 L21,255" Height="250" Canvas.Left="460" Stretch="Fill" Stroke="#FFDAD8D8" Width="1"/>
+		</Canvas>
+		<Button x:Name="button2" Content="CombinedGeometry" Height="25" Width="140" Cursor="Hand" FontSize="13.333" HorizontalAlignment="Left" Margin="295,0,0,50" VerticalAlignment="Bottom" Click="button2_Click"/>
+		<TextBlock HorizontalAlignment="Left" Height="17" Margin="5,65,0,0" TextWrapping="Wrap" Text="50" VerticalAlignment="Top" Width="24" FontSize="14.667"/>
+		<TextBlock HorizontalAlignment="Left" Height="17" Margin="5,115,0,0" TextWrapping="Wrap" Text="100" VerticalAlignment="Top" Width="26" FontSize="14.667"/>
+		<TextBlock HorizontalAlignment="Left" Margin="5,164,0,177" TextWrapping="Wrap" Text="150" Width="26" FontSize="14.667"/>
+		<TextBlock HorizontalAlignment="Left" Margin="5,0,0,126" TextWrapping="Wrap" Text="200" Width="26" FontSize="14.667" Height="17" VerticalAlignment="Bottom"/>
+		<TextBlock HorizontalAlignment="Left" Margin="5,0,0,77" TextWrapping="Wrap" Text="250" Width="26" FontSize="14.667" Height="17" VerticalAlignment="Bottom"/>
+		<TextBlock HorizontalAlignment="Left" Height="17" Margin="116,5,0,0" TextWrapping="Wrap" Text="100" VerticalAlignment="Top" Width="26" FontSize="14.667"/>
+		<TextBlock HorizontalAlignment="Left" Height="17" Margin="217,5,0,0" TextWrapping="Wrap" Text="200" VerticalAlignment="Top" Width="26" FontSize="14.667"/>
+		<TextBlock Height="17" Margin="0,5,168,0" TextWrapping="Wrap" Text="300" VerticalAlignment="Top" FontSize="14.667" HorizontalAlignment="Right" Width="26"/>
+		<TextBlock Height="17" Margin="0,5,69,0" TextWrapping="Wrap" Text="400" VerticalAlignment="Top" FontSize="14.667" HorizontalAlignment="Right" Width="26"/>
+	</Grid>
+</Window>
