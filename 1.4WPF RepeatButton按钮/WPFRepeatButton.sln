@@ -1,0 +1,17 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFRepeatButton", "WPFRepeatButton\WPFRepeatButton.csproj", "{e53d67d5-6e04-43d5-8909-2c1ce9ad535e}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E53D67D5-6E04-43D5-8909-2C1CE9AD535E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E53D67D5-6E04-43D5-8909-2C1CE9AD535E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E53D67D5-6E04-43D5-8909-2C1CE9AD535E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E53D67D5-6E04-43D5-8909-2C1CE9AD535E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
