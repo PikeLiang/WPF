@@ -1,0 +1,17 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wpfsearchlight", "Wpfsearchlight\Wpfsearchlight.csproj", "{92c6797a-826f-40ca-a4e3-8fef15268f57}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{92C6797A-826F-40CA-A4E3-8FEF15268F57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92C6797A-826F-40CA-A4E3-8FEF15268F57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92C6797A-826F-40CA-A4E3-8FEF15268F57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92C6797A-826F-40CA-A4E3-8FEF15268F57}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

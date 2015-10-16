@@ -1,0 +1,50 @@
+D:\Expression Blend NewBook\Example\Wpfsearchlight\Wpfsearchlight\bin\Debug\Wpfsearchlight.exe
+D:\Expression Blend NewBook\Example\Wpfsearchlight\Wpfsearchlight\bin\Debug\Wpfsearchlight.pdb
+D:\Expression Blend NewBook\Example\Wpfsearchlight\Wpfsearchlight\obj\Debug\ResolveAssemblyReference.cache
+D:\Expression Blend NewBook\Example\Wpfsearchlight\Wpfsearchlight\obj\Debug\MainWindow.baml
+D:\Expression Blend NewBook\Example\Wpfsearchlight\Wpfsearchlight\obj\Debug\MainWindow.g.cs
+D:\Expression Blend NewBook\Example\Wpfsearchlight\Wpfsearchlight\obj\Debug\App.g.cs
+D:\Expression Blend NewBook\Example\Wpfsearchlight\Wpfsearchlight\obj\Debug\Wpfsearchlight_MarkupCompile.cache
+D:\Expression Blend NewBook\Example\Wpfsearchlight\Wpfsearchlight\obj\Debug\Wpfsearchlight.g.resources
+D:\Expression Blend NewBook\Example\Wpfsearchlight\Wpfsearchlight\obj\Debug\Wpfsearchlight.exe
+D:\Expression Blend NewBook\Example\Wpfsearchlight\Wpfsearchlight\obj\Debug\Wpfsearchlight.pdb
+D:\Expression Blend NewBook\Example\Wpf动画-探照灯\Wpfsearchlight\bin\Debug\Wpfsearchlight.exe
+D:\Expression Blend NewBook\Example\Wpf动画-探照灯\Wpfsearchlight\bin\Debug\Wpfsearchlight.pdb
+D:\Expression Blend NewBook\Example\Wpf动画-探照灯\Wpfsearchlight\obj\Debug\ResolveAssemblyReference.cache
+D:\Expression Blend NewBook\Example\Wpf动画-探照灯\Wpfsearchlight\obj\Debug\MainWindow.baml
+D:\Expression Blend NewBook\Example\Wpf动画-探照灯\Wpfsearchlight\obj\Debug\MainWindow.g.cs
+D:\Expression Blend NewBook\Example\Wpf动画-探照灯\Wpfsearchlight\obj\Debug\App.g.cs
+D:\Expression Blend NewBook\Example\Wpf动画-探照灯\Wpfsearchlight\obj\Debug\Wpfsearchlight_MarkupCompile.cache
+D:\Expression Blend NewBook\Example\Wpf动画-探照灯\Wpfsearchlight\obj\Debug\Wpfsearchlight.g.resources
+D:\Expression Blend NewBook\Example\Wpf动画-探照灯\Wpfsearchlight\obj\Debug\Wpfsearchlight.exe
+D:\Expression Blend NewBook\Example\Wpf动画-探照灯\Wpfsearchlight\obj\Debug\Wpfsearchlight.pdb
+D:\Expression Blend NewBook\Example\2WPF动画-探照灯\Wpfsearchlight\bin\Debug\Wpfsearchlight.exe
+D:\Expression Blend NewBook\Example\2WPF动画-探照灯\Wpfsearchlight\bin\Debug\Wpfsearchlight.pdb
+D:\Expression Blend NewBook\Example\2WPF动画-探照灯\Wpfsearchlight\obj\Debug\ResolveAssemblyReference.cache
+D:\Expression Blend NewBook\Example\2WPF动画-探照灯\Wpfsearchlight\obj\Debug\MainWindow.baml
+D:\Expression Blend NewBook\Example\2WPF动画-探照灯\Wpfsearchlight\obj\Debug\MainWindow.g.cs
+D:\Expression Blend NewBook\Example\2WPF动画-探照灯\Wpfsearchlight\obj\Debug\App.g.cs
+D:\Expression Blend NewBook\Example\2WPF动画-探照灯\Wpfsearchlight\obj\Debug\Wpfsearchlight_MarkupCompile.cache
+D:\Expression Blend NewBook\Example\2WPF动画-探照灯\Wpfsearchlight\obj\Debug\Wpfsearchlight.g.resources
+D:\Expression Blend NewBook\Example\2WPF动画-探照灯\Wpfsearchlight\obj\Debug\Wpfsearchlight.exe
+D:\Expression Blend NewBook\Example\2WPF动画-探照灯\Wpfsearchlight\obj\Debug\Wpfsearchlight.pdb
+D:\Expression Blend NewBook\Example\1.9WPF动画-探照灯\Wpfsearchlight\bin\Debug\Wpfsearchlight.exe
+D:\Expression Blend NewBook\Example\1.9WPF动画-探照灯\Wpfsearchlight\bin\Debug\Wpfsearchlight.pdb
+D:\Expression Blend NewBook\Example\1.9WPF动画-探照灯\Wpfsearchlight\obj\Debug\ResolveAssemblyReference.cache
+D:\Expression Blend NewBook\Example\1.9WPF动画-探照灯\Wpfsearchlight\obj\Debug\MainWindow.baml
+D:\Expression Blend NewBook\Example\1.9WPF动画-探照灯\Wpfsearchlight\obj\Debug\MainWindow.g.cs
+D:\Expression Blend NewBook\Example\1.9WPF动画-探照灯\Wpfsearchlight\obj\Debug\App.g.cs
+D:\Expression Blend NewBook\Example\1.9WPF动画-探照灯\Wpfsearchlight\obj\Debug\Wpfsearchlight_MarkupCompile.cache
+D:\Expression Blend NewBook\Example\1.9WPF动画-探照灯\Wpfsearchlight\obj\Debug\Wpfsearchlight.g.resources
+D:\Expression Blend NewBook\Example\1.9WPF动画-探照灯\Wpfsearchlight\obj\Debug\Wpfsearchlight.exe
+D:\Expression Blend NewBook\Example\1.9WPF动画-探照灯\Wpfsearchlight\obj\Debug\Wpfsearchlight.pdb
+G:\WPF\光盘案例\项目\Example\1.9WPF动画-探照灯\Wpfsearchlight\bin\Debug\Wpfsearchlight.exe
+G:\WPF\光盘案例\项目\Example\1.9WPF动画-探照灯\Wpfsearchlight\bin\Debug\Wpfsearchlight.pdb
+G:\WPF\光盘案例\项目\Example\1.9WPF动画-探照灯\Wpfsearchlight\obj\Debug\ResolveAssemblyReference.cache
+G:\WPF\光盘案例\项目\Example\1.9WPF动画-探照灯\Wpfsearchlight\obj\Debug\MainWindow.baml
+G:\WPF\光盘案例\项目\Example\1.9WPF动画-探照灯\Wpfsearchlight\obj\Debug\MainWindow.g.cs
+G:\WPF\光盘案例\项目\Example\1.9WPF动画-探照灯\Wpfsearchlight\obj\Debug\App.g.cs
+G:\WPF\光盘案例\项目\Example\1.9WPF动画-探照灯\Wpfsearchlight\obj\Debug\Wpfsearchlight_MarkupCompile.cache
+G:\WPF\光盘案例\项目\Example\1.9WPF动画-探照灯\Wpfsearchlight\obj\Debug\Wpfsearchlight.g.resources
+G:\WPF\光盘案例\项目\Example\1.9WPF动画-探照灯\Wpfsearchlight\obj\Debug\Wpfsearchlight.exe
+G:\WPF\光盘案例\项目\Example\1.9WPF动画-探照灯\Wpfsearchlight\obj\Debug\Wpfsearchlight.pdb
