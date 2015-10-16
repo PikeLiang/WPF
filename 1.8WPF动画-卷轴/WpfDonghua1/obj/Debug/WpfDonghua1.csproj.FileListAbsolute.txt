@@ -1,0 +1,78 @@
+D:\Expression Blend NewBook\Example\WpfDonghua1\WpfDonghua1\bin\Debug\WpfDonghua1.exe
+D:\Expression Blend NewBook\Example\WpfDonghua1\WpfDonghua1\bin\Debug\WpfDonghua1.pdb
+D:\Expression Blend NewBook\Example\WpfDonghua1\WpfDonghua1\obj\Debug\ResolveAssemblyReference.cache
+D:\Expression Blend NewBook\Example\WpfDonghua1\WpfDonghua1\obj\Debug\MainWindow.baml
+D:\Expression Blend NewBook\Example\WpfDonghua1\WpfDonghua1\obj\Debug\App.baml
+D:\Expression Blend NewBook\Example\WpfDonghua1\WpfDonghua1\obj\Debug\MainWindow.g.cs
+D:\Expression Blend NewBook\Example\WpfDonghua1\WpfDonghua1\obj\Debug\App.g.cs
+D:\Expression Blend NewBook\Example\WpfDonghua1\WpfDonghua1\obj\Debug\WpfDonghua1_MarkupCompile.cache
+D:\Expression Blend NewBook\Example\WpfDonghua1\WpfDonghua1\obj\Debug\WpfDonghua1.g.resources
+D:\Expression Blend NewBook\Example\WpfDonghua1\WpfDonghua1\obj\Debug\WpfDonghua1.exe
+D:\Expression Blend NewBook\Example\WpfDonghua1\WpfDonghua1\obj\Debug\WpfDonghua1.pdb
+D:\Expression Blend NewBook\Example\WpfDonghua1\WpfDonghua1\bin\Debug\pict1.jpg
+D:\Expression Blend NewBook\Example\WpfDonghua1\WpfDonghua1\bin\Debug\背景1.jpg
+D:\Expression Blend NewBook\Example\WpfDonghua1\WpfDonghua1\bin\Debug\背景2.jpg
+D:\Expression Blend NewBook\Example\WpfDonghua1\WpfDonghua1\bin\Debug\Microsoft.Expression.Drawing.dll
+D:\Expression Blend NewBook\Example\WpfDonghua1\WpfDonghua1\bin\Debug\Microsoft.Expression.Drawing.xml
+D:\Expression Blend NewBook\Example\Wpf动画-卷轴\WpfDonghua1\bin\Debug\pict1.jpg
+D:\Expression Blend NewBook\Example\Wpf动画-卷轴\WpfDonghua1\bin\Debug\背景1.jpg
+D:\Expression Blend NewBook\Example\Wpf动画-卷轴\WpfDonghua1\bin\Debug\背景2.jpg
+D:\Expression Blend NewBook\Example\Wpf动画-卷轴\WpfDonghua1\bin\Debug\WpfDonghua1.exe
+D:\Expression Blend NewBook\Example\Wpf动画-卷轴\WpfDonghua1\bin\Debug\WpfDonghua1.pdb
+D:\Expression Blend NewBook\Example\Wpf动画-卷轴\WpfDonghua1\bin\Debug\Microsoft.Expression.Drawing.dll
+D:\Expression Blend NewBook\Example\Wpf动画-卷轴\WpfDonghua1\bin\Debug\Microsoft.Expression.Drawing.xml
+D:\Expression Blend NewBook\Example\Wpf动画-卷轴\WpfDonghua1\obj\Debug\ResolveAssemblyReference.cache
+D:\Expression Blend NewBook\Example\Wpf动画-卷轴\WpfDonghua1\obj\Debug\MainWindow.baml
+D:\Expression Blend NewBook\Example\Wpf动画-卷轴\WpfDonghua1\obj\Debug\App.baml
+D:\Expression Blend NewBook\Example\Wpf动画-卷轴\WpfDonghua1\obj\Debug\MainWindow.g.cs
+D:\Expression Blend NewBook\Example\Wpf动画-卷轴\WpfDonghua1\obj\Debug\App.g.cs
+D:\Expression Blend NewBook\Example\Wpf动画-卷轴\WpfDonghua1\obj\Debug\WpfDonghua1_MarkupCompile.cache
+D:\Expression Blend NewBook\Example\Wpf动画-卷轴\WpfDonghua1\obj\Debug\WpfDonghua1.g.resources
+D:\Expression Blend NewBook\Example\Wpf动画-卷轴\WpfDonghua1\obj\Debug\WpfDonghua1.exe
+D:\Expression Blend NewBook\Example\Wpf动画-卷轴\WpfDonghua1\obj\Debug\WpfDonghua1.pdb
+D:\Expression Blend NewBook\Example\1WPF动画-卷轴\WpfDonghua1\bin\Debug\pict1.jpg
+D:\Expression Blend NewBook\Example\1WPF动画-卷轴\WpfDonghua1\bin\Debug\背景1.jpg
+D:\Expression Blend NewBook\Example\1WPF动画-卷轴\WpfDonghua1\bin\Debug\背景2.jpg
+D:\Expression Blend NewBook\Example\1WPF动画-卷轴\WpfDonghua1\bin\Debug\WpfDonghua1.exe
+D:\Expression Blend NewBook\Example\1WPF动画-卷轴\WpfDonghua1\bin\Debug\WpfDonghua1.pdb
+D:\Expression Blend NewBook\Example\1WPF动画-卷轴\WpfDonghua1\bin\Debug\Microsoft.Expression.Drawing.dll
+D:\Expression Blend NewBook\Example\1WPF动画-卷轴\WpfDonghua1\bin\Debug\Microsoft.Expression.Drawing.xml
+D:\Expression Blend NewBook\Example\1WPF动画-卷轴\WpfDonghua1\obj\Debug\ResolveAssemblyReference.cache
+D:\Expression Blend NewBook\Example\1WPF动画-卷轴\WpfDonghua1\obj\Debug\MainWindow.baml
+D:\Expression Blend NewBook\Example\1WPF动画-卷轴\WpfDonghua1\obj\Debug\App.baml
+D:\Expression Blend NewBook\Example\1WPF动画-卷轴\WpfDonghua1\obj\Debug\MainWindow.g.cs
+D:\Expression Blend NewBook\Example\1WPF动画-卷轴\WpfDonghua1\obj\Debug\App.g.cs
+D:\Expression Blend NewBook\Example\1WPF动画-卷轴\WpfDonghua1\obj\Debug\WpfDonghua1_MarkupCompile.cache
+D:\Expression Blend NewBook\Example\1WPF动画-卷轴\WpfDonghua1\obj\Debug\WpfDonghua1.g.resources
+D:\Expression Blend NewBook\Example\1WPF动画-卷轴\WpfDonghua1\obj\Debug\WpfDonghua1.exe
+D:\Expression Blend NewBook\Example\1WPF动画-卷轴\WpfDonghua1\obj\Debug\WpfDonghua1.pdb
+D:\Expression Blend NewBook\Example\1.8WPF动画-卷轴\WpfDonghua1\bin\Debug\pict1.jpg
+D:\Expression Blend NewBook\Example\1.8WPF动画-卷轴\WpfDonghua1\bin\Debug\背景2.jpg
+D:\Expression Blend NewBook\Example\1.8WPF动画-卷轴\WpfDonghua1\bin\Debug\WpfDonghua1.exe
+D:\Expression Blend NewBook\Example\1.8WPF动画-卷轴\WpfDonghua1\bin\Debug\WpfDonghua1.pdb
+D:\Expression Blend NewBook\Example\1.8WPF动画-卷轴\WpfDonghua1\bin\Debug\Microsoft.Expression.Drawing.dll
+D:\Expression Blend NewBook\Example\1.8WPF动画-卷轴\WpfDonghua1\bin\Debug\Microsoft.Expression.Drawing.xml
+D:\Expression Blend NewBook\Example\1.8WPF动画-卷轴\WpfDonghua1\obj\Debug\ResolveAssemblyReference.cache
+D:\Expression Blend NewBook\Example\1.8WPF动画-卷轴\WpfDonghua1\obj\Debug\MainWindow.baml
+D:\Expression Blend NewBook\Example\1.8WPF动画-卷轴\WpfDonghua1\obj\Debug\App.baml
+D:\Expression Blend NewBook\Example\1.8WPF动画-卷轴\WpfDonghua1\obj\Debug\MainWindow.g.cs
+D:\Expression Blend NewBook\Example\1.8WPF动画-卷轴\WpfDonghua1\obj\Debug\App.g.cs
+D:\Expression Blend NewBook\Example\1.8WPF动画-卷轴\WpfDonghua1\obj\Debug\WpfDonghua1_MarkupCompile.cache
+D:\Expression Blend NewBook\Example\1.8WPF动画-卷轴\WpfDonghua1\obj\Debug\WpfDonghua1.g.resources
+D:\Expression Blend NewBook\Example\1.8WPF动画-卷轴\WpfDonghua1\obj\Debug\WpfDonghua1.exe
+D:\Expression Blend NewBook\Example\1.8WPF动画-卷轴\WpfDonghua1\obj\Debug\WpfDonghua1.pdb
+G:\WPF\光盘案例\项目\Example\1.8WPF动画-卷轴\WpfDonghua1\bin\Debug\pict1.jpg
+G:\WPF\光盘案例\项目\Example\1.8WPF动画-卷轴\WpfDonghua1\bin\Debug\背景2.jpg
+G:\WPF\光盘案例\项目\Example\1.8WPF动画-卷轴\WpfDonghua1\bin\Debug\WpfDonghua1.exe
+G:\WPF\光盘案例\项目\Example\1.8WPF动画-卷轴\WpfDonghua1\bin\Debug\WpfDonghua1.pdb
+G:\WPF\光盘案例\项目\Example\1.8WPF动画-卷轴\WpfDonghua1\bin\Debug\Microsoft.Expression.Drawing.dll
+G:\WPF\光盘案例\项目\Example\1.8WPF动画-卷轴\WpfDonghua1\bin\Debug\Microsoft.Expression.Drawing.xml
+G:\WPF\光盘案例\项目\Example\1.8WPF动画-卷轴\WpfDonghua1\obj\Debug\ResolveAssemblyReference.cache
+G:\WPF\光盘案例\项目\Example\1.8WPF动画-卷轴\WpfDonghua1\obj\Debug\MainWindow.baml
+G:\WPF\光盘案例\项目\Example\1.8WPF动画-卷轴\WpfDonghua1\obj\Debug\App.baml
+G:\WPF\光盘案例\项目\Example\1.8WPF动画-卷轴\WpfDonghua1\obj\Debug\MainWindow.g.cs
+G:\WPF\光盘案例\项目\Example\1.8WPF动画-卷轴\WpfDonghua1\obj\Debug\App.g.cs
+G:\WPF\光盘案例\项目\Example\1.8WPF动画-卷轴\WpfDonghua1\obj\Debug\WpfDonghua1_MarkupCompile.cache
+G:\WPF\光盘案例\项目\Example\1.8WPF动画-卷轴\WpfDonghua1\obj\Debug\WpfDonghua1.g.resources
+G:\WPF\光盘案例\项目\Example\1.8WPF动画-卷轴\WpfDonghua1\obj\Debug\WpfDonghua1.exe
+G:\WPF\光盘案例\项目\Example\1.8WPF动画-卷轴\WpfDonghua1\obj\Debug\WpfDonghua1.pdb
