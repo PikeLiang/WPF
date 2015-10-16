@@ -1,0 +1,176 @@
+D:\Expression Blend NewBook\Example\WpfClock\WpfClock\obj\Debug\ResolveAssemblyReference.cache
+D:\Expression Blend NewBook\Example\WpfClock\WpfClock\obj\Debug\MainWindow.baml
+D:\Expression Blend NewBook\Example\WpfClock\WpfClock\obj\Debug\MainWindow.g.cs
+D:\Expression Blend NewBook\Example\WpfClock\WpfClock\obj\Debug\App.g.cs
+D:\Expression Blend NewBook\Example\WpfClock\WpfClock\obj\Debug\WpfClock_MarkupCompile.cache
+D:\Expression Blend NewBook\Example\WpfClock\WpfClock\obj\Debug\WpfClock.g.resources
+D:\Expression Blend NewBook\Example\WpfClock\WpfClock\bin\Debug\WpfClock.exe
+D:\Expression Blend NewBook\Example\WpfClock\WpfClock\bin\Debug\WpfClock.pdb
+D:\Expression Blend NewBook\Example\WpfClock\WpfClock\obj\Debug\WpfClock.exe
+D:\Expression Blend NewBook\Example\WpfClock\WpfClock\obj\Debug\WpfClock.pdb
+D:\Expression Blend NewBook\Example\WpfClock\WpfClock\bin\Debug\Microsoft.Expression.Interactions.dll
+D:\Expression Blend NewBook\Example\WpfClock\WpfClock\bin\Debug\System.Windows.Interactivity.dll
+D:\Expression Blend NewBook\Example\WpfClock\WpfClock\bin\Debug\Microsoft.Expression.Interactions.xml
+D:\Expression Blend NewBook\Example\WpfClock\WpfClock\bin\Debug\System.Windows.Interactivity.xml
+D:\Expression Blend NewBook\Example\WpfClock\WpfClock\bin\Debug\en\Microsoft.Expression.Interactions.resources.dll
+D:\Expression Blend NewBook\Example\WpfClock\WpfClock\bin\Debug\de\Microsoft.Expression.Interactions.resources.dll
+D:\Expression Blend NewBook\Example\WpfClock\WpfClock\bin\Debug\es\Microsoft.Expression.Interactions.resources.dll
+D:\Expression Blend NewBook\Example\WpfClock\WpfClock\bin\Debug\it\Microsoft.Expression.Interactions.resources.dll
+D:\Expression Blend NewBook\Example\WpfClock\WpfClock\bin\Debug\fr\Microsoft.Expression.Interactions.resources.dll
+D:\Expression Blend NewBook\Example\WpfClock\WpfClock\bin\Debug\ja\Microsoft.Expression.Interactions.resources.dll
+D:\Expression Blend NewBook\Example\WpfClock\WpfClock\bin\Debug\ko\Microsoft.Expression.Interactions.resources.dll
+D:\Expression Blend NewBook\Example\WpfClock\WpfClock\bin\Debug\zh-Hans\Microsoft.Expression.Interactions.resources.dll
+D:\Expression Blend NewBook\Example\WpfClock\WpfClock\bin\Debug\zh-Hant\Microsoft.Expression.Interactions.resources.dll
+D:\Expression Blend NewBook\Example\WpfClock\WpfClock\bin\Debug\en\System.Windows.Interactivity.resources.dll
+D:\Expression Blend NewBook\Example\WpfClock\WpfClock\bin\Debug\de\System.Windows.Interactivity.resources.dll
+D:\Expression Blend NewBook\Example\WpfClock\WpfClock\bin\Debug\es\System.Windows.Interactivity.resources.dll
+D:\Expression Blend NewBook\Example\WpfClock\WpfClock\bin\Debug\it\System.Windows.Interactivity.resources.dll
+D:\Expression Blend NewBook\Example\WpfClock\WpfClock\bin\Debug\fr\System.Windows.Interactivity.resources.dll
+D:\Expression Blend NewBook\Example\WpfClock\WpfClock\bin\Debug\ja\System.Windows.Interactivity.resources.dll
+D:\Expression Blend NewBook\Example\WpfClock\WpfClock\bin\Debug\ko\System.Windows.Interactivity.resources.dll
+D:\Expression Blend NewBook\Example\WpfClock\WpfClock\bin\Debug\zh-Hans\System.Windows.Interactivity.resources.dll
+D:\Expression Blend NewBook\Example\WpfClock\WpfClock\bin\Debug\zh-Hant\System.Windows.Interactivity.resources.dll
+D:\Expression Blend NewBook\Example\Wpf电子钟\WpfClock\bin\Debug\WpfClock.exe
+D:\Expression Blend NewBook\Example\Wpf电子钟\WpfClock\bin\Debug\WpfClock.pdb
+D:\Expression Blend NewBook\Example\Wpf电子钟\WpfClock\bin\Debug\Microsoft.Expression.Interactions.dll
+D:\Expression Blend NewBook\Example\Wpf电子钟\WpfClock\bin\Debug\System.Windows.Interactivity.dll
+D:\Expression Blend NewBook\Example\Wpf电子钟\WpfClock\bin\Debug\Microsoft.Expression.Interactions.xml
+D:\Expression Blend NewBook\Example\Wpf电子钟\WpfClock\bin\Debug\System.Windows.Interactivity.xml
+D:\Expression Blend NewBook\Example\Wpf电子钟\WpfClock\bin\Debug\en\Microsoft.Expression.Interactions.resources.dll
+D:\Expression Blend NewBook\Example\Wpf电子钟\WpfClock\bin\Debug\de\Microsoft.Expression.Interactions.resources.dll
+D:\Expression Blend NewBook\Example\Wpf电子钟\WpfClock\bin\Debug\es\Microsoft.Expression.Interactions.resources.dll
+D:\Expression Blend NewBook\Example\Wpf电子钟\WpfClock\bin\Debug\it\Microsoft.Expression.Interactions.resources.dll
+D:\Expression Blend NewBook\Example\Wpf电子钟\WpfClock\bin\Debug\fr\Microsoft.Expression.Interactions.resources.dll
+D:\Expression Blend NewBook\Example\Wpf电子钟\WpfClock\bin\Debug\ja\Microsoft.Expression.Interactions.resources.dll
+D:\Expression Blend NewBook\Example\Wpf电子钟\WpfClock\bin\Debug\ko\Microsoft.Expression.Interactions.resources.dll
+D:\Expression Blend NewBook\Example\Wpf电子钟\WpfClock\bin\Debug\zh-Hans\Microsoft.Expression.Interactions.resources.dll
+D:\Expression Blend NewBook\Example\Wpf电子钟\WpfClock\bin\Debug\zh-Hant\Microsoft.Expression.Interactions.resources.dll
+D:\Expression Blend NewBook\Example\Wpf电子钟\WpfClock\bin\Debug\en\System.Windows.Interactivity.resources.dll
+D:\Expression Blend NewBook\Example\Wpf电子钟\WpfClock\bin\Debug\de\System.Windows.Interactivity.resources.dll
+D:\Expression Blend NewBook\Example\Wpf电子钟\WpfClock\bin\Debug\es\System.Windows.Interactivity.resources.dll
+D:\Expression Blend NewBook\Example\Wpf电子钟\WpfClock\bin\Debug\it\System.Windows.Interactivity.resources.dll
+D:\Expression Blend NewBook\Example\Wpf电子钟\WpfClock\bin\Debug\fr\System.Windows.Interactivity.resources.dll
+D:\Expression Blend NewBook\Example\Wpf电子钟\WpfClock\bin\Debug\ja\System.Windows.Interactivity.resources.dll
+D:\Expression Blend NewBook\Example\Wpf电子钟\WpfClock\bin\Debug\ko\System.Windows.Interactivity.resources.dll
+D:\Expression Blend NewBook\Example\Wpf电子钟\WpfClock\bin\Debug\zh-Hans\System.Windows.Interactivity.resources.dll
+D:\Expression Blend NewBook\Example\Wpf电子钟\WpfClock\bin\Debug\zh-Hant\System.Windows.Interactivity.resources.dll
+D:\Expression Blend NewBook\Example\Wpf电子钟\WpfClock\obj\Debug\ResolveAssemblyReference.cache
+D:\Expression Blend NewBook\Example\Wpf电子钟\WpfClock\obj\Debug\MainWindow.baml
+D:\Expression Blend NewBook\Example\Wpf电子钟\WpfClock\obj\Debug\MainWindow.g.cs
+D:\Expression Blend NewBook\Example\Wpf电子钟\WpfClock\obj\Debug\App.g.cs
+D:\Expression Blend NewBook\Example\Wpf电子钟\WpfClock\obj\Debug\WpfClock_MarkupCompile.cache
+D:\Expression Blend NewBook\Example\Wpf电子钟\WpfClock\obj\Debug\WpfClock.g.resources
+D:\Expression Blend NewBook\Example\Wpf电子钟\WpfClock\obj\Debug\WpfClock.exe
+D:\Expression Blend NewBook\Example\Wpf电子钟\WpfClock\obj\Debug\WpfClock.pdb
+D:\Expression Blend NewBook\Example\Wpf电子钟\WpfClock\bin\Debug\Microsoft.Expression.Drawing.dll
+D:\Expression Blend NewBook\Example\Wpf电子钟\WpfClock\bin\Debug\Microsoft.Expression.Effects.dll
+D:\Expression Blend NewBook\Example\Wpf电子钟\WpfClock\bin\Debug\Microsoft.Expression.Drawing.xml
+D:\Expression Blend NewBook\Example\Wpf电子钟\WpfClock\bin\Debug\Microsoft.Expression.Effects.xml
+D:\Expression Blend NewBook\Example\5WPF电子钟\WpfClock\bin\Debug\WpfClock.exe
+D:\Expression Blend NewBook\Example\5WPF电子钟\WpfClock\bin\Debug\WpfClock.pdb
+D:\Expression Blend NewBook\Example\5WPF电子钟\WpfClock\bin\Debug\Microsoft.Expression.Drawing.dll
+D:\Expression Blend NewBook\Example\5WPF电子钟\WpfClock\bin\Debug\Microsoft.Expression.Effects.dll
+D:\Expression Blend NewBook\Example\5WPF电子钟\WpfClock\bin\Debug\Microsoft.Expression.Interactions.dll
+D:\Expression Blend NewBook\Example\5WPF电子钟\WpfClock\bin\Debug\System.Windows.Interactivity.dll
+D:\Expression Blend NewBook\Example\5WPF电子钟\WpfClock\bin\Debug\Microsoft.Expression.Drawing.xml
+D:\Expression Blend NewBook\Example\5WPF电子钟\WpfClock\bin\Debug\Microsoft.Expression.Effects.xml
+D:\Expression Blend NewBook\Example\5WPF电子钟\WpfClock\bin\Debug\Microsoft.Expression.Interactions.xml
+D:\Expression Blend NewBook\Example\5WPF电子钟\WpfClock\bin\Debug\System.Windows.Interactivity.xml
+D:\Expression Blend NewBook\Example\5WPF电子钟\WpfClock\bin\Debug\en\Microsoft.Expression.Interactions.resources.dll
+D:\Expression Blend NewBook\Example\5WPF电子钟\WpfClock\bin\Debug\de\Microsoft.Expression.Interactions.resources.dll
+D:\Expression Blend NewBook\Example\5WPF电子钟\WpfClock\bin\Debug\es\Microsoft.Expression.Interactions.resources.dll
+D:\Expression Blend NewBook\Example\5WPF电子钟\WpfClock\bin\Debug\it\Microsoft.Expression.Interactions.resources.dll
+D:\Expression Blend NewBook\Example\5WPF电子钟\WpfClock\bin\Debug\fr\Microsoft.Expression.Interactions.resources.dll
+D:\Expression Blend NewBook\Example\5WPF电子钟\WpfClock\bin\Debug\ja\Microsoft.Expression.Interactions.resources.dll
+D:\Expression Blend NewBook\Example\5WPF电子钟\WpfClock\bin\Debug\ko\Microsoft.Expression.Interactions.resources.dll
+D:\Expression Blend NewBook\Example\5WPF电子钟\WpfClock\bin\Debug\zh-Hans\Microsoft.Expression.Interactions.resources.dll
+D:\Expression Blend NewBook\Example\5WPF电子钟\WpfClock\bin\Debug\zh-Hant\Microsoft.Expression.Interactions.resources.dll
+D:\Expression Blend NewBook\Example\5WPF电子钟\WpfClock\bin\Debug\en\System.Windows.Interactivity.resources.dll
+D:\Expression Blend NewBook\Example\5WPF电子钟\WpfClock\bin\Debug\de\System.Windows.Interactivity.resources.dll
+D:\Expression Blend NewBook\Example\5WPF电子钟\WpfClock\bin\Debug\es\System.Windows.Interactivity.resources.dll
+D:\Expression Blend NewBook\Example\5WPF电子钟\WpfClock\bin\Debug\it\System.Windows.Interactivity.resources.dll
+D:\Expression Blend NewBook\Example\5WPF电子钟\WpfClock\bin\Debug\fr\System.Windows.Interactivity.resources.dll
+D:\Expression Blend NewBook\Example\5WPF电子钟\WpfClock\bin\Debug\ja\System.Windows.Interactivity.resources.dll
+D:\Expression Blend NewBook\Example\5WPF电子钟\WpfClock\bin\Debug\ko\System.Windows.Interactivity.resources.dll
+D:\Expression Blend NewBook\Example\5WPF电子钟\WpfClock\bin\Debug\zh-Hans\System.Windows.Interactivity.resources.dll
+D:\Expression Blend NewBook\Example\5WPF电子钟\WpfClock\bin\Debug\zh-Hant\System.Windows.Interactivity.resources.dll
+D:\Expression Blend NewBook\Example\5WPF电子钟\WpfClock\obj\Debug\ResolveAssemblyReference.cache
+D:\Expression Blend NewBook\Example\5WPF电子钟\WpfClock\obj\Debug\MainWindow.baml
+D:\Expression Blend NewBook\Example\5WPF电子钟\WpfClock\obj\Debug\MainWindow.g.cs
+D:\Expression Blend NewBook\Example\5WPF电子钟\WpfClock\obj\Debug\App.g.cs
+D:\Expression Blend NewBook\Example\5WPF电子钟\WpfClock\obj\Debug\WpfClock_MarkupCompile.cache
+D:\Expression Blend NewBook\Example\5WPF电子钟\WpfClock\obj\Debug\WpfClock.g.resources
+D:\Expression Blend NewBook\Example\5WPF电子钟\WpfClock\obj\Debug\WpfClock.exe
+D:\Expression Blend NewBook\Example\5WPF电子钟\WpfClock\obj\Debug\WpfClock.pdb
+D:\Expression Blend NewBook\Example\1.12WPF电子钟\WpfClock\bin\Debug\WpfClock.exe
+D:\Expression Blend NewBook\Example\1.12WPF电子钟\WpfClock\bin\Debug\WpfClock.pdb
+D:\Expression Blend NewBook\Example\1.12WPF电子钟\WpfClock\bin\Debug\Microsoft.Expression.Drawing.dll
+D:\Expression Blend NewBook\Example\1.12WPF电子钟\WpfClock\bin\Debug\Microsoft.Expression.Effects.dll
+D:\Expression Blend NewBook\Example\1.12WPF电子钟\WpfClock\bin\Debug\Microsoft.Expression.Interactions.dll
+D:\Expression Blend NewBook\Example\1.12WPF电子钟\WpfClock\bin\Debug\System.Windows.Interactivity.dll
+D:\Expression Blend NewBook\Example\1.12WPF电子钟\WpfClock\bin\Debug\Microsoft.Expression.Drawing.xml
+D:\Expression Blend NewBook\Example\1.12WPF电子钟\WpfClock\bin\Debug\Microsoft.Expression.Effects.xml
+D:\Expression Blend NewBook\Example\1.12WPF电子钟\WpfClock\bin\Debug\Microsoft.Expression.Interactions.xml
+D:\Expression Blend NewBook\Example\1.12WPF电子钟\WpfClock\bin\Debug\System.Windows.Interactivity.xml
+D:\Expression Blend NewBook\Example\1.12WPF电子钟\WpfClock\bin\Debug\en\Microsoft.Expression.Interactions.resources.dll
+D:\Expression Blend NewBook\Example\1.12WPF电子钟\WpfClock\bin\Debug\de\Microsoft.Expression.Interactions.resources.dll
+D:\Expression Blend NewBook\Example\1.12WPF电子钟\WpfClock\bin\Debug\es\Microsoft.Expression.Interactions.resources.dll
+D:\Expression Blend NewBook\Example\1.12WPF电子钟\WpfClock\bin\Debug\it\Microsoft.Expression.Interactions.resources.dll
+D:\Expression Blend NewBook\Example\1.12WPF电子钟\WpfClock\bin\Debug\fr\Microsoft.Expression.Interactions.resources.dll
+D:\Expression Blend NewBook\Example\1.12WPF电子钟\WpfClock\bin\Debug\ja\Microsoft.Expression.Interactions.resources.dll
+D:\Expression Blend NewBook\Example\1.12WPF电子钟\WpfClock\bin\Debug\ko\Microsoft.Expression.Interactions.resources.dll
+D:\Expression Blend NewBook\Example\1.12WPF电子钟\WpfClock\bin\Debug\zh-Hans\Microsoft.Expression.Interactions.resources.dll
+D:\Expression Blend NewBook\Example\1.12WPF电子钟\WpfClock\bin\Debug\zh-Hant\Microsoft.Expression.Interactions.resources.dll
+D:\Expression Blend NewBook\Example\1.12WPF电子钟\WpfClock\bin\Debug\en\System.Windows.Interactivity.resources.dll
+D:\Expression Blend NewBook\Example\1.12WPF电子钟\WpfClock\bin\Debug\de\System.Windows.Interactivity.resources.dll
+D:\Expression Blend NewBook\Example\1.12WPF电子钟\WpfClock\bin\Debug\es\System.Windows.Interactivity.resources.dll
+D:\Expression Blend NewBook\Example\1.12WPF电子钟\WpfClock\bin\Debug\it\System.Windows.Interactivity.resources.dll
+D:\Expression Blend NewBook\Example\1.12WPF电子钟\WpfClock\bin\Debug\fr\System.Windows.Interactivity.resources.dll
+D:\Expression Blend NewBook\Example\1.12WPF电子钟\WpfClock\bin\Debug\ja\System.Windows.Interactivity.resources.dll
+D:\Expression Blend NewBook\Example\1.12WPF电子钟\WpfClock\bin\Debug\ko\System.Windows.Interactivity.resources.dll
+D:\Expression Blend NewBook\Example\1.12WPF电子钟\WpfClock\bin\Debug\zh-Hans\System.Windows.Interactivity.resources.dll
+D:\Expression Blend NewBook\Example\1.12WPF电子钟\WpfClock\bin\Debug\zh-Hant\System.Windows.Interactivity.resources.dll
+D:\Expression Blend NewBook\Example\1.12WPF电子钟\WpfClock\obj\Debug\ResolveAssemblyReference.cache
+D:\Expression Blend NewBook\Example\1.12WPF电子钟\WpfClock\obj\Debug\MainWindow.baml
+D:\Expression Blend NewBook\Example\1.12WPF电子钟\WpfClock\obj\Debug\MainWindow.g.cs
+D:\Expression Blend NewBook\Example\1.12WPF电子钟\WpfClock\obj\Debug\App.g.cs
+D:\Expression Blend NewBook\Example\1.12WPF电子钟\WpfClock\obj\Debug\WpfClock_MarkupCompile.cache
+D:\Expression Blend NewBook\Example\1.12WPF电子钟\WpfClock\obj\Debug\WpfClock.g.resources
+D:\Expression Blend NewBook\Example\1.12WPF电子钟\WpfClock\obj\Debug\WpfClock.exe
+D:\Expression Blend NewBook\Example\1.12WPF电子钟\WpfClock\obj\Debug\WpfClock.pdb
+G:\WPF\光盘案例\项目\Example\1.12WPF电子钟\WpfClock\bin\Debug\WpfClock.exe
+G:\WPF\光盘案例\项目\Example\1.12WPF电子钟\WpfClock\bin\Debug\WpfClock.pdb
+G:\WPF\光盘案例\项目\Example\1.12WPF电子钟\WpfClock\bin\Debug\Microsoft.Expression.Drawing.dll
+G:\WPF\光盘案例\项目\Example\1.12WPF电子钟\WpfClock\bin\Debug\Microsoft.Expression.Effects.dll
+G:\WPF\光盘案例\项目\Example\1.12WPF电子钟\WpfClock\bin\Debug\Microsoft.Expression.Interactions.dll
+G:\WPF\光盘案例\项目\Example\1.12WPF电子钟\WpfClock\bin\Debug\System.Windows.Interactivity.dll
+G:\WPF\光盘案例\项目\Example\1.12WPF电子钟\WpfClock\bin\Debug\Microsoft.Expression.Drawing.xml
+G:\WPF\光盘案例\项目\Example\1.12WPF电子钟\WpfClock\bin\Debug\Microsoft.Expression.Effects.xml
+G:\WPF\光盘案例\项目\Example\1.12WPF电子钟\WpfClock\bin\Debug\Microsoft.Expression.Interactions.xml
+G:\WPF\光盘案例\项目\Example\1.12WPF电子钟\WpfClock\bin\Debug\System.Windows.Interactivity.xml
+G:\WPF\光盘案例\项目\Example\1.12WPF电子钟\WpfClock\bin\Debug\de\Microsoft.Expression.Interactions.resources.dll
+G:\WPF\光盘案例\项目\Example\1.12WPF电子钟\WpfClock\bin\Debug\en\Microsoft.Expression.Interactions.resources.dll
+G:\WPF\光盘案例\项目\Example\1.12WPF电子钟\WpfClock\bin\Debug\es\Microsoft.Expression.Interactions.resources.dll
+G:\WPF\光盘案例\项目\Example\1.12WPF电子钟\WpfClock\bin\Debug\fr\Microsoft.Expression.Interactions.resources.dll
+G:\WPF\光盘案例\项目\Example\1.12WPF电子钟\WpfClock\bin\Debug\it\Microsoft.Expression.Interactions.resources.dll
+G:\WPF\光盘案例\项目\Example\1.12WPF电子钟\WpfClock\bin\Debug\ja\Microsoft.Expression.Interactions.resources.dll
+G:\WPF\光盘案例\项目\Example\1.12WPF电子钟\WpfClock\bin\Debug\ko\Microsoft.Expression.Interactions.resources.dll
+G:\WPF\光盘案例\项目\Example\1.12WPF电子钟\WpfClock\bin\Debug\zh-Hans\Microsoft.Expression.Interactions.resources.dll
+G:\WPF\光盘案例\项目\Example\1.12WPF电子钟\WpfClock\bin\Debug\zh-Hant\Microsoft.Expression.Interactions.resources.dll
+G:\WPF\光盘案例\项目\Example\1.12WPF电子钟\WpfClock\bin\Debug\de\System.Windows.Interactivity.resources.dll
+G:\WPF\光盘案例\项目\Example\1.12WPF电子钟\WpfClock\bin\Debug\en\System.Windows.Interactivity.resources.dll
+G:\WPF\光盘案例\项目\Example\1.12WPF电子钟\WpfClock\bin\Debug\es\System.Windows.Interactivity.resources.dll
+G:\WPF\光盘案例\项目\Example\1.12WPF电子钟\WpfClock\bin\Debug\fr\System.Windows.Interactivity.resources.dll
+G:\WPF\光盘案例\项目\Example\1.12WPF电子钟\WpfClock\bin\Debug\it\System.Windows.Interactivity.resources.dll
+G:\WPF\光盘案例\项目\Example\1.12WPF电子钟\WpfClock\bin\Debug\ja\System.Windows.Interactivity.resources.dll
+G:\WPF\光盘案例\项目\Example\1.12WPF电子钟\WpfClock\bin\Debug\ko\System.Windows.Interactivity.resources.dll
+G:\WPF\光盘案例\项目\Example\1.12WPF电子钟\WpfClock\bin\Debug\zh-Hans\System.Windows.Interactivity.resources.dll
+G:\WPF\光盘案例\项目\Example\1.12WPF电子钟\WpfClock\bin\Debug\zh-Hant\System.Windows.Interactivity.resources.dll
+G:\WPF\光盘案例\项目\Example\1.12WPF电子钟\WpfClock\obj\Debug\ResolveAssemblyReference.cache
+G:\WPF\光盘案例\项目\Example\1.12WPF电子钟\WpfClock\obj\Debug\MainWindow.baml
+G:\WPF\光盘案例\项目\Example\1.12WPF电子钟\WpfClock\obj\Debug\MainWindow.g.cs
+G:\WPF\光盘案例\项目\Example\1.12WPF电子钟\WpfClock\obj\Debug\App.g.cs
+G:\WPF\光盘案例\项目\Example\1.12WPF电子钟\WpfClock\obj\Debug\WpfClock_MarkupCompile.cache
+G:\WPF\光盘案例\项目\Example\1.12WPF电子钟\WpfClock\obj\Debug\WpfClock.g.resources
+G:\WPF\光盘案例\项目\Example\1.12WPF电子钟\WpfClock\obj\Debug\WpfClock.exe
+G:\WPF\光盘案例\项目\Example\1.12WPF电子钟\WpfClock\obj\Debug\WpfClock.pdb
