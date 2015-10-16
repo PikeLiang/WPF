@@ -1,0 +1,82 @@
+﻿<Window
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	x:Class="Wpfdonghua2.Window1"
+	x:Name="Window"
+	Title="Window1"
+	Width="640" Height="480">
+
+	<Grid x:Name="LayoutRoot">
+		<TextBlock Margin="201,66,282,178" TextWrapping="Wrap" Text="大" FontSize="133.333" FontWeight="Bold" FontFamily="STXingkai"/>
+		<Rectangle Fill="White" Height="43.805" Margin="282.033,141.775,311.772,0" Stroke="#FF0F00C6" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5">
+			<Rectangle.RenderTransform>
+				<TransformGroup>
+					<ScaleTransform/>
+					<SkewTransform/>
+					<RotateTransform Angle="-74.344"/>
+					<TranslateTransform/>
+				</TransformGroup>
+			</Rectangle.RenderTransform>
+		</Rectangle>
+		<Rectangle Fill="White" HorizontalAlignment="Left" Margin="265.064,142.83,0,0" Stroke="#FF0F00C6" Width="19" Height="22.988" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5">
+			<Rectangle.RenderTransform>
+				<TransformGroup>
+					<ScaleTransform/>
+					<SkewTransform/>
+					<RotateTransform Angle="14.757"/>
+					<TranslateTransform/>
+				</TransformGroup>
+			</Rectangle.RenderTransform>
+		</Rectangle>
+		<Rectangle Fill="White" HorizontalAlignment="Left" Height="34" Margin="224,156,0,0" Stroke="#FF0F00C6" VerticalAlignment="Top" Width="47" RenderTransformOrigin="0.5,0.5">
+			<Rectangle.RenderTransform>
+				<TransformGroup>
+					<ScaleTransform/>
+					<SkewTransform/>
+					<RotateTransform Angle="-9.029"/>
+					<TranslateTransform/>
+				</TransformGroup>
+			</Rectangle.RenderTransform>
+		</Rectangle>
+		<Rectangle Fill="White" HorizontalAlignment="Left" Height="18" Margin="243,142,0,0" Stroke="#FF0F00C6" VerticalAlignment="Top" Width="42" RenderTransformOrigin="0.5,0.5">
+			<Rectangle.RenderTransform>
+				<TransformGroup>
+					<ScaleTransform/>
+					<SkewTransform/>
+					<RotateTransform Angle="-27.076"/>
+					<TranslateTransform/>
+				</TransformGroup>
+			</Rectangle.RenderTransform>
+		</Rectangle>
+		<Rectangle Fill="White" Height="42" Margin="249,71,0,0" Stroke="#FF0F00C6" VerticalAlignment="Top" RenderTransformOrigin="0.831,0.18" HorizontalAlignment="Left" Width="32">
+			<Rectangle.RenderTransform>
+				<TransformGroup>
+					<ScaleTransform/>
+					<SkewTransform/>
+					<RotateTransform Angle="65.966"/>
+					<TranslateTransform X="6.404" Y="15.453"/>
+				</TransformGroup>
+			</Rectangle.RenderTransform>
+		</Rectangle>
+		<Rectangle Fill="White" HorizontalAlignment="Left" Height="20" Margin="252.472,96.301,0,0" Stroke="#FF0F00C6" VerticalAlignment="Top" Width="24.187" RenderTransformOrigin="0.5,0.5">
+			<Rectangle.RenderTransform>
+				<TransformGroup>
+					<ScaleTransform/>
+					<SkewTransform/>
+					<RotateTransform Angle="-31.846"/>
+					<TranslateTransform/>
+				</TransformGroup>
+			</Rectangle.RenderTransform>
+		</Rectangle>
+		<Rectangle Fill="White" HorizontalAlignment="Left" Height="39.904" Margin="226.955,104.548,0,0" Stroke="#FF0F00C6" VerticalAlignment="Top" Width="87" RenderTransformOrigin="0.5,0.5">
+			<Rectangle.RenderTransform>
+				<TransformGroup>
+					<ScaleTransform/>
+					<SkewTransform/>
+					<RotateTransform Angle="-26.054"/>
+					<TranslateTransform/>
+				</TransformGroup>
+			</Rectangle.RenderTransform>
+		</Rectangle>
+	</Grid>
+</Window>
