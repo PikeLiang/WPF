@@ -1,0 +1,54 @@
+D:\Expression Blend NewBook\Example\WPFStoryboard\WPFStoryboard\bin\Debug\WPFStoryboard.exe
+D:\Expression Blend NewBook\Example\WPFStoryboard\WPFStoryboard\bin\Debug\WPFStoryboard.pdb
+D:\Expression Blend NewBook\Example\WPFStoryboard\WPFStoryboard\obj\Debug\ResolveAssemblyReference.cache
+D:\Expression Blend NewBook\Example\WPFStoryboard\WPFStoryboard\obj\Debug\MainWindow.baml
+D:\Expression Blend NewBook\Example\WPFStoryboard\WPFStoryboard\obj\Debug\MainWindow.g.cs
+D:\Expression Blend NewBook\Example\WPFStoryboard\WPFStoryboard\obj\Debug\App.g.cs
+D:\Expression Blend NewBook\Example\WPFStoryboard\WPFStoryboard\obj\Debug\WPFStoryboard_MarkupCompile.cache
+D:\Expression Blend NewBook\Example\WPFStoryboard\WPFStoryboard\obj\Debug\WPFStoryboard.g.resources
+D:\Expression Blend NewBook\Example\WPFStoryboard\WPFStoryboard\obj\Debug\WPFStoryboard.exe
+D:\Expression Blend NewBook\Example\WPFStoryboard\WPFStoryboard\obj\Debug\WPFStoryboard.pdb
+D:\Expression Blend NewBook\Example\WPFStoryboard\WPFStoryboard\bin\Debug\Microsoft.Expression.Drawing.dll
+D:\Expression Blend NewBook\Example\WPFStoryboard\WPFStoryboard\bin\Debug\Microsoft.Expression.Drawing.xml
+D:\Expression Blend NewBook\Example\1WPF中的故事板控制\WPFStoryboard\bin\Debug\WPFStoryboard.exe
+D:\Expression Blend NewBook\Example\1WPF中的故事板控制\WPFStoryboard\bin\Debug\WPFStoryboard.pdb
+D:\Expression Blend NewBook\Example\1WPF中的故事板控制\WPFStoryboard\bin\Debug\Microsoft.Expression.Drawing.dll
+D:\Expression Blend NewBook\Example\1WPF中的故事板控制\WPFStoryboard\bin\Debug\Microsoft.Expression.Drawing.xml
+D:\Expression Blend NewBook\Example\1WPF中的故事板控制\WPFStoryboard\obj\Debug\ResolveAssemblyReference.cache
+D:\Expression Blend NewBook\Example\1WPF中的故事板控制\WPFStoryboard\obj\Debug\MainWindow.baml
+D:\Expression Blend NewBook\Example\1WPF中的故事板控制\WPFStoryboard\obj\Debug\Window1.baml
+D:\Expression Blend NewBook\Example\1WPF中的故事板控制\WPFStoryboard\obj\Debug\MainWindow.g.cs
+D:\Expression Blend NewBook\Example\1WPF中的故事板控制\WPFStoryboard\obj\Debug\Window1.g.cs
+D:\Expression Blend NewBook\Example\1WPF中的故事板控制\WPFStoryboard\obj\Debug\App.g.cs
+D:\Expression Blend NewBook\Example\1WPF中的故事板控制\WPFStoryboard\obj\Debug\WPFStoryboard_MarkupCompile.cache
+D:\Expression Blend NewBook\Example\1WPF中的故事板控制\WPFStoryboard\obj\Debug\WPFStoryboard.g.resources
+D:\Expression Blend NewBook\Example\1WPF中的故事板控制\WPFStoryboard\obj\Debug\WPFStoryboard.exe
+D:\Expression Blend NewBook\Example\1WPF中的故事板控制\WPFStoryboard\obj\Debug\WPFStoryboard.pdb
+D:\Expression Blend NewBook\Example\1.6WPF中的故事板控制\WPFStoryboard\bin\Debug\WPFStoryboard.exe
+D:\Expression Blend NewBook\Example\1.6WPF中的故事板控制\WPFStoryboard\bin\Debug\WPFStoryboard.pdb
+D:\Expression Blend NewBook\Example\1.6WPF中的故事板控制\WPFStoryboard\bin\Debug\Microsoft.Expression.Drawing.dll
+D:\Expression Blend NewBook\Example\1.6WPF中的故事板控制\WPFStoryboard\bin\Debug\Microsoft.Expression.Drawing.xml
+D:\Expression Blend NewBook\Example\1.6WPF中的故事板控制\WPFStoryboard\obj\Debug\ResolveAssemblyReference.cache
+D:\Expression Blend NewBook\Example\1.6WPF中的故事板控制\WPFStoryboard\obj\Debug\MainWindow.baml
+D:\Expression Blend NewBook\Example\1.6WPF中的故事板控制\WPFStoryboard\obj\Debug\Window1.baml
+D:\Expression Blend NewBook\Example\1.6WPF中的故事板控制\WPFStoryboard\obj\Debug\MainWindow.g.cs
+D:\Expression Blend NewBook\Example\1.6WPF中的故事板控制\WPFStoryboard\obj\Debug\Window1.g.cs
+D:\Expression Blend NewBook\Example\1.6WPF中的故事板控制\WPFStoryboard\obj\Debug\App.g.cs
+D:\Expression Blend NewBook\Example\1.6WPF中的故事板控制\WPFStoryboard\obj\Debug\WPFStoryboard_MarkupCompile.cache
+D:\Expression Blend NewBook\Example\1.6WPF中的故事板控制\WPFStoryboard\obj\Debug\WPFStoryboard.g.resources
+D:\Expression Blend NewBook\Example\1.6WPF中的故事板控制\WPFStoryboard\obj\Debug\WPFStoryboard.exe
+D:\Expression Blend NewBook\Example\1.6WPF中的故事板控制\WPFStoryboard\obj\Debug\WPFStoryboard.pdb
+G:\WPF\光盘案例\项目\Example\1.6WPF中的故事板控制\WPFStoryboard\bin\Debug\WPFStoryboard.exe
+G:\WPF\光盘案例\项目\Example\1.6WPF中的故事板控制\WPFStoryboard\bin\Debug\WPFStoryboard.pdb
+G:\WPF\光盘案例\项目\Example\1.6WPF中的故事板控制\WPFStoryboard\bin\Debug\Microsoft.Expression.Drawing.dll
+G:\WPF\光盘案例\项目\Example\1.6WPF中的故事板控制\WPFStoryboard\bin\Debug\Microsoft.Expression.Drawing.xml
+G:\WPF\光盘案例\项目\Example\1.6WPF中的故事板控制\WPFStoryboard\obj\Debug\ResolveAssemblyReference.cache
+G:\WPF\光盘案例\项目\Example\1.6WPF中的故事板控制\WPFStoryboard\obj\Debug\MainWindow.baml
+G:\WPF\光盘案例\项目\Example\1.6WPF中的故事板控制\WPFStoryboard\obj\Debug\Window1.baml
+G:\WPF\光盘案例\项目\Example\1.6WPF中的故事板控制\WPFStoryboard\obj\Debug\MainWindow.g.cs
+G:\WPF\光盘案例\项目\Example\1.6WPF中的故事板控制\WPFStoryboard\obj\Debug\Window1.g.cs
+G:\WPF\光盘案例\项目\Example\1.6WPF中的故事板控制\WPFStoryboard\obj\Debug\App.g.cs
+G:\WPF\光盘案例\项目\Example\1.6WPF中的故事板控制\WPFStoryboard\obj\Debug\WPFStoryboard_MarkupCompile.cache
+G:\WPF\光盘案例\项目\Example\1.6WPF中的故事板控制\WPFStoryboard\obj\Debug\WPFStoryboard.g.resources
+G:\WPF\光盘案例\项目\Example\1.6WPF中的故事板控制\WPFStoryboard\obj\Debug\WPFStoryboard.exe
+G:\WPF\光盘案例\项目\Example\1.6WPF中的故事板控制\WPFStoryboard\obj\Debug\WPFStoryboard.pdb

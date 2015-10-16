@@ -1,0 +1,187 @@
+﻿<Window
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:ed="http://schemas.microsoft.com/expression/2010/drawing"
+	xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d"
+	x:Class="WPFStoryboard.MainWindow"
+	x:Name="Window"
+	Title="WPF中的故事板控制（MainWindow）"
+	Width="640" Height="480" Icon="tb5.png" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
+	<Window.Resources>
+		<Storyboard x:Key="Storyboard1">
+			<DoubleAnimationUsingPath Duration="0:0:5" Source="X" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="ellipse1">
+				<DoubleAnimationUsingPath.PathGeometry>
+					<PathGeometry Figures="M489,-17.5 C489,12.599519 395.42751,37 280,37 C164.57249,37 71,12.599519 71,-17.5 C71,-47.599519 164.57249,-72 280,-72 C395.42751,-72 489,-47.599519 489,-17.5 z"/>
+				</DoubleAnimationUsingPath.PathGeometry>
+			</DoubleAnimationUsingPath>
+			<DoubleAnimationUsingPath Duration="0:0:5" Source="Y" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)" Storyboard.TargetName="ellipse1">
+				<DoubleAnimationUsingPath.PathGeometry>
+					<PathGeometry Figures="M489,-17.5 C489,12.599519 395.42751,37 280,37 C164.57249,37 71,12.599519 71,-17.5 C71,-47.599519 164.57249,-72 280,-72 C395.42751,-72 489,-47.599519 489,-17.5 z"/>
+				</DoubleAnimationUsingPath.PathGeometry>
+			</DoubleAnimationUsingPath>
+		</Storyboard>
+	</Window.Resources>
+	<Window.Triggers>
+		<EventTrigger RoutedEvent="FrameworkElement.Loaded">
+			<BeginStoryboard x:Name="mystoryboardTrigger" Storyboard="{StaticResource Storyboard1}"/>
+		</EventTrigger>
+		<EventTrigger RoutedEvent="FrameworkElement.Loaded">
+			<StopStoryboard BeginStoryboardName="mystoryboardTrigger"/>
+			<StopStoryboard BeginStoryboardName="mystoryboardTrigger"/>
+		</EventTrigger>
+	</Window.Triggers>
+
+	<Grid x:Name="LayoutRoot">
+		<Grid.Background>
+			<LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+				<GradientStop Color="#FF0206FF" Offset="0.493"/>
+				<GradientStop Color="White" Offset="1"/>
+			</LinearGradientBrush>
+		</Grid.Background>
+		<Ellipse Margin="107,34,108,0" Stroke="Lime" Height="110" VerticalAlignment="Top"/>
+		<Ellipse x:Name="ellipse1" HorizontalAlignment="Left" Height="25" Margin="24,94,0,0" Stroke="Lime" VerticalAlignment="Top" Width="25" StrokeThickness="0" Fill="Red" RenderTransformOrigin="0.5,0.5">
+			<Ellipse.RenderTransform>
+				<TransformGroup>
+					<ScaleTransform/>
+					<SkewTransform/>
+					<RotateTransform/>
+					<TranslateTransform/>
+				</TransformGroup>
+			</Ellipse.RenderTransform>
+		</Ellipse>
+		<Button x:Name="button1" Content="Begin" HorizontalAlignment="Left" Height="29" Margin="87,0,0,128" VerticalAlignment="Bottom" Width="88" Cursor="Hand" FontSize="14.667" Click="button1_Click"/>
+		<Grid x:Name="grid" HorizontalAlignment="Left" Margin="101,187,0,0" Width="113" RenderTransformOrigin="0.5,0.5" Height="26.411" VerticalAlignment="Top">
+			<Grid.RenderTransform>
+				<TransformGroup>
+					<ScaleTransform/>
+					<SkewTransform/>
+					<RotateTransform/>
+					<TranslateTransform/>
+				</TransformGroup>
+			</Grid.RenderTransform>
+			<TextBox x:Name="textbox1" Margin="26,2,0,2.411" TextWrapping="Wrap" HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Disabled" FontSize="13.333" IsEnabled="False" Background="White" Foreground="Blue" Text="Forever" SelectionOpacity="0" UndoLimit="0" Width="60" Height="24" HorizontalAlignment="Left"/>
+			<RepeatButton x:Name="rpb1" HorizontalAlignment="Left" Margin="0,0.411,0,0" Width="26" Click="rpb1_Click" Height="23">
+				<ed:BlockArrow Fill="Blue" Height="16" Orientation="Left" Stroke="Black" Width="16" ArrowBodySize="0" ArrowheadAngle="0" StrokeThickness="0" Cursor="Hand"/>
+			</RepeatButton>
+			<RepeatButton x:Name="rpb2" HorizontalAlignment="Right" Margin="0,1.911,2,1.5" Width="26" Click="rpb2_Click" Height="23">
+				<ed:BlockArrow Fill="Blue" Height="16" Stroke="Black" Width="16" ArrowBodySize="0" ArrowheadAngle="0" StrokeThickness="0" Cursor="Hand"/>
+			</RepeatButton>
+		</Grid>
+		<TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="97,159,0,0" TextWrapping="Wrap" Text="RepeatBehavior" Width="127" Foreground="White" RenderTransformOrigin="0.5,0.5" Height="23" VerticalAlignment="Top">
+			<TextBlock.RenderTransform>
+				<TransformGroup>
+					<ScaleTransform/>
+					<SkewTransform/>
+					<RotateTransform/>
+					<TranslateTransform/>
+				</TransformGroup>
+			</TextBlock.RenderTransform>
+		</TextBlock>
+		<Button x:Name="button2" Content="Pause" HorizontalAlignment="Left" Height="29" Margin="175,0,0,128" VerticalAlignment="Bottom" Width="88" Cursor="Hand" FontSize="14.667" Click="button2_Click"/>
+		<Button x:Name="button3" Content="Resume" Height="29" Margin="264,0,282,128" VerticalAlignment="Bottom" Cursor="Hand" FontSize="14.667" Click="button3_Click" Width="88"/>
+		<Button x:Name="button4" Content="Stop" Height="29" Margin="0,0,193,128" VerticalAlignment="Bottom" Cursor="Hand" FontSize="14.667" Click="button4_Click" HorizontalAlignment="Right" Width="88" d:LayoutOverrides="HorizontalAlignment"/>
+		<CheckBox x:Name="checkbox1" Content="" Margin="275,189,0,0" HorizontalAlignment="Left" Width="16.687" RenderTransformOrigin="0.5,0.5" VerticalAlignment="Top">
+			<CheckBox.RenderTransform>
+				<TransformGroup>
+					<ScaleTransform/>
+					<SkewTransform/>
+					<RotateTransform/>
+					<TranslateTransform/>
+				</TransformGroup>
+			</CheckBox.RenderTransform>
+		</CheckBox>
+		<TextBlock x:Name="textBlock1" Margin="237,160,294,0" TextWrapping="Wrap" Text="AutoReverse" Foreground="White" RenderTransformOrigin="0.5,0.5" Height="23" VerticalAlignment="Top">
+			<TextBlock.RenderTransform>
+				<TransformGroup>
+					<ScaleTransform/>
+					<SkewTransform/>
+					<RotateTransform/>
+					<TranslateTransform/>
+				</TransformGroup>
+			</TextBlock.RenderTransform>
+		</TextBlock>
+		<Button x:Name="button5" Content="SkipToFill" Height="29" Margin="0,0,105,128" VerticalAlignment="Bottom" Cursor="Hand" FontSize="14.667" Click="button5_Click" HorizontalAlignment="Right" Width="88"/>
+		<Slider x:Name="slider1" Margin="91,0,0,165" Value="0.1" Minimum="0.1" TickPlacement="TopLeft" ValueChanged="slider1_ValueChanged" Cursor="SizeWE" Maximum="5" Foreground="Yellow" VerticalAlignment="Bottom" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Left" Width="215">
+			<Slider.RenderTransform>
+				<TransformGroup>
+					<ScaleTransform/>
+					<SkewTransform/>
+					<RotateTransform/>
+					<TranslateTransform/>
+				</TransformGroup>
+			</Slider.RenderTransform>
+		</Slider>
+		<TextBlock x:Name="textBlock2" Margin="125.084,0,0,196" TextWrapping="Wrap" Text="SetSpeedRatio " Foreground="White" Height="23" VerticalAlignment="Bottom" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Left" Width="121">
+			<TextBlock.RenderTransform>
+				<TransformGroup>
+					<ScaleTransform/>
+					<SkewTransform/>
+					<RotateTransform/>
+					<TranslateTransform/>
+				</TransformGroup>
+			</TextBlock.RenderTransform>
+		</TextBlock>
+		<Slider x:Name="slider2" HorizontalAlignment="Right" Margin="0,0,102,165" VerticalAlignment="Bottom" Width="215" TickPlacement="TopLeft" ValueChanged="slider2_ValueChanged" Cursor="SizeWE" Foreground="Yellow" RenderTransformOrigin="0.5,0.5" Value="-10" Maximum="5">
+			<Slider.RenderTransform>
+				<TransformGroup>
+					<ScaleTransform/>
+					<SkewTransform/>
+					<RotateTransform/>
+					<TranslateTransform/>
+				</TransformGroup>
+			</Slider.RenderTransform>
+		</Slider>
+		<TextBlock x:Name="textblock3" Margin="0,160,88,0" TextWrapping="Wrap" Text="FillBehavior?HoldEnd" Foreground="White" RenderTransformOrigin="0.5,0.5" Height="23" VerticalAlignment="Top" HorizontalAlignment="Right" Width="182">
+			<TextBlock.RenderTransform>
+				<TransformGroup>
+					<ScaleTransform/>
+					<SkewTransform/>
+					<RotateTransform/>
+					<TranslateTransform/>
+				</TransformGroup>
+			</TextBlock.RenderTransform>
+		</TextBlock>
+		<TextBlock x:Name="textBlock4" Margin="0,0,111,197" TextWrapping="Wrap" Text="SeekAlignedToLastTick" Foreground="White" Height="23" VerticalAlignment="Bottom" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Right" Width="189">
+			<TextBlock.RenderTransform>
+				<TransformGroup>
+					<ScaleTransform/>
+					<SkewTransform/>
+					<RotateTransform/>
+					<TranslateTransform/>
+				</TransformGroup>
+			</TextBlock.RenderTransform>
+		</TextBlock>
+		<CheckBox x:Name="checkbox2" Content="" Margin="0,189,190.313,0" RenderTransformOrigin="0.5,0.5" VerticalAlignment="Top" HorizontalAlignment="Right" Width="16.687">
+			<CheckBox.RenderTransform>
+				<TransformGroup>
+					<ScaleTransform/>
+					<SkewTransform/>
+					<RotateTransform/>
+					<TranslateTransform/>
+				</TransformGroup>
+			</CheckBox.RenderTransform>
+		</CheckBox>
+		<TextBlock x:Name="tb1" Height="24" Margin="141.084,0,316,99" TextWrapping="Wrap" Text="时间" VerticalAlignment="Bottom"/>
+		<TextBlock x:Name="tb2" HorizontalAlignment="Right" Height="24" Margin="0,0,112.084,99" TextWrapping="Wrap" Text="进度" VerticalAlignment="Bottom" Width="139.916"/>
+		<TextBlock x:Name="textBlock5" Margin="92,0,0,100" TextWrapping="Wrap" Text="时间:" Foreground="Black" Height="23" VerticalAlignment="Bottom" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Left" Width="45.084">
+			<TextBlock.RenderTransform>
+				<TransformGroup>
+					<ScaleTransform/>
+					<SkewTransform/>
+					<RotateTransform/>
+					<TranslateTransform/>
+				</TransformGroup>
+			</TextBlock.RenderTransform>
+		</TextBlock>
+		<TextBlock x:Name="textBlock6" Margin="0,0,260.916,100" TextWrapping="Wrap" Text="进度:" Foreground="Black" Height="23" VerticalAlignment="Bottom" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Right" Width="45.084">
+			<TextBlock.RenderTransform>
+				<TransformGroup>
+					<ScaleTransform/>
+					<SkewTransform/>
+					<RotateTransform/>
+					<TranslateTransform/>
+				</TransformGroup>
+			</TextBlock.RenderTransform>
+		</TextBlock>
+	</Grid>
+</Window>

@@ -1,0 +1,17 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFStoryboard", "WPFStoryboard\WPFStoryboard.csproj", "{4b30b8ab-6fab-4bdb-a8e2-ba70f7e7d8ba}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4B30B8AB-6FAB-4BDB-A8E2-BA70F7E7D8BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B30B8AB-6FAB-4BDB-A8E2-BA70F7E7D8BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B30B8AB-6FAB-4BDB-A8E2-BA70F7E7D8BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B30B8AB-6FAB-4BDB-A8E2-BA70F7E7D8BA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
