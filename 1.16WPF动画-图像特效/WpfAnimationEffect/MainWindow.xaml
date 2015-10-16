@@ -1,0 +1,150 @@
+﻿<Window
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:ed="http://schemas.microsoft.com/expression/2010/drawing" mc:Ignorable="d"
+	x:Class="WpfAnimationEffect.MainWindow"
+	x:Name="Window"
+	Title="MainWindow"
+	Width="1024" Height="768" WindowStartupLocation="CenterScreen" WindowStyle="None">
+	<Window.Resources>
+		<Storyboard x:Key="Storyboard1">
+			<ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="rec1">
+				<DiscreteObjectKeyFrame KeyTime="0" Value="{x:Static Visibility.Visible}"/>
+			</ObjectAnimationUsingKeyFrames>
+			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(Shape.StrokeThickness)" Storyboard.TargetName="rec1">
+				<EasingDoubleKeyFrame KeyTime="0" Value="300"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="149"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:6" Value="0"/>
+			</DoubleAnimationUsingKeyFrames>
+			<ColorAnimationUsingKeyFrames Storyboard.TargetProperty="(Shape.Stroke).(GradientBrush.GradientStops)[1].(GradientStop.Color)" Storyboard.TargetName="rec1">
+				<EasingColorKeyFrame KeyTime="0" Value="#C0FFFFFF"/>
+				<EasingColorKeyFrame KeyTime="0:0:0.5" Value="#C0FFFFFF"/>
+			</ColorAnimationUsingKeyFrames>
+		</Storyboard>
+		<Storyboard x:Key="Storyboard2">
+			<ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="callout">
+				<DiscreteObjectKeyFrame KeyTime="0" Value="{x:Static Visibility.Visible}"/>
+				<DiscreteObjectKeyFrame KeyTime="0:0:5" Value="{x:Static Visibility.Visible}"/>
+			</ObjectAnimationUsingKeyFrames>
+			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(ed:CompositeContentShape.StrokeThickness)" Storyboard.TargetName="callout">
+				<EasingDoubleKeyFrame KeyTime="0" Value="167"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:5" Value="0"/>
+			</DoubleAnimationUsingKeyFrames>
+			<ColorAnimationUsingKeyFrames Storyboard.TargetProperty="(ed:CompositeContentShape.Stroke).(GradientBrush.GradientStops)[1].(GradientStop.Color)" Storyboard.TargetName="callout">
+				<EasingColorKeyFrame KeyTime="0" Value="#BE0010FF"/>
+				<EasingColorKeyFrame KeyTime="0:0:5" Value="#FF0010FF"/>
+			</ColorAnimationUsingKeyFrames>
+		</Storyboard>
+		<Storyboard x:Key="Storyboard3">
+			<ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="arc">
+				<DiscreteObjectKeyFrame KeyTime="0" Value="{x:Static Visibility.Visible}"/>
+			</ObjectAnimationUsingKeyFrames>
+			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(Shape.StrokeThickness)" Storyboard.TargetName="arc">
+				<EasingDoubleKeyFrame KeyTime="0" Value="254"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:5" Value="0"/>
+			</DoubleAnimationUsingKeyFrames>
+		</Storyboard>
+		<Storyboard x:Key="Storyboard4">
+			<ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="arc1">
+				<DiscreteObjectKeyFrame KeyTime="0" Value="{x:Static Visibility.Visible}"/>
+			</ObjectAnimationUsingKeyFrames>
+			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(ed:Arc.StartAngle)" Storyboard.TargetName="arc1">
+				<EasingDoubleKeyFrame KeyTime="0" Value="0"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:5" Value="360"/>
+			</DoubleAnimationUsingKeyFrames>
+			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)" Storyboard.TargetName="arc1">
+				<EasingDoubleKeyFrame KeyTime="0" Value="0.893"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:5" Value="0"/>
+			</DoubleAnimationUsingKeyFrames>
+			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="arc1">
+				<EasingDoubleKeyFrame KeyTime="0" Value="-0.893"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:5" Value="0"/>
+			</DoubleAnimationUsingKeyFrames>
+			<ColorAnimationUsingKeyFrames Storyboard.TargetProperty="(Shape.Fill).(GradientBrush.GradientStops)[2].(GradientStop.Color)" Storyboard.TargetName="arc1">
+				<EasingColorKeyFrame KeyTime="0" Value="#E6C7C7FF"/>
+				<EasingColorKeyFrame KeyTime="0:0:5" Value="#FFC7C7FF"/>
+			</ColorAnimationUsingKeyFrames>
+		</Storyboard>
+	</Window.Resources>
+	<Window.Triggers>
+		<EventTrigger RoutedEvent="ButtonBase.Click" SourceName="button1">
+			<BeginStoryboard Storyboard="{StaticResource Storyboard1}"/>
+		</EventTrigger>
+		<EventTrigger RoutedEvent="ButtonBase.Click" SourceName="button2">
+			<BeginStoryboard x:Name="Storyboard2_BeginStoryboard1" Storyboard="{StaticResource Storyboard2}"/>
+		</EventTrigger>
+		<EventTrigger RoutedEvent="ButtonBase.Click" SourceName="button3">
+			<BeginStoryboard x:Name="Storyboard3_BeginStoryboard1" Storyboard="{StaticResource Storyboard3}"/>
+		</EventTrigger>
+		<EventTrigger RoutedEvent="ButtonBase.Click" SourceName="button4">
+			<BeginStoryboard x:Name="Storyboard4_BeginStoryboard1" Storyboard="{StaticResource Storyboard4}"/>
+		</EventTrigger>
+	</Window.Triggers>
+
+	<Grid x:Name="LayoutRoot">
+		<Grid.Background>
+			<LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+				<GradientStop Color="Black" Offset="0"/>
+				<GradientStop Color="#FF0600FF" Offset="1"/>
+			</LinearGradientBrush>
+		</Grid.Background>
+		<Image x:Name="image1" Margin="27.035,29.243,0,0" Source="pack://siteoforigin:,,,/pict2.JPG" Stretch="Fill" HorizontalAlignment="Left" Height="300" VerticalAlignment="Top" Width="460" d:LayoutOverrides="HorizontalAlignment"/>
+		<Image x:Name="image2" Margin="521.862,29.243,0,0" Source="pack://siteoforigin:,,,/pict2.JPG" Stretch="Fill" HorizontalAlignment="Left" Height="300" VerticalAlignment="Top" Width="460"/>
+		<Button x:Name="exit" Content="退  出" Height="30" Margin="461.517,0,475.173,16.62" VerticalAlignment="Bottom" Click="exit_Click" Width="80" Cursor="Hand"/>
+		<Button x:Name="button1" Content="矩形展开" Height="30" Margin="200.233,335.419,0,0" VerticalAlignment="Top" Width="112.759" Cursor="Hand" HorizontalAlignment="Left"/>
+		<Rectangle x:Name="rec1" HorizontalAlignment="Left" Height="300" Margin="27.035,29.243,0,0" StrokeThickness="300" VerticalAlignment="Top" Width="460" Visibility="Hidden">
+			<Rectangle.Stroke>
+				<RadialGradientBrush>
+					<GradientStop Color="#FF000FFB" Offset="1"/>
+					<GradientStop Color="#C0FFFFFF" Offset="0.518"/>
+				</RadialGradientBrush>
+			</Rectangle.Stroke>
+		</Rectangle>
+		<Button x:Name="button2" Content="云图展开" Height="30" Margin="0,335.419,208.464,0" VerticalAlignment="Top" Width="112.759" Cursor="Hand" HorizontalAlignment="Right" RenderTransformOrigin="1.639,0.565"/>
+		<ed:Callout x:Name="callout" AnchorPoint="0.29,0.95" CalloutStyle="Cloud" FontSize="14.667" Margin="433.58,-58.18,-49.091,363.671" StrokeThickness="167" StrokeStartLineCap="Square" Clip="M89.924,87.387 L549.924,87.387 L549.924,387.387 L89.924,387.387 z" Visibility="Hidden">
+			<ed:Callout.Stroke>
+				<RadialGradientBrush>
+					<GradientStop Color="White" Offset="0.248"/>
+					<GradientStop Color="#BF0010FF" Offset="1"/>
+				</RadialGradientBrush>
+			</ed:Callout.Stroke>
+		</ed:Callout>
+		<Image x:Name="image3" Margin="27.318,372.879,0,87.121" Source="pack://siteoforigin:,,,/pict2.JPG" Stretch="Fill" HorizontalAlignment="Left" Width="460" d:LayoutOverrides="HorizontalAlignment"/>
+		<Button x:Name="button3" Content="圆形展开" Height="30" Margin="200.233,0,0,50.945" VerticalAlignment="Bottom" Width="112.759" Cursor="Hand" HorizontalAlignment="Left" RenderTransformOrigin="1.639,0.565"/>
+		<ed:Arc x:Name="arc" ArcThickness="22" ArcThicknessUnit="Pixel" EndAngle="360" Margin="-22.214,245.781,488.214,-35.782" StrokeStartLineCap="Square" Stretch="None" StrokeThickness="254" StartAngle="0" RenderTransformOrigin="0.5,0.5" Height="550" Clip="M48.91411,126.9135 L508.91411,126.9135 L506.49503,426.9135 L46.495031,426.9135 z" d:LayoutOverrides="VerticalMargin" Visibility="Hidden">
+			<ed:Arc.RenderTransform>
+				<TransformGroup>
+					<ScaleTransform/>
+					<SkewTransform AngleX="0.462"/>
+					<RotateTransform/>
+					<TranslateTransform X="1.81"/>
+				</TransformGroup>
+			</ed:Arc.RenderTransform>
+			<ed:Arc.Stroke>
+				<RadialGradientBrush>
+					<GradientStop Color="White" Offset="0.248"/>
+					<GradientStop Color="#B20010FF" Offset="1"/>
+				</RadialGradientBrush>
+			</ed:Arc.Stroke>
+		</ed:Arc>
+		<Image x:Name="image4" Margin="519.996,374.697,0,85.303" Source="pack://siteoforigin:,,,/pict2.JPG" Stretch="Fill" HorizontalAlignment="Left" Width="460"/>
+		<Button x:Name="button4" Content="扇形展开" Height="30" Margin="0,0,206.694,50.945" VerticalAlignment="Bottom" Cursor="Hand" RenderTransformOrigin="1.639,0.565" HorizontalAlignment="Right" Width="112.759"/>
+		<ed:Arc x:Name="arc1" ArcThickness="1" ArcThicknessUnit="Percent" EndAngle="360" Margin="468.047,244.363,-12.048,-44.364" StrokeStartLineCap="Square" Stretch="None" StrokeThickness="0" Width="560" Height="560" Clip="M51.996,129.6915 L511.996,129.6915 L511.996,429.6915 L51.996,429.6915 z" RenderTransformOrigin="0.5,0.5" d:LayoutOverrides="VerticalMargin" Visibility="Hidden">
+			<ed:Arc.RenderTransform>
+				<TransformGroup>
+					<ScaleTransform/>
+					<SkewTransform/>
+					<RotateTransform/>
+					<TranslateTransform/>
+				</TransformGroup>
+			</ed:Arc.RenderTransform>
+			<ed:Arc.Fill>
+				<RadialGradientBrush>
+					<GradientStop Color="White" Offset="0"/>
+					<GradientStop Color="Blue" Offset="1"/>
+					<GradientStop Color="#E6C7C7FF" Offset="0.252"/>
+				</RadialGradientBrush>
+			</ed:Arc.Fill>
+		</ed:Arc>
+	</Grid>
+</Window>

@@ -1,0 +1,36 @@
+﻿<Window
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d"
+	x:Class="WpfAnimationEffect.Window1"
+	x:Name="Window"
+	Title="动画特效"
+	Width="640" Height="480" WindowStartupLocation="CenterScreen" WindowStyle="None">
+
+	<Canvas x:Name="LayoutRoot">
+		<Canvas.Background>
+			<LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+				<GradientStop Color="Black" Offset="0"/>
+				<GradientStop Color="#FF3704F3" Offset="1"/>
+			</LinearGradientBrush>
+		</Canvas.Background>
+		<Rectangle StrokeThickness="18" Height="340" Canvas.Left="77" Canvas.Top="34.5" Width="480">
+			<Rectangle.Stroke>
+				<LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+					<GradientStop Color="#FF0408FF"/>
+					<GradientStop Color="#FFEFEFF3" Offset="1"/>
+				</LinearGradientBrush>
+			</Rectangle.Stroke>
+		</Rectangle>
+		<Button x:Name="button1" Content="圆形展开" Height="26.5" Width="80.7" FontSize="14.667" Click="button1_Click" Cursor="Hand" Canvas.Left="79.091" Canvas.Top="378.5"/>
+		<Canvas x:Name="canvas1" Height="310" Canvas.Left="92.336" Canvas.Top="48.5" Width="448">
+			<Image x:Name="image" Source="pack://siteoforigin:,,,/pict2.JPG" Stretch="Fill" Width="448" Height="310" d:LayoutOverrides="Height"/>
+		</Canvas>
+		<Button x:Name="exit" Content="退出" Height="26.5" Width="65.7" FontSize="14.667" Click="exit_Click" Cursor="Hand" Canvas.Left="491.091" Canvas.Top="378.5"/>
+		<Button x:Name="button2" Content="随机方块" Height="26.5" Width="80.7" FontSize="14.667" Click="button2_Click" Cursor="Hand" Canvas.Left="160.791" Canvas.Top="378.5"/>
+		<Button x:Name="button3" Content="交错扫描" Height="26.5" FontSize="14.667" Cursor="Hand" Click="button3_Click" Canvas.Left="242.491" Canvas.Top="378.5" Width="80.7"/>
+		<Button x:Name="button4" Content="水帘效果" Height="26.5" FontSize="14.667" Cursor="Hand" Click="button4_Click" Width="80.7" Canvas.Left="324.191" Canvas.Top="378.5"/>
+		<Button x:Name="button5" Content="扇形展开" Height="26.5" FontSize="14.667" Cursor="Hand" Click="button5_Click" Width="80.7" Canvas.Left="406.891" Canvas.Top="378.5"/>
+	</Canvas>
+</Window>
