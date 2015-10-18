@@ -1,0 +1,78 @@
+﻿<Window
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	x:Class="WpfInkcanvas.MainWindow"
+	x:Name="Window"
+	Title="InkCanvas实例"
+	Width="900" Height="600" WindowStartupLocation="CenterScreen" ResizeMode="CanMinimize" Loaded="Window_Loaded">
+
+	<Canvas x:Name="LayoutRoot" Background="#FF045210">
+		<Rectangle Height="353" Canvas.Left="8" StrokeThickness="19" Canvas.Top="20" Width="567">
+			<Rectangle.Stroke>
+				<LinearGradientBrush EndPoint="0.471,1.001" StartPoint="0.622,0.047">
+					<GradientStop Color="Black" Offset="0.269"/>
+					<GradientStop Color="Black" Offset="0.837"/>
+					<GradientStop Color="#FFC2BFBF" Offset="0.514"/>
+				</LinearGradientBrush>
+			</Rectangle.Stroke>
+		</Rectangle>
+		<Border x:Name="border1" Height="314" Canvas.Left="27" Canvas.Top="39" Width="530" >
+			<InkCanvas x:Name="inkcanvas" Background="White" Margin="0" ResizeEnabled="True" MoveEnabled="True" MouseMove="inkcanvas_MouseMove"/>
+		</Border>
+		<Canvas x:Name="canvas1" Height="102" Width="215" Canvas.Left="28" Canvas.Top="405">
+			<Rectangle Fill="#FFF4F4F5" RadiusY="11" RadiusX="11" Stroke="Black" StrokeThickness="0" Height="102" Width="215"/>
+			<TextBlock Height="19" TextWrapping="Wrap" Text="笔迹大小选择：" FontSize="13.333" Canvas.Left="10" Canvas.Top="-1" Width="107"/>
+			<Ellipse x:Name="e1" Fill="Black" Height="2" Width="2" Cursor="SizeAll" Canvas.Left="22" Canvas.Top="34" MouseLeftButtonDown="pen_MouseLeftButtonDown" MouseMove="pen_MouseMove" StrokeThickness="0"/>
+			<Ellipse x:Name="e2" Fill="Black" Height="4" Stroke="Black" StrokeThickness="0" Width="4" Cursor="SizeAll" Canvas.Left="56" Canvas.Top="33" MouseLeftButtonDown="pen_MouseLeftButtonDown" MouseMove="pen_MouseMove"/>
+			<Ellipse x:Name="e3" Fill="Black" Height="6" Stroke="Black" StrokeThickness="0" Width="6" Cursor="SizeAll" Canvas.Left="94" Canvas.Top="32" MouseLeftButtonDown="pen_MouseLeftButtonDown" MouseMove="pen_MouseMove"/>
+			<Ellipse x:Name="e4" Fill="Black" Height="9" Stroke="Black" StrokeThickness="0" Width="9" Cursor="SizeAll" Canvas.Left="134" Canvas.Top="30" MouseLeftButtonDown="pen_MouseLeftButtonDown" MouseMove="pen_MouseMove"/>
+			<Ellipse x:Name="e5" Fill="Black" Height="12" Stroke="Black" StrokeThickness="0" Width="12" Cursor="SizeAll" Canvas.Left="176" Canvas.Top="28" MouseLeftButtonDown="pen_MouseLeftButtonDown" MouseMove="pen_MouseMove"/>
+			<Ellipse x:Name="e6" Fill="Black" Height="14" Stroke="Black" StrokeThickness="0" Width="14" Cursor="SizeAll" Canvas.Left="17" Canvas.Top="62" MouseLeftButtonDown="pen_MouseLeftButtonDown" MouseMove="pen_MouseMove"/>
+			<Ellipse x:Name="e7" Fill="Black" Height="18" Stroke="Black" StrokeThickness="0" Width="18" Cursor="SizeAll" Canvas.Left="50" Canvas.Top="60" MouseLeftButtonDown="pen_MouseLeftButtonDown" MouseMove="pen_MouseMove"/>
+			<Ellipse x:Name="e8" Fill="Black" Height="22" Stroke="Black" StrokeThickness="0" Width="22" Cursor="SizeAll" Canvas.Left="86" Canvas.Top="57" MouseLeftButtonDown="pen_MouseLeftButtonDown" MouseMove="pen_MouseMove"/>
+			<Ellipse x:Name="e9" Fill="Black" Height="26" Stroke="Black" StrokeThickness="0" Width="26" Cursor="SizeAll" Canvas.Left="126" Canvas.Top="55" MouseLeftButtonDown="pen_MouseLeftButtonDown" MouseMove="pen_MouseMove"/>
+			<Ellipse x:Name="e10" Fill="Black" Height="30" Stroke="Black" StrokeThickness="0" Width="30" Cursor="SizeAll" Canvas.Left="168" Canvas.Top="53" MouseLeftButtonDown="pen_MouseLeftButtonDown" MouseMove="pen_MouseMove"/>
+			<Rectangle x:Name="rectangle1" Height="30" Canvas.Left="8" Stroke="#FFD4B906" Canvas.Top="19" Width="30" Cursor="None"/>
+			<Rectangle x:Name="rectangle2" Height="30" Canvas.Left="8" Stroke="Red" Canvas.Top="19" Width="30" Cursor="None"/>
+		</Canvas>
+		<TextBlock x:Name="textblock1" Height="30" TextWrapping="Wrap" Text="TextBlock" Foreground="#FFFBFBFB" Width="354" Canvas.Left="29" Canvas.Top="521"/>
+		<TextBlock x:Name="textblock2" Height="30" TextWrapping="Wrap" Text="TextBlock" Foreground="#FFFBFBFB" Canvas.Left="396" Canvas.Top="521" Width="367"/>
+		<Canvas x:Name="canvas2" Height="102" Canvas.Left="576" Canvas.Top="405" Width="310">
+			<Rectangle Fill="White" Height="102" RadiusY="11" RadiusX="11" StrokeThickness="0" Width="310" Canvas.Left="1"/>
+			<Rectangle x:Name="rect_color" Fill="White" Height="86" Canvas.Left="6" RadiusY="11" RadiusX="11" Canvas.Top="8" Width="26" Stroke="Black"/>
+			<Slider x:Name="Red_slider" Canvas.Left="55" Canvas.Top="19" Width="256" Maximum="255" ValueChanged="color_ValueChanged" Cursor="Hand"/>
+			<Slider x:Name="Green_slider" Canvas.Left="55" Canvas.Top="46" Width="256" Maximum="255" ValueChanged="color_ValueChanged" Cursor="Hand"/>
+			<Slider x:Name="Blue_slider" Canvas.Left="55" Canvas.Top="72" Width="256" Maximum="255" ValueChanged="color_ValueChanged" Cursor="Hand"/>
+			<TextBlock Height="19" Canvas.Left="61" TextWrapping="Wrap" Text="自定义笔迹颜色选择：" Width="94" FontSize="13.333"/>
+			<Rectangle Fill="Red" Height="14" Canvas.Left="38" RadiusX="1" StrokeThickness="0" Canvas.Top="24" Width="14"/>
+			<Rectangle Fill="Lime" Height="14" Canvas.Left="38" RadiusX="1" StrokeThickness="0" Canvas.Top="51" Width="14"/>
+			<Rectangle Fill="Blue" Height="14" Canvas.Left="38" RadiusX="1" StrokeThickness="0" Canvas.Top="77" Width="14"/>
+		</Canvas>
+		<Canvas x:Name="canvas3" Height="102" Width="318" Canvas.Left="251" Canvas.Top="405">
+			<Rectangle Fill="White" Height="102" RadiusY="11" RadiusX="11" StrokeThickness="0" Width="318"/>
+			<TextBlock Height="20" Canvas.Left="8" TextWrapping="Wrap" Text="笔迹模式选择：" Width="98" FontSize="13.333" Canvas.Top="1"/>
+			<RadioButton x:Name="Ink_radiobutton" Content="笔迹绘画" Canvas.Left="25" Canvas.Top="21" FontSize="13.333" Click="Ink_radiobutton_Click"/>
+			<RadioButton x:Name="Point_radiobutton" Content="沿迹擦除" Canvas.Left="25" Canvas.Top="39" FontSize="13.333" Click="Point_radiobutton_Click"/>
+			<RadioButton x:Name="Stroke_radiobutton" Content="擦除线段" Canvas.Left="25" Canvas.Top="57" FontSize="13.333" Click="Stroke_radiobutton_Click"/>
+			<RadioButton x:Name="Select_radiobutton" Content="选择" Canvas.Left="25" Canvas.Top="76" FontSize="13.333" Click="Select_radiobutton_Click"/>
+			<RadioButton x:Name="None_radiobutton" Content="无操作" Canvas.Left="116" Canvas.Top="21" FontSize="13.333" Click="None_radiobutton_Click"/>
+			<RadioButton x:Name="GestureOnly__radiobutton" Content="笔迹无痕" Canvas.Left="116" Canvas.Top="40" FontSize="13.333" Click="GestureOnly__radiobutton_Click"/>
+			<RadioButton x:Name="InkAndGesture__radiobutton" Content="有迹有痕" Canvas.Left="116" Canvas.Top="58" FontSize="13.333" Click="InkAndGesture__radiobutton_Click"/>
+			<Button x:Name="PointAnimation" Content="点集动画" Height="24" Width="71" FontSize="13.333" Cursor="Hand" Canvas.Left="230" Canvas.Top="27" ToolTip="显示从笔迹板接收的笔迹点集" Click="PointAnimation_Click"/>
+			<Button x:Name="ErasePoint" Content="删除点集" Height="24" Width="71" FontSize="13.333" Cursor="Hand" Canvas.Left="230" Canvas.Top="51" ToolTip="删除从笔迹板接收的笔迹点集" Click="ErasePoint_Click"/>
+			<Button x:Name="EraseStroke" Content="删除线段" Height="24" Width="71" FontSize="13.333" Cursor="Hand" Canvas.Left="230" Canvas.Top="75" ToolTip="逐条删除刚刚涂画的线段" Click="EraseStroke_Click"/>
+			<Button x:Name="ShowPoint" Content="显示点集" Height="24" Width="71" FontSize="13.333" Cursor="Hand" Canvas.Left="230" Canvas.Top="3" ToolTip="显示从笔迹板接收的笔迹点集" Click="ShowPoint_Click"/>
+		</Canvas>
+		<Button x:Name="Save" Content="保 存" Height="25" Width="50" Click="Save_Click" FontSize="13.333" Cursor="Hand" Canvas.Left="32" Canvas.Top="373"/>
+		<Button x:Name="Open" Content="打 开" Height="25" Width="50" Click="Open_Click" FontSize="13.333" Cursor="Hand" Canvas.Left="81" Canvas.Top="373"/>
+		<Button x:Name="DeleteAll" Content="全部擦除" Height="25" Width="71" Click="DeleteAll_Click" FontSize="13.333" Cursor="Hand" Canvas.Left="130" Canvas.Top="373" ToolTip="删除笔迹板中所有"/>
+		<Button x:Name="SelectAll" Content="选择全部" Height="25" Width="71" Click="SelectAll_Click" FontSize="13.333" Cursor="Hand" Canvas.Left="200" Canvas.Top="373" ToolTip="选择笔迹板中所有"/>
+		<Button x:Name="DeleteSelect" Content="选择删除" Height="25" Width="71" Click="DeleteSelect_Click" FontSize="13.333" Cursor="Hand" Canvas.Left="270" Canvas.Top="373" ToolTip="先用“笔迹模式选择”中的“选择”"/>
+		<Button x:Name="Cut" Content="剪 切" Height="25" Width="50" Click="Cut_Click" FontSize="13.333" Cursor="Hand" Canvas.Left="340" Canvas.Top="373" ToolTip="先&quot;选择”"/>
+		<Button x:Name="Copy" Content="复 制" Height="25" Width="50" FontSize="13.333" Cursor="Hand" Canvas.Left="389" Canvas.Top="373" ToolTip="复制选择的笔迹" Click="Copy_Click"/>
+		<Button x:Name="Paste" Content="粘 贴" Height="25" Width="50" FontSize="13.333" Cursor="Hand" Canvas.Left="438" Canvas.Top="373" ToolTip="粘贴笔迹" Click="Paste_Click"/>
+		<UniformGrid x:Name="syscolor" Height="353" Canvas.Left="579" Width="307" Canvas.Top="20" Background="#FFF9F9F9"/>
+		<TextBlock Height="22" Canvas.Left="682" TextWrapping="Wrap" Text="系统画刷颜色选择" Canvas.Top="377" Width="118" FontSize="13.333" Foreground="White"/>
+		<Button x:Name="SavePoint" Content="笔迹动画" Height="25" Width="65" FontSize="13.333" Cursor="Hand" Canvas.Left="487" Canvas.Top="373" ToolTip="粘贴笔迹" Click="SavePoint_Click"/>
+	</Canvas>
+</Window>
