@@ -1,0 +1,25 @@
+﻿<Window
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	x:Class="WpfDynamicIcon.MainWindow"
+	x:Name="Window"
+	Title="MainWindow"
+	Width="640" Height="480" WindowStartupLocation="CenterScreen">
+
+	<Grid x:Name="LayoutRoot">
+		<DockPanel x:Name="dockpanel" Height="68" LastChildFill="False" Margin="82,0,105,72" VerticalAlignment="Bottom" MouseEnter="dockpanel_MouseEnter" MouseMove="dockpanel_MouseMove" MouseLeave="dockpanel_MouseLeave" Cursor="Hand" Width="445">
+			<Image x:Name="image1" Margin="0" Source="Icons/tb1.png" Stretch="Fill" Width="40" Height="40" MouseLeftButtonDown="image_MouseLeftButtonDown"/>
+			<Image x:Name="image2" Margin="0" Source="Icons/tb11.png" Stretch="Fill" Width="40" Height="40" MouseLeftButtonDown="image_MouseLeftButtonDown"/>
+			<Image x:Name="image3" Margin="0" Source="Icons/tb2.png" Stretch="Fill" Width="40" Height="40" MouseLeftButtonDown="image_MouseLeftButtonDown"/>
+			<Image x:Name="image4" Margin="0" Source="Icons/tb3.png" Stretch="Fill" Width="40" Height="40" MouseLeftButtonDown="image_MouseLeftButtonDown"/>
+			<Image x:Name="image5" Margin="0" Source="Icons/tb4.png" Stretch="Fill" Width="40" Height="40" MouseLeftButtonDown="image_MouseLeftButtonDown"/>
+			<Image x:Name="image6" Margin="0" Source="Icons/tb5.png" Stretch="Fill" Width="40" Height="40" MouseLeftButtonDown="image_MouseLeftButtonDown"/>
+			<Image x:Name="image7" Margin="0" Source="Icons/tb6.png" Stretch="Fill" Width="40" Height="40" MouseLeftButtonDown="image_MouseLeftButtonDown"/>
+			<Image x:Name="image8" Margin="0" Source="Icons/tb7.png" Stretch="Fill" Width="40" Height="40" MouseLeftButtonDown="image_MouseLeftButtonDown"/>
+			<Image x:Name="image9" Margin="0,-1,0,0" Source="Icons/tb8.png" Stretch="Fill" Width="40" Height="40" MouseLeftButtonDown="image_MouseLeftButtonDown"/>
+			<Image x:Name="image10" Margin="0" Source="Icons/tb9.png" Stretch="Fill" Width="40" Height="40" MouseLeftButtonDown="image_MouseLeftButtonDown"/>
+			<Image x:Name="image11" Margin="0" Source="Icons/tb10.png" Stretch="Fill" Width="40" Height="40" MouseLeftButtonDown="image_MouseLeftButtonDown"/>
+		</DockPanel>
+		<TextBlock x:Name="textblock1" Height="27" Margin="125,122,91,0" TextWrapping="Wrap" Text="在图标上滑动……点击图标……" VerticalAlignment="Top"/>
+	</Grid>
+</Window>
