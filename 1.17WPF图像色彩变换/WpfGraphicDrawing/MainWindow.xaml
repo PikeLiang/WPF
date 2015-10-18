@@ -1,0 +1,25 @@
+﻿<Window
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	x:Class="WpfGraphicDrawing.MainWindow"
+	x:Name="Window"
+	Title="MainWindow"
+	Width="700" Height="560" WindowStartupLocation="CenterScreen">
+
+	<Grid x:Name="LayoutRoot">
+		<WindowsFormsHost x:Name="wfh" Margin="46,6,46,89" Background="#FFD6D4D4"/>
+		<Button x:Name="button1" Content="原图像" HorizontalAlignment="Left" Height="28" Margin="54,0,0,32" VerticalAlignment="Bottom" Width="80" Cursor="Hand" Click="button1_Click"/>
+		<Button x:Name="button3" Content="灰色扫描" HorizontalAlignment="Left" Height="28" Margin="137,0,0,32" VerticalAlignment="Bottom" Width="80" Cursor="Hand" Click="button3_Click"/>
+		<Canvas x:Name="canvas2" Height="109" Margin="334,0,3,-6" VerticalAlignment="Bottom">
+			<Rectangle x:Name="rect_color" Fill="White" Height="36" RadiusY="11" RadiusX="11" Canvas.Top="55" Width="74" Stroke="Black"/>
+			<Slider x:Name="Red_slider" Canvas.Left="95" Canvas.Top="25" Width="256" Maximum="255" ValueChanged="color_ValueChanged" Cursor="Hand"/>
+			<Slider x:Name="Green_slider" Canvas.Left="95" Canvas.Top="49" Width="256" Maximum="255" ValueChanged="color_ValueChanged" Cursor="Hand"/>
+			<Slider x:Name="Blue_slider" Canvas.Left="95" Canvas.Top="72" Width="256" Maximum="255" ValueChanged="color_ValueChanged" Cursor="Hand" Margin="0" Height="22"/>
+			<Rectangle Fill="Red" Height="14" Canvas.Left="78" RadiusX="1" StrokeThickness="0" Canvas.Top="30" Width="14"/>
+			<Rectangle Fill="Lime" Height="14" Canvas.Left="78" RadiusX="1" StrokeThickness="0" Canvas.Top="54" Width="14"/>
+			<Rectangle Fill="Blue" Height="14" Canvas.Left="78" RadiusX="1" StrokeThickness="0" Canvas.Top="77" Width="14"/>
+			<Button x:Name="button2" Content="转图像色" Height="26" Cursor="Hand" Click="button2_Click" Width="70" FontSize="13.333" Canvas.Left="2" Canvas.Top="27"/>
+		</Canvas>
+		<Button x:Name="button4" Content="三色扫描" HorizontalAlignment="Left" Height="28" Margin="220,0,0,32" VerticalAlignment="Bottom" Width="80" Cursor="Hand" Click="button4_Click"/>
+	</Grid>
+</Window>
