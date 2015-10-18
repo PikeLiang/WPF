@@ -1,0 +1,34 @@
+﻿<Window
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d"
+	x:Class="Wpfdraganddrop.MainWindow"
+	x:Name="Window"
+	Title="图片拖放游戏"
+	Width="640" Height="480" WindowStartupLocation="CenterScreen" ResizeMode="NoResize">
+
+	<Canvas x:Name="LayoutRoot" Background="Black">
+		<Canvas x:Name="canvas1" Height="69" Width="100" Background="Blue" Canvas.Top="73.5" Canvas.Left="166"/>
+		<Canvas x:Name="canvas2" Height="69" Canvas.Left="266" Canvas.Top="73.5" Width="100" Background="Blue"/>
+		<Canvas x:Name="canvas3" Height="69" Canvas.Left="366" Canvas.Top="73.5" Width="100" Background="Blue"/>
+		<Canvas x:Name="canvas4" Height="68" Canvas.Top="141.5" Width="100" Background="Blue" Canvas.Left="166"/>
+		<Canvas x:Name="canvas5" Height="68" Canvas.Top="141.5" Width="100" Background="Blue" Canvas.Left="266"/>
+		<Canvas x:Name="canvas6" Height="68" Canvas.Top="141.5" Width="100" Background="Blue" Canvas.Left="366"/>
+		<Canvas x:Name="canvas7" Height="69" Canvas.Top="208.5" Width="100" Background="Blue" Canvas.Left="166"/>
+		<Canvas x:Name="canvas8" Height="69" Canvas.Top="208.5" Width="100" Background="Blue" Canvas.Left="266"/>
+		<Canvas x:Name="canvas9" Height="69" Canvas.Top="208.5" Width="100" Background="Blue" Canvas.Left="366"/>
+		<Path Data="M161,140 L465,140" Fill="White" Height="1" Stretch="Fill" Stroke="White" Width="300" Canvas.Left="165.5" Canvas.Top="141" d:LayoutOverrides="Width"/>
+		<Path Data="M161,140 L465,140" Fill="White" Height="1" Stretch="Fill" Stroke="White" Width="300" Canvas.Left="165.5" Canvas.Top="209" d:LayoutOverrides="Width"/>
+		<Path Data="M265,67 L265,277" Fill="White" Stretch="Fill" Stroke="White" Width="1" Height="206" Canvas.Left="265" d:LayoutOverrides="Height" Canvas.Top="72.5"/>
+		<Path Data="M265,67 L265,277" Fill="White" Stretch="Fill" Stroke="White" Width="1" Height="206" Canvas.Left="365" d:LayoutOverrides="Height" Canvas.Top="72.5"/>
+		<Image x:Name="p1" Source="image/p1.jpg" Stretch="Fill" Width="100" Height="69" Canvas.Left="40" Canvas.Top="258" MouseLeftButtonDown="p1_MouseLeftButtonDown" MouseMove="p1_MouseMove" MouseLeftButtonUp="p1_MouseLeftButtonUp" Cursor="Hand"/>
+		<Image x:Name="p2" Height="69" Source="image/p2.jpg" Stretch="Fill" Canvas.Left="491" Canvas.Top="162" Width="100" MouseLeftButtonDown="p2_MouseLeftButtonDown" MouseMove="p2_MouseMove" MouseLeftButtonUp="p2_MouseLeftButtonUp" Cursor="Hand"/>
+		<Image x:Name="p3" Height="69" Source="image/p3.jpg" Stretch="Fill" Width="100" Canvas.Left="491" Canvas.Top="258" MouseLeftButtonDown="p3_MouseLeftButtonDown" MouseMove="p3_MouseMove" MouseLeftButtonUp="p3_MouseLeftButtonUp" Cursor="Hand"/>
+		<Image x:Name="p4" Source="image/p4.jpg" Stretch="Fill" Width="100" Height="68" Canvas.Left="40" Canvas.Top="163" Cursor="Hand" MouseLeftButtonDown="p4_MouseLeftButtonDown" MouseLeftButtonUp="p4_MouseLeftButtonUp" MouseMove="p4_MouseMove"/>
+		<Image x:Name="p5" Height="68" Source="image/p5.jpg" Stretch="Fill" Canvas.Left="155" Canvas.Top="288" Width="100" Cursor="Hand" MouseLeftButtonDown="p5_MouseLeftButtonDown" MouseLeftButtonUp="p5_MouseLeftButtonUp" MouseMove="p5_MouseMove"/>
+		<Image x:Name="p6" Height="68" Source="image/p6.jpg" Stretch="Fill" Width="100" Canvas.Left="491" Canvas.Top="74.5" Cursor="Hand" MouseLeftButtonDown="p6_MouseLeftButtonDown" MouseLeftButtonUp="p6_MouseLeftButtonUp" MouseMove="p6_MouseMove"/>
+		<Image x:Name="p7" Source="image/p7.jpg" Stretch="Fill" Width="100" Height="69" Canvas.Left="40" Canvas.Top="73.5" Cursor="Hand" MouseLeftButtonDown="p7_MouseLeftButtonDown" MouseLeftButtonUp="p7_MouseLeftButtonUp" MouseMove="p7_MouseMove"/>
+		<Image x:Name="p8" Source="image/p8.jpg" Stretch="Fill" Height="69" Canvas.Left="377" Canvas.Top="287.5" Width="100" Cursor="Hand" MouseLeftButtonDown="p8_MouseLeftButtonDown" MouseLeftButtonUp="p8_MouseLeftButtonUp" MouseMove="p8_MouseMove"/>
+		<Image x:Name="p9" Source="image/p9.jpg" Stretch="Fill" Width="100" Height="69" Canvas.Left="266" Canvas.Top="288" Cursor="Hand" MouseLeftButtonDown="p9_MouseLeftButtonDown" MouseLeftButtonUp="p9_MouseLeftButtonUp" MouseMove="p9_MouseMove"/>
+	</Canvas>
+</Window>

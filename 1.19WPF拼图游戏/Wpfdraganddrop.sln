@@ -1,0 +1,17 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wpfdraganddrop", "Wpfdraganddrop\Wpfdraganddrop.csproj", "{175cfecd-0097-4b88-9796-c5e7787955bf}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{175CFECD-0097-4B88-9796-C5E7787955BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{175CFECD-0097-4B88-9796-C5E7787955BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{175CFECD-0097-4B88-9796-C5E7787955BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{175CFECD-0097-4B88-9796-C5E7787955BF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

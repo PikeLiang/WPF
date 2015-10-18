@@ -1,0 +1,50 @@
+D:\Expression Blend NewBook\Example\Wpfdraganddrop\Wpfdraganddrop\bin\Debug\Wpfdraganddrop.exe
+D:\Expression Blend NewBook\Example\Wpfdraganddrop\Wpfdraganddrop\bin\Debug\Wpfdraganddrop.pdb
+D:\Expression Blend NewBook\Example\Wpfdraganddrop\Wpfdraganddrop\obj\Debug\ResolveAssemblyReference.cache
+D:\Expression Blend NewBook\Example\Wpfdraganddrop\Wpfdraganddrop\obj\Debug\MainWindow.baml
+D:\Expression Blend NewBook\Example\Wpfdraganddrop\Wpfdraganddrop\obj\Debug\MainWindow.g.cs
+D:\Expression Blend NewBook\Example\Wpfdraganddrop\Wpfdraganddrop\obj\Debug\App.g.cs
+D:\Expression Blend NewBook\Example\Wpfdraganddrop\Wpfdraganddrop\obj\Debug\Wpfdraganddrop_MarkupCompile.cache
+D:\Expression Blend NewBook\Example\Wpfdraganddrop\Wpfdraganddrop\obj\Debug\Wpfdraganddrop.g.resources
+D:\Expression Blend NewBook\Example\Wpfdraganddrop\Wpfdraganddrop\obj\Debug\Wpfdraganddrop.exe
+D:\Expression Blend NewBook\Example\Wpfdraganddrop\Wpfdraganddrop\obj\Debug\Wpfdraganddrop.pdb
+D:\Expression Blend NewBook\Example\Wpf拼图游戏\Wpfdraganddrop\bin\Debug\Wpfdraganddrop.exe
+D:\Expression Blend NewBook\Example\Wpf拼图游戏\Wpfdraganddrop\bin\Debug\Wpfdraganddrop.pdb
+D:\Expression Blend NewBook\Example\Wpf拼图游戏\Wpfdraganddrop\obj\Debug\ResolveAssemblyReference.cache
+D:\Expression Blend NewBook\Example\Wpf拼图游戏\Wpfdraganddrop\obj\Debug\MainWindow.baml
+D:\Expression Blend NewBook\Example\Wpf拼图游戏\Wpfdraganddrop\obj\Debug\MainWindow.g.cs
+D:\Expression Blend NewBook\Example\Wpf拼图游戏\Wpfdraganddrop\obj\Debug\App.g.cs
+D:\Expression Blend NewBook\Example\Wpf拼图游戏\Wpfdraganddrop\obj\Debug\Wpfdraganddrop_MarkupCompile.cache
+D:\Expression Blend NewBook\Example\Wpf拼图游戏\Wpfdraganddrop\obj\Debug\Wpfdraganddrop.g.resources
+D:\Expression Blend NewBook\Example\Wpf拼图游戏\Wpfdraganddrop\obj\Debug\Wpfdraganddrop.exe
+D:\Expression Blend NewBook\Example\Wpf拼图游戏\Wpfdraganddrop\obj\Debug\Wpfdraganddrop.pdb
+D:\Expression Blend NewBook\Example\11WPF拼图游戏\Wpfdraganddrop\bin\Debug\Wpfdraganddrop.exe
+D:\Expression Blend NewBook\Example\11WPF拼图游戏\Wpfdraganddrop\bin\Debug\Wpfdraganddrop.pdb
+D:\Expression Blend NewBook\Example\11WPF拼图游戏\Wpfdraganddrop\obj\Debug\ResolveAssemblyReference.cache
+D:\Expression Blend NewBook\Example\11WPF拼图游戏\Wpfdraganddrop\obj\Debug\MainWindow.baml
+D:\Expression Blend NewBook\Example\11WPF拼图游戏\Wpfdraganddrop\obj\Debug\MainWindow.g.cs
+D:\Expression Blend NewBook\Example\11WPF拼图游戏\Wpfdraganddrop\obj\Debug\App.g.cs
+D:\Expression Blend NewBook\Example\11WPF拼图游戏\Wpfdraganddrop\obj\Debug\Wpfdraganddrop_MarkupCompile.cache
+D:\Expression Blend NewBook\Example\11WPF拼图游戏\Wpfdraganddrop\obj\Debug\Wpfdraganddrop.g.resources
+D:\Expression Blend NewBook\Example\11WPF拼图游戏\Wpfdraganddrop\obj\Debug\Wpfdraganddrop.exe
+D:\Expression Blend NewBook\Example\11WPF拼图游戏\Wpfdraganddrop\obj\Debug\Wpfdraganddrop.pdb
+D:\Expression Blend NewBook\Example\1.19WPF拼图游戏\Wpfdraganddrop\bin\Debug\Wpfdraganddrop.exe
+D:\Expression Blend NewBook\Example\1.19WPF拼图游戏\Wpfdraganddrop\bin\Debug\Wpfdraganddrop.pdb
+D:\Expression Blend NewBook\Example\1.19WPF拼图游戏\Wpfdraganddrop\obj\Debug\ResolveAssemblyReference.cache
+D:\Expression Blend NewBook\Example\1.19WPF拼图游戏\Wpfdraganddrop\obj\Debug\MainWindow.baml
+D:\Expression Blend NewBook\Example\1.19WPF拼图游戏\Wpfdraganddrop\obj\Debug\MainWindow.g.cs
+D:\Expression Blend NewBook\Example\1.19WPF拼图游戏\Wpfdraganddrop\obj\Debug\App.g.cs
+D:\Expression Blend NewBook\Example\1.19WPF拼图游戏\Wpfdraganddrop\obj\Debug\Wpfdraganddrop_MarkupCompile.cache
+D:\Expression Blend NewBook\Example\1.19WPF拼图游戏\Wpfdraganddrop\obj\Debug\Wpfdraganddrop.g.resources
+D:\Expression Blend NewBook\Example\1.19WPF拼图游戏\Wpfdraganddrop\obj\Debug\Wpfdraganddrop.exe
+D:\Expression Blend NewBook\Example\1.19WPF拼图游戏\Wpfdraganddrop\obj\Debug\Wpfdraganddrop.pdb
+G:\WPF\光盘案例\项目\Example\1.19WPF拼图游戏\Wpfdraganddrop\bin\Debug\Wpfdraganddrop.exe
+G:\WPF\光盘案例\项目\Example\1.19WPF拼图游戏\Wpfdraganddrop\bin\Debug\Wpfdraganddrop.pdb
+G:\WPF\光盘案例\项目\Example\1.19WPF拼图游戏\Wpfdraganddrop\obj\Debug\ResolveAssemblyReference.cache
+G:\WPF\光盘案例\项目\Example\1.19WPF拼图游戏\Wpfdraganddrop\obj\Debug\MainWindow.baml
+G:\WPF\光盘案例\项目\Example\1.19WPF拼图游戏\Wpfdraganddrop\obj\Debug\MainWindow.g.cs
+G:\WPF\光盘案例\项目\Example\1.19WPF拼图游戏\Wpfdraganddrop\obj\Debug\App.g.cs
+G:\WPF\光盘案例\项目\Example\1.19WPF拼图游戏\Wpfdraganddrop\obj\Debug\Wpfdraganddrop_MarkupCompile.cache
+G:\WPF\光盘案例\项目\Example\1.19WPF拼图游戏\Wpfdraganddrop\obj\Debug\Wpfdraganddrop.g.resources
+G:\WPF\光盘案例\项目\Example\1.19WPF拼图游戏\Wpfdraganddrop\obj\Debug\Wpfdraganddrop.exe
+G:\WPF\光盘案例\项目\Example\1.19WPF拼图游戏\Wpfdraganddrop\obj\Debug\Wpfdraganddrop.pdb
