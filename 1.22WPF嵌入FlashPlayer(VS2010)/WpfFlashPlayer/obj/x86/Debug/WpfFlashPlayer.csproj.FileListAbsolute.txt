@@ -1,0 +1,15 @@
+D:\Expression Blend NewBook\Example\WpfFlashPlayer\WpfFlashPlayer\bin\Debug\WpfFlashPlayer.exe
+D:\Expression Blend NewBook\Example\WpfFlashPlayer\WpfFlashPlayer\bin\Debug\WpfFlashPlayer.pdb
+D:\Expression Blend NewBook\Example\WpfFlashPlayer\WpfFlashPlayer\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Expression Blend NewBook\Example\WpfFlashPlayer\WpfFlashPlayer\obj\x86\Debug\MainWindow.baml
+D:\Expression Blend NewBook\Example\WpfFlashPlayer\WpfFlashPlayer\obj\x86\Debug\MainWindow.g.cs
+D:\Expression Blend NewBook\Example\WpfFlashPlayer\WpfFlashPlayer\obj\x86\Debug\App.g.cs
+D:\Expression Blend NewBook\Example\WpfFlashPlayer\WpfFlashPlayer\obj\x86\Debug\WpfFlashPlayer_MarkupCompile.cache
+D:\Expression Blend NewBook\Example\WpfFlashPlayer\WpfFlashPlayer\obj\x86\Debug\WpfFlashPlayer.g.resources
+D:\Expression Blend NewBook\Example\WpfFlashPlayer\WpfFlashPlayer\obj\x86\Debug\WpfFlashPlayer.Properties.Resources.resources
+D:\Expression Blend NewBook\Example\WpfFlashPlayer\WpfFlashPlayer\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\Expression Blend NewBook\Example\WpfFlashPlayer\WpfFlashPlayer\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\Expression Blend NewBook\Example\WpfFlashPlayer\WpfFlashPlayer\obj\x86\Debug\WpfFlashPlayer.exe
+D:\Expression Blend NewBook\Example\WpfFlashPlayer\WpfFlashPlayer\obj\x86\Debug\WpfFlashPlayer.pdb
+D:\Expression Blend NewBook\Example\WpfFlashPlayer(VS2010)\WpfFlashPlayer\obj\x86\Debug\WpfFlashPlayer.exe
+D:\Expression Blend NewBook\Example\WpfFlashPlayer(VS2010)\WpfFlashPlayer\obj\x86\Debug\WpfFlashPlayer.pdb

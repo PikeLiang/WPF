@@ -1,0 +1,13 @@
+D:\Expression Blend NewBook\Example\WpfFlashPlayer\WindowsFormsFlashControlLibrary\bin\Debug\WindowsFormsFlashControlLibrary.dll
+D:\Expression Blend NewBook\Example\WpfFlashPlayer\WindowsFormsFlashControlLibrary\bin\Debug\WindowsFormsFlashControlLibrary.pdb
+D:\Expression Blend NewBook\Example\WpfFlashPlayer\WindowsFormsFlashControlLibrary\bin\Debug\Interop.ShockwaveFlashObjects.dll
+D:\Expression Blend NewBook\Example\WpfFlashPlayer\WindowsFormsFlashControlLibrary\bin\Debug\AxInterop.ShockwaveFlashObjects.dll
+D:\Expression Blend NewBook\Example\WpfFlashPlayer\WindowsFormsFlashControlLibrary\obj\Debug\ResolveAssemblyReference.cache
+D:\Expression Blend NewBook\Example\WpfFlashPlayer\WindowsFormsFlashControlLibrary\obj\Debug\Interop.ShockwaveFlashObjects.dll
+D:\Expression Blend NewBook\Example\WpfFlashPlayer\WindowsFormsFlashControlLibrary\obj\Debug\AxInterop.ShockwaveFlashObjects.dll
+D:\Expression Blend NewBook\Example\WpfFlashPlayer\WindowsFormsFlashControlLibrary\obj\Debug\WindowsFormsFlashControlLibrary.csproj.ResolveComReference.cache
+D:\Expression Blend NewBook\Example\WpfFlashPlayer\WindowsFormsFlashControlLibrary\obj\Debug\WindowsFormsFlashControlLibrary.UserControl1.resources
+D:\Expression Blend NewBook\Example\WpfFlashPlayer\WindowsFormsFlashControlLibrary\obj\Debug\GenerateResource.read.1.tlog
+D:\Expression Blend NewBook\Example\WpfFlashPlayer\WindowsFormsFlashControlLibrary\obj\Debug\GenerateResource.write.1.tlog
+D:\Expression Blend NewBook\Example\WpfFlashPlayer\WindowsFormsFlashControlLibrary\obj\Debug\WindowsFormsFlashControlLibrary.dll
+D:\Expression Blend NewBook\Example\WpfFlashPlayer\WindowsFormsFlashControlLibrary\obj\Debug\WindowsFormsFlashControlLibrary.pdb
