@@ -1,0 +1,56 @@
+D:\Expression Blend NewBook\Example\WpfMediaPlayer\WpfMediaPlayer\bin\Debug\WpfMediaPlayer.exe
+D:\Expression Blend NewBook\Example\WpfMediaPlayer\WpfMediaPlayer\bin\Debug\WpfMediaPlayer.pdb
+D:\Expression Blend NewBook\Example\WpfMediaPlayer\WpfMediaPlayer\bin\Debug\AxInterop.WMPLib.dll
+D:\Expression Blend NewBook\Example\WpfMediaPlayer\WpfMediaPlayer\bin\Debug\Interop.WMPLib.dll
+D:\Expression Blend NewBook\Example\WpfMediaPlayer\WpfMediaPlayer\bin\Debug\WindowsFormsControlLibrary.dll
+D:\Expression Blend NewBook\Example\WpfMediaPlayer\WpfMediaPlayer\bin\Debug\WindowsFormsControlLibrary.pdb
+D:\Expression Blend NewBook\Example\WpfMediaPlayer\WpfMediaPlayer\obj\Debug\ResolveAssemblyReference.cache
+D:\Expression Blend NewBook\Example\WpfMediaPlayer\WpfMediaPlayer\obj\Debug\MainWindow.baml
+D:\Expression Blend NewBook\Example\WpfMediaPlayer\WpfMediaPlayer\obj\Debug\MainWindow.g.cs
+D:\Expression Blend NewBook\Example\WpfMediaPlayer\WpfMediaPlayer\obj\Debug\App.g.cs
+D:\Expression Blend NewBook\Example\WpfMediaPlayer\WpfMediaPlayer\obj\Debug\WpfMediaPlayer_MarkupCompile.cache
+D:\Expression Blend NewBook\Example\WpfMediaPlayer\WpfMediaPlayer\obj\Debug\WpfMediaPlayer.g.resources
+D:\Expression Blend NewBook\Example\WpfMediaPlayer\WpfMediaPlayer\obj\Debug\WpfMediaPlayer.exe
+D:\Expression Blend NewBook\Example\WpfMediaPlayer\WpfMediaPlayer\obj\Debug\WpfMediaPlayer.pdb
+D:\Expression Blend NewBook\Example\WpfMediaPlayer(Blend方案2)\WpfMediaPlayer\bin\Debug\WpfMediaPlayer.exe
+D:\Expression Blend NewBook\Example\WpfMediaPlayer(Blend方案2)\WpfMediaPlayer\bin\Debug\WpfMediaPlayer.pdb
+D:\Expression Blend NewBook\Example\WpfMediaPlayer(Blend方案2)\WpfMediaPlayer\bin\Debug\AxInterop.WMPLib.dll
+D:\Expression Blend NewBook\Example\WpfMediaPlayer(Blend方案2)\WpfMediaPlayer\bin\Debug\Interop.WMPLib.dll
+D:\Expression Blend NewBook\Example\WpfMediaPlayer(Blend方案2)\WpfMediaPlayer\obj\Debug\ResolveAssemblyReference.cache
+D:\Expression Blend NewBook\Example\WpfMediaPlayer(Blend方案2)\WpfMediaPlayer\obj\Debug\MainWindow.baml
+D:\Expression Blend NewBook\Example\WpfMediaPlayer(Blend方案2)\WpfMediaPlayer\obj\Debug\MainWindow.g.cs
+D:\Expression Blend NewBook\Example\WpfMediaPlayer(Blend方案2)\WpfMediaPlayer\obj\Debug\App.g.cs
+D:\Expression Blend NewBook\Example\WpfMediaPlayer(Blend方案2)\WpfMediaPlayer\obj\Debug\WpfMediaPlayer_MarkupCompile.cache
+D:\Expression Blend NewBook\Example\WpfMediaPlayer(Blend方案2)\WpfMediaPlayer\obj\Debug\WpfMediaPlayer.g.resources
+D:\Expression Blend NewBook\Example\WpfMediaPlayer(Blend方案2)\WpfMediaPlayer\obj\Debug\WpfMediaPlayer.exe
+D:\Expression Blend NewBook\Example\WpfMediaPlayer(Blend方案2)\WpfMediaPlayer\obj\Debug\WpfMediaPlayer.pdb
+D:\Expression Blend NewBook\Example\13WPF嵌入MediaPlayer\WpfMediaPlayer\bin\Debug\WpfMediaPlayer.exe
+D:\Expression Blend NewBook\Example\13WPF嵌入MediaPlayer\WpfMediaPlayer\bin\Debug\WpfMediaPlayer.pdb
+D:\Expression Blend NewBook\Example\13WPF嵌入MediaPlayer\WpfMediaPlayer\obj\Debug\ResolveAssemblyReference.cache
+D:\Expression Blend NewBook\Example\13WPF嵌入MediaPlayer\WpfMediaPlayer\obj\Debug\MainWindow.baml
+D:\Expression Blend NewBook\Example\13WPF嵌入MediaPlayer\WpfMediaPlayer\obj\Debug\MainWindow.g.cs
+D:\Expression Blend NewBook\Example\13WPF嵌入MediaPlayer\WpfMediaPlayer\obj\Debug\App.g.cs
+D:\Expression Blend NewBook\Example\13WPF嵌入MediaPlayer\WpfMediaPlayer\obj\Debug\WpfMediaPlayer_MarkupCompile.cache
+D:\Expression Blend NewBook\Example\13WPF嵌入MediaPlayer\WpfMediaPlayer\obj\Debug\WpfMediaPlayer.g.resources
+D:\Expression Blend NewBook\Example\13WPF嵌入MediaPlayer\WpfMediaPlayer\obj\Debug\WpfMediaPlayer.exe
+D:\Expression Blend NewBook\Example\13WPF嵌入MediaPlayer\WpfMediaPlayer\obj\Debug\WpfMediaPlayer.pdb
+D:\Expression Blend NewBook\Example\1.21WPF嵌入MediaPlayer\WpfMediaPlayer\bin\Debug\WpfMediaPlayer.exe
+D:\Expression Blend NewBook\Example\1.21WPF嵌入MediaPlayer\WpfMediaPlayer\bin\Debug\WpfMediaPlayer.pdb
+D:\Expression Blend NewBook\Example\1.21WPF嵌入MediaPlayer\WpfMediaPlayer\obj\Debug\ResolveAssemblyReference.cache
+D:\Expression Blend NewBook\Example\1.21WPF嵌入MediaPlayer\WpfMediaPlayer\obj\Debug\MainWindow.baml
+D:\Expression Blend NewBook\Example\1.21WPF嵌入MediaPlayer\WpfMediaPlayer\obj\Debug\MainWindow.g.cs
+D:\Expression Blend NewBook\Example\1.21WPF嵌入MediaPlayer\WpfMediaPlayer\obj\Debug\App.g.cs
+D:\Expression Blend NewBook\Example\1.21WPF嵌入MediaPlayer\WpfMediaPlayer\obj\Debug\WpfMediaPlayer_MarkupCompile.cache
+D:\Expression Blend NewBook\Example\1.21WPF嵌入MediaPlayer\WpfMediaPlayer\obj\Debug\WpfMediaPlayer.g.resources
+D:\Expression Blend NewBook\Example\1.21WPF嵌入MediaPlayer\WpfMediaPlayer\obj\Debug\WpfMediaPlayer.exe
+D:\Expression Blend NewBook\Example\1.21WPF嵌入MediaPlayer\WpfMediaPlayer\obj\Debug\WpfMediaPlayer.pdb
+G:\WPF\光盘案例\项目\Example\1.21WPF嵌入MediaPlayer\WpfMediaPlayer\bin\Debug\WpfMediaPlayer.exe
+G:\WPF\光盘案例\项目\Example\1.21WPF嵌入MediaPlayer\WpfMediaPlayer\bin\Debug\WpfMediaPlayer.pdb
+G:\WPF\光盘案例\项目\Example\1.21WPF嵌入MediaPlayer\WpfMediaPlayer\obj\Debug\ResolveAssemblyReference.cache
+G:\WPF\光盘案例\项目\Example\1.21WPF嵌入MediaPlayer\WpfMediaPlayer\obj\Debug\MainWindow.baml
+G:\WPF\光盘案例\项目\Example\1.21WPF嵌入MediaPlayer\WpfMediaPlayer\obj\Debug\MainWindow.g.cs
+G:\WPF\光盘案例\项目\Example\1.21WPF嵌入MediaPlayer\WpfMediaPlayer\obj\Debug\App.g.cs
+G:\WPF\光盘案例\项目\Example\1.21WPF嵌入MediaPlayer\WpfMediaPlayer\obj\Debug\WpfMediaPlayer_MarkupCompile.cache
+G:\WPF\光盘案例\项目\Example\1.21WPF嵌入MediaPlayer\WpfMediaPlayer\obj\Debug\WpfMediaPlayer.g.resources
+G:\WPF\光盘案例\项目\Example\1.21WPF嵌入MediaPlayer\WpfMediaPlayer\obj\Debug\WpfMediaPlayer.exe
+G:\WPF\光盘案例\项目\Example\1.21WPF嵌入MediaPlayer\WpfMediaPlayer\obj\Debug\WpfMediaPlayer.pdb

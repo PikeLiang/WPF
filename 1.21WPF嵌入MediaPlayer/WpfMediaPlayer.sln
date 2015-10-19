@@ -1,0 +1,17 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfMediaPlayer", "WpfMediaPlayer\WpfMediaPlayer.csproj", "{7f636798-b8af-4d8c-90f5-8ba7a75e4364}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7F636798-B8AF-4D8C-90F5-8BA7A75E4364}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F636798-B8AF-4D8C-90F5-8BA7A75E4364}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F636798-B8AF-4D8C-90F5-8BA7A75E4364}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F636798-B8AF-4D8C-90F5-8BA7A75E4364}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
