@@ -1,0 +1,15 @@
+D:\Expression Blend NewBook\Example\WpfMediaPlayer\WpfMediaPlayer\bin\Debug\WpfMediaPlayer.exe
+D:\Expression Blend NewBook\Example\WpfMediaPlayer\WpfMediaPlayer\bin\Debug\WpfMediaPlayer.pdb
+D:\Expression Blend NewBook\Example\WpfMediaPlayer\WpfMediaPlayer\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Expression Blend NewBook\Example\WpfMediaPlayer\WpfMediaPlayer\obj\x86\Debug\MainWindow.baml
+D:\Expression Blend NewBook\Example\WpfMediaPlayer\WpfMediaPlayer\obj\x86\Debug\MainWindow.g.cs
+D:\Expression Blend NewBook\Example\WpfMediaPlayer\WpfMediaPlayer\obj\x86\Debug\App.g.cs
+D:\Expression Blend NewBook\Example\WpfMediaPlayer\WpfMediaPlayer\obj\x86\Debug\WpfMediaPlayer_MarkupCompile.cache
+D:\Expression Blend NewBook\Example\WpfMediaPlayer\WpfMediaPlayer\obj\x86\Debug\WpfMediaPlayer.g.resources
+D:\Expression Blend NewBook\Example\WpfMediaPlayer\WpfMediaPlayer\obj\x86\Debug\WpfMediaPlayer.Properties.Resources.resources
+D:\Expression Blend NewBook\Example\WpfMediaPlayer\WpfMediaPlayer\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\Expression Blend NewBook\Example\WpfMediaPlayer\WpfMediaPlayer\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\Expression Blend NewBook\Example\WpfMediaPlayer\WpfMediaPlayer\obj\x86\Debug\WpfMediaPlayer.exe
+D:\Expression Blend NewBook\Example\WpfMediaPlayer\WpfMediaPlayer\obj\x86\Debug\WpfMediaPlayer.pdb
+D:\Expression Blend NewBook\Example\WpfMediaPlayer(VS2010)\WpfMediaPlayer\obj\x86\Debug\WpfMediaPlayer.exe
+D:\Expression Blend NewBook\Example\WpfMediaPlayer(VS2010)\WpfMediaPlayer\obj\x86\Debug\WpfMediaPlayer.pdb

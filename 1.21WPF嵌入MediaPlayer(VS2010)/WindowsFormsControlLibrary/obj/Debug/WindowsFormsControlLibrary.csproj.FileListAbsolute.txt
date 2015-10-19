@@ -1,0 +1,13 @@
+D:\Expression Blend NewBook\Example\WpfMediaPlayer\WindowsFormsControlLibrary\bin\Debug\WindowsFormsControlLibrary.dll
+D:\Expression Blend NewBook\Example\WpfMediaPlayer\WindowsFormsControlLibrary\bin\Debug\WindowsFormsControlLibrary.pdb
+D:\Expression Blend NewBook\Example\WpfMediaPlayer\WindowsFormsControlLibrary\bin\Debug\Interop.WMPLib.dll
+D:\Expression Blend NewBook\Example\WpfMediaPlayer\WindowsFormsControlLibrary\bin\Debug\AxInterop.WMPLib.dll
+D:\Expression Blend NewBook\Example\WpfMediaPlayer\WindowsFormsControlLibrary\obj\Debug\ResolveAssemblyReference.cache
+D:\Expression Blend NewBook\Example\WpfMediaPlayer\WindowsFormsControlLibrary\obj\Debug\Interop.WMPLib.dll
+D:\Expression Blend NewBook\Example\WpfMediaPlayer\WindowsFormsControlLibrary\obj\Debug\AxInterop.WMPLib.dll
+D:\Expression Blend NewBook\Example\WpfMediaPlayer\WindowsFormsControlLibrary\obj\Debug\WindowsFormsControlLibrary.csproj.ResolveComReference.cache
+D:\Expression Blend NewBook\Example\WpfMediaPlayer\WindowsFormsControlLibrary\obj\Debug\WindowsFormsControlLibrary.UserControl1.resources
+D:\Expression Blend NewBook\Example\WpfMediaPlayer\WindowsFormsControlLibrary\obj\Debug\GenerateResource.read.1.tlog
+D:\Expression Blend NewBook\Example\WpfMediaPlayer\WindowsFormsControlLibrary\obj\Debug\GenerateResource.write.1.tlog
+D:\Expression Blend NewBook\Example\WpfMediaPlayer\WindowsFormsControlLibrary\obj\Debug\WindowsFormsControlLibrary.dll
+D:\Expression Blend NewBook\Example\WpfMediaPlayer\WindowsFormsControlLibrary\obj\Debug\WindowsFormsControlLibrary.pdb
