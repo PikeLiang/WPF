@@ -1,0 +1,14 @@
+﻿<Application
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	x:Class="WPF三维图形.App"
+	StartupUri="Window3.xaml">
+	<Application.Resources>
+		<!-- 应该在此定义应用程序级的资源。-->
+		<ResourceDictionary>
+			<ResourceDictionary.MergedDictionaries>
+				<ResourceDictionary Source="ResourceDictionary1.xaml"/>
+			</ResourceDictionary.MergedDictionaries>
+		</ResourceDictionary>
+	</Application.Resources>
+</Application>

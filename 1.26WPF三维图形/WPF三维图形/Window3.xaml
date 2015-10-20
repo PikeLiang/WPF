@@ -1,0 +1,20 @@
+﻿<Window
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	x:Class="WPF三维图形.Window3"
+	x:Name="Window"
+	Title="Window3"
+	Width="640" Height="480">
+
+	<Grid x:Name="LayoutRoot">
+	
+		
+		<Viewport3D x:Name="viewport3d" Margin="8,8,8,0" MouseLeftButtonDown="viewport3d_MouseLeftButtonDown" MouseMove="viewport3d_MouseMove" MouseWheel="viewport3d_MouseWheel">
+			<Viewport3D.Camera>
+				<PerspectiveCamera x:Name="ppc" FieldOfView="45" FarPlaneDistance="120" LookDirection="0,0,-10" NearPlaneDistance="0.1" Position="0,0,100" UpDirection="0,1,0"/>
+			</Viewport3D.Camera>
+		</Viewport3D>
+		
+		
+	</Grid>
+</Window>
