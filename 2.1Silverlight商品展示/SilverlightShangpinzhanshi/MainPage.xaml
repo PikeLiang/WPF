@@ -1,0 +1,53 @@
+﻿<UserControl
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:ec="http://schemas.microsoft.com/expression/2010/controls" mc:Ignorable="d"
+	x:Class="SilverlightShangpinzhanshi.MainPage" d:DesignWidth="716" d:DesignHeight="645">
+	<UserControl.Resources>
+		<Storyboard x:Name="Storyboard1" RepeatBehavior="Forever">
+			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(PathListBox.LayoutPaths)[0].(LayoutPath.Start)" Storyboard.TargetName="pathlistbox">
+				<EasingDoubleKeyFrame KeyTime="0" Value="0"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:40" Value="1"/>
+			</DoubleAnimationUsingKeyFrames>
+		</Storyboard>
+	</UserControl.Resources>
+
+	<ScrollViewer x:Name="LayoutRoot" Background="White">
+		<Canvas Height="540" Width="540">
+			<Canvas.Background>
+				<RadialGradientBrush>
+					<GradientStop Color="Blue" Offset="0.861"/>
+					<GradientStop Color="White" Offset="1"/>
+				</RadialGradientBrush>
+			</Canvas.Background>
+			<Path x:Name="path" Data="M359.5,180.5 C359.5,279.91125 279.1351,360.5 180,360.5 C80.864891,360.5 0.5,279.91125 0.5,180.5 C0.5,81.088745 80.864891,0.5 180,0.5 C279.1351,0.5 359.5,81.088745 359.5,180.5 z" Height="361" Canvas.Left="92" Stretch="Fill" Stroke="#FFF90404" Canvas.Top="83" Width="360" UseLayoutRounding="False" StrokeThickness="3"/>
+			<ec:PathListBox x:Name="pathlistbox" Height="100" Width="100" Canvas.Top="38" Canvas.Left="9">
+				<ec:PathListBox.LayoutPaths>
+					<ec:LayoutPath SourceElement="{Binding ElementName=path}"/>
+				</ec:PathListBox.LayoutPaths>
+				<Image x:Name="p1" Height="96" Source="image/size1/p1.png" Stretch="Fill" Width="100" Cursor="Hand" MouseEnter="Menter_MouseMove" MouseLeave="Mlease_MouseMove"/>
+				<Image x:Name="p2" Height="65" Source="image/size1/p2.png" Stretch="Fill" Width="100" Cursor="Hand" MouseEnter="Menter_MouseMove" MouseLeave="Mlease_MouseMove"/>
+				<Image x:Name="p3" Height="61" Source="image/size1/p3.png" Stretch="Fill" Width="100" Cursor="Hand" MouseEnter="Menter_MouseMove" MouseLeave="Mlease_MouseMove"/>
+				<Image x:Name="p4" Height="94" Source="image/size1/p4.png" Stretch="Fill" Width="100" Cursor="Hand" MouseEnter="Menter_MouseMove" MouseLeave="Mlease_MouseMove"/>
+				<Image x:Name="p5" Height="75" Source="image/size1/p5.png" Stretch="Fill" Width="100" Cursor="Hand" MouseEnter="Menter_MouseMove" MouseLeave="Mlease_MouseMove"/>
+				<Image x:Name="p6" Height="78" Source="image/size1/p6.png" Stretch="Fill" Width="100" Cursor="Hand" MouseEnter="Menter_MouseMove" MouseLeave="Mlease_MouseMove"/>
+				<Image x:Name="p7" Height="51" Source="image/size1/p7.png" Stretch="Fill" Width="100" Cursor="Hand" MouseEnter="Menter_MouseMove" MouseLeave="Mlease_MouseMove"/>
+				<Image x:Name="p8" Height="76" Source="image/size1/p8.png" Stretch="Fill" Width="100" Cursor="Hand" MouseEnter="Menter_MouseMove" MouseLeave="Mlease_MouseMove"/>
+				<Image x:Name="p9" Height="74" Source="image/size1/p9.png" Stretch="Fill" Width="100" Cursor="Hand" MouseEnter="Menter_MouseMove" MouseLeave="Mlease_MouseMove"/>
+				<Image x:Name="p10" Height="70" Source="image/size1/p10.png" Stretch="Fill" Width="117" Cursor="Hand" MouseEnter="Menter_MouseMove" MouseLeave="Mlease_MouseMove"/>
+			</ec:PathListBox>
+			<Ellipse x:Name="ellipse" Height="240" Canvas.Left="152" Stroke="Yellow" Canvas.Top="142" Width="240" StrokeThickness="0" RenderTransformOrigin="0.5,0.5">
+				<Ellipse.RenderTransform>
+					<CompositeTransform/>
+				</Ellipse.RenderTransform>
+				<Ellipse.Fill>
+					<RadialGradientBrush>
+						<GradientStop Color="#FF04990E" Offset="0.809"/>
+						<GradientStop Color="Yellow" Offset="0.991"/>
+					</RadialGradientBrush>
+				</Ellipse.Fill>
+			</Ellipse>
+			<Image x:Name="image" Height="180" Canvas.Left="181" Canvas.Top="176" Width="180"/>
+		</Canvas>
+	</ScrollViewer>
+</UserControl>

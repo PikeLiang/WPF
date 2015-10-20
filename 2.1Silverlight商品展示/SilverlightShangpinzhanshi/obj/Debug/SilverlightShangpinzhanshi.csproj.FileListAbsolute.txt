@@ -1,0 +1,65 @@
+D:\Expression Blend NewBook\Example\SilverlightShangpinzhanshi\SilverlightShangpinzhanshi\Bin\Debug\image\size2\p2.png
+D:\Expression Blend NewBook\Example\SilverlightShangpinzhanshi\SilverlightShangpinzhanshi\Bin\Debug\SilverlightShangpinzhanshi.dll
+D:\Expression Blend NewBook\Example\SilverlightShangpinzhanshi\SilverlightShangpinzhanshi\Bin\Debug\SilverlightShangpinzhanshi.pdb
+D:\Expression Blend NewBook\Example\SilverlightShangpinzhanshi\SilverlightShangpinzhanshi\Bin\Debug\AppManifest.xaml
+D:\Expression Blend NewBook\Example\SilverlightShangpinzhanshi\SilverlightShangpinzhanshi\Bin\Debug\SilverlightShangpinzhanshi.xap
+D:\Expression Blend NewBook\Example\SilverlightShangpinzhanshi\SilverlightShangpinzhanshi\Bin\Debug\TestPage.html
+D:\Expression Blend NewBook\Example\SilverlightShangpinzhanshi\SilverlightShangpinzhanshi\obj\Debug\ResolveAssemblyReference.cache
+D:\Expression Blend NewBook\Example\SilverlightShangpinzhanshi\SilverlightShangpinzhanshi\obj\Debug\App.g.cs
+D:\Expression Blend NewBook\Example\SilverlightShangpinzhanshi\SilverlightShangpinzhanshi\obj\Debug\MainPage.g.cs
+D:\Expression Blend NewBook\Example\SilverlightShangpinzhanshi\SilverlightShangpinzhanshi\obj\Debug\SilverlightShangpinzhanshi.g.resources
+D:\Expression Blend NewBook\Example\SilverlightShangpinzhanshi\SilverlightShangpinzhanshi\obj\Debug\SilverlightShangpinzhanshi.dll
+D:\Expression Blend NewBook\Example\SilverlightShangpinzhanshi\SilverlightShangpinzhanshi\obj\Debug\SilverlightShangpinzhanshi.pdb
+D:\Expression Blend NewBook\Example\SilverlightShangpinzhanshi\SilverlightShangpinzhanshi\obj\Debug\XapCacheFile.xml
+D:\Expression Blend NewBook\Example\SilverlightShangpinzhanshi\SilverlightShangpinzhanshi\Bin\Debug\Microsoft.Expression.Controls.dll
+D:\Expression Blend NewBook\Example\SilverlightShangpinzhanshi\SilverlightShangpinzhanshi\Bin\Debug\Microsoft.Expression.Drawing.dll
+D:\Expression Blend NewBook\Example\SilverlightShangpinzhanshi\SilverlightShangpinzhanshi\Bin\Debug\Microsoft.Expression.Controls.xml
+D:\Expression Blend NewBook\Example\SilverlightShangpinzhanshi\SilverlightShangpinzhanshi\Bin\Debug\Microsoft.Expression.Drawing.xml
+D:\Expression Blend NewBook\Example\18Silverlight商品展示\SilverlightShangpinzhanshi\Bin\Debug\SilverlightShangpinzhanshi.dll
+D:\Expression Blend NewBook\Example\18Silverlight商品展示\SilverlightShangpinzhanshi\Bin\Debug\SilverlightShangpinzhanshi.pdb
+D:\Expression Blend NewBook\Example\18Silverlight商品展示\SilverlightShangpinzhanshi\Bin\Debug\AppManifest.xaml
+D:\Expression Blend NewBook\Example\18Silverlight商品展示\SilverlightShangpinzhanshi\Bin\Debug\SilverlightShangpinzhanshi.xap
+D:\Expression Blend NewBook\Example\18Silverlight商品展示\SilverlightShangpinzhanshi\Bin\Debug\TestPage.html
+D:\Expression Blend NewBook\Example\18Silverlight商品展示\SilverlightShangpinzhanshi\Bin\Debug\Microsoft.Expression.Controls.dll
+D:\Expression Blend NewBook\Example\18Silverlight商品展示\SilverlightShangpinzhanshi\Bin\Debug\Microsoft.Expression.Drawing.dll
+D:\Expression Blend NewBook\Example\18Silverlight商品展示\SilverlightShangpinzhanshi\Bin\Debug\Microsoft.Expression.Controls.xml
+D:\Expression Blend NewBook\Example\18Silverlight商品展示\SilverlightShangpinzhanshi\Bin\Debug\Microsoft.Expression.Drawing.xml
+D:\Expression Blend NewBook\Example\18Silverlight商品展示\SilverlightShangpinzhanshi\obj\Debug\ResolveAssemblyReference.cache
+D:\Expression Blend NewBook\Example\18Silverlight商品展示\SilverlightShangpinzhanshi\obj\Debug\App.g.cs
+D:\Expression Blend NewBook\Example\18Silverlight商品展示\SilverlightShangpinzhanshi\obj\Debug\MainPage.g.cs
+D:\Expression Blend NewBook\Example\18Silverlight商品展示\SilverlightShangpinzhanshi\obj\Debug\SilverlightShangpinzhanshi.g.resources
+D:\Expression Blend NewBook\Example\18Silverlight商品展示\SilverlightShangpinzhanshi\obj\Debug\SilverlightShangpinzhanshi.dll
+D:\Expression Blend NewBook\Example\18Silverlight商品展示\SilverlightShangpinzhanshi\obj\Debug\SilverlightShangpinzhanshi.pdb
+D:\Expression Blend NewBook\Example\18Silverlight商品展示\SilverlightShangpinzhanshi\obj\Debug\XapCacheFile.xml
+D:\Expression Blend NewBook\Example\2.1Silverlight商品展示\SilverlightShangpinzhanshi\Bin\Debug\SilverlightShangpinzhanshi.dll
+D:\Expression Blend NewBook\Example\2.1Silverlight商品展示\SilverlightShangpinzhanshi\Bin\Debug\SilverlightShangpinzhanshi.pdb
+D:\Expression Blend NewBook\Example\2.1Silverlight商品展示\SilverlightShangpinzhanshi\Bin\Debug\AppManifest.xaml
+D:\Expression Blend NewBook\Example\2.1Silverlight商品展示\SilverlightShangpinzhanshi\Bin\Debug\SilverlightShangpinzhanshi.xap
+D:\Expression Blend NewBook\Example\2.1Silverlight商品展示\SilverlightShangpinzhanshi\Bin\Debug\TestPage.html
+D:\Expression Blend NewBook\Example\2.1Silverlight商品展示\SilverlightShangpinzhanshi\Bin\Debug\Microsoft.Expression.Controls.dll
+D:\Expression Blend NewBook\Example\2.1Silverlight商品展示\SilverlightShangpinzhanshi\Bin\Debug\Microsoft.Expression.Drawing.dll
+D:\Expression Blend NewBook\Example\2.1Silverlight商品展示\SilverlightShangpinzhanshi\Bin\Debug\Microsoft.Expression.Controls.xml
+D:\Expression Blend NewBook\Example\2.1Silverlight商品展示\SilverlightShangpinzhanshi\Bin\Debug\Microsoft.Expression.Drawing.xml
+D:\Expression Blend NewBook\Example\2.1Silverlight商品展示\SilverlightShangpinzhanshi\obj\Debug\ResolveAssemblyReference.cache
+D:\Expression Blend NewBook\Example\2.1Silverlight商品展示\SilverlightShangpinzhanshi\obj\Debug\App.g.cs
+D:\Expression Blend NewBook\Example\2.1Silverlight商品展示\SilverlightShangpinzhanshi\obj\Debug\MainPage.g.cs
+D:\Expression Blend NewBook\Example\2.1Silverlight商品展示\SilverlightShangpinzhanshi\obj\Debug\SilverlightShangpinzhanshi.g.resources
+D:\Expression Blend NewBook\Example\2.1Silverlight商品展示\SilverlightShangpinzhanshi\obj\Debug\SilverlightShangpinzhanshi.dll
+D:\Expression Blend NewBook\Example\2.1Silverlight商品展示\SilverlightShangpinzhanshi\obj\Debug\SilverlightShangpinzhanshi.pdb
+D:\Expression Blend NewBook\Example\2.1Silverlight商品展示\SilverlightShangpinzhanshi\obj\Debug\XapCacheFile.xml
+G:\WPF\光盘案例\项目\Example\2.1Silverlight商品展示\SilverlightShangpinzhanshi\Bin\Debug\SilverlightShangpinzhanshi.dll
+G:\WPF\光盘案例\项目\Example\2.1Silverlight商品展示\SilverlightShangpinzhanshi\Bin\Debug\SilverlightShangpinzhanshi.pdb
+G:\WPF\光盘案例\项目\Example\2.1Silverlight商品展示\SilverlightShangpinzhanshi\Bin\Debug\AppManifest.xaml
+G:\WPF\光盘案例\项目\Example\2.1Silverlight商品展示\SilverlightShangpinzhanshi\Bin\Debug\SilverlightShangpinzhanshi.xap
+G:\WPF\光盘案例\项目\Example\2.1Silverlight商品展示\SilverlightShangpinzhanshi\Bin\Debug\TestPage.html
+G:\WPF\光盘案例\项目\Example\2.1Silverlight商品展示\SilverlightShangpinzhanshi\Bin\Debug\Microsoft.Expression.Controls.dll
+G:\WPF\光盘案例\项目\Example\2.1Silverlight商品展示\SilverlightShangpinzhanshi\Bin\Debug\Microsoft.Expression.Drawing.dll
+G:\WPF\光盘案例\项目\Example\2.1Silverlight商品展示\SilverlightShangpinzhanshi\Bin\Debug\Microsoft.Expression.Controls.xml
+G:\WPF\光盘案例\项目\Example\2.1Silverlight商品展示\SilverlightShangpinzhanshi\Bin\Debug\Microsoft.Expression.Drawing.xml
+G:\WPF\光盘案例\项目\Example\2.1Silverlight商品展示\SilverlightShangpinzhanshi\obj\Debug\ResolveAssemblyReference.cache
+G:\WPF\光盘案例\项目\Example\2.1Silverlight商品展示\SilverlightShangpinzhanshi\obj\Debug\App.g.cs
+G:\WPF\光盘案例\项目\Example\2.1Silverlight商品展示\SilverlightShangpinzhanshi\obj\Debug\MainPage.g.cs
+G:\WPF\光盘案例\项目\Example\2.1Silverlight商品展示\SilverlightShangpinzhanshi\obj\Debug\SilverlightShangpinzhanshi.g.resources
+G:\WPF\光盘案例\项目\Example\2.1Silverlight商品展示\SilverlightShangpinzhanshi\obj\Debug\SilverlightShangpinzhanshi.dll
+G:\WPF\光盘案例\项目\Example\2.1Silverlight商品展示\SilverlightShangpinzhanshi\obj\Debug\SilverlightShangpinzhanshi.pdb
+G:\WPF\光盘案例\项目\Example\2.1Silverlight商品展示\SilverlightShangpinzhanshi\obj\Debug\XapCacheFile.xml
