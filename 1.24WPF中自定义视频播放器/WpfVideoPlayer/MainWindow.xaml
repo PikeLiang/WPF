@@ -1,0 +1,293 @@
+﻿<Window
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:ed="http://schemas.microsoft.com/expression/2010/drawing"
+	xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d"
+	x:Class="WpfVideoPlayer.MainWindow"
+	x:Name="Window"
+	Title="自定义播放器"
+	Width="640" Height="480" WindowStartupLocation="CenterScreen" Loaded="Window_Loaded">
+	<Window.Resources>
+		<Style x:Key="ButtonStyle1" TargetType="{x:Type Button}">
+			<Setter Property="Template">
+				<Setter.Value>
+					<ControlTemplate TargetType="{x:Type Button}">
+						<Grid>
+							<Ellipse Stroke="Black" StrokeThickness="0">
+								<Ellipse.Fill>
+									<LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+										<GradientStop Color="#FF030562" Offset="0.804"/>
+										<GradientStop Color="White"/>
+									</LinearGradientBrush>
+								</Ellipse.Fill>
+							</Ellipse>
+							<ContentPresenter Margin="12,1,4,1" RecognizesAccessKey="True" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}"/>
+						</Grid>
+						<ControlTemplate.Triggers>
+							<Trigger Property="IsFocused" Value="True"/>
+							<Trigger Property="IsDefaulted" Value="True"/>
+							<Trigger Property="IsMouseOver" Value="True"/>
+							<Trigger Property="IsPressed" Value="True"/>
+							<Trigger Property="IsEnabled" Value="False"/>
+						</ControlTemplate.Triggers>
+					</ControlTemplate>
+				</Setter.Value>
+			</Setter>
+			<Setter Property="FontWeight" Value="Bold"/>
+			<Setter Property="Foreground" Value="#FFFDDE0D"/>
+		</Style>
+		<Style x:Key="ButtonStyle2" TargetType="{x:Type Button}">
+			<Setter Property="Template">
+				<Setter.Value>
+					<ControlTemplate TargetType="{x:Type Button}">
+						<Grid>
+							<Ellipse Stroke="Black" StrokeThickness="0">
+								<Ellipse.Fill>
+									<LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+										<GradientStop Color="#FF030562" Offset="0.804"/>
+										<GradientStop Color="White"/>
+									</LinearGradientBrush>
+								</Ellipse.Fill>
+							</Ellipse>
+							<Rectangle HorizontalAlignment="Left" Margin="10,4,0,4" Stroke="Black" StrokeThickness="0" Width="4" Fill="#FFFFD200"/>
+							<Rectangle HorizontalAlignment="Right" Margin="0,4,12,4" Stroke="Black" StrokeThickness="0" Width="4" Fill="#FFFFD200"/>
+							<ContentPresenter HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" RecognizesAccessKey="True" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}"/>
+						</Grid>
+						<ControlTemplate.Triggers>
+							<Trigger Property="IsFocused" Value="True"/>
+							<Trigger Property="IsDefaulted" Value="True"/>
+							<Trigger Property="IsMouseOver" Value="True"/>
+							<Trigger Property="IsPressed" Value="True"/>
+							<Trigger Property="IsEnabled" Value="False"/>
+						</ControlTemplate.Triggers>
+					</ControlTemplate>
+				</Setter.Value>
+			</Setter>
+		</Style>
+		<Style x:Key="ButtonStyle3" TargetType="{x:Type Button}">
+			<Setter Property="Template">
+				<Setter.Value>
+					<ControlTemplate TargetType="{x:Type Button}">
+						<Grid>
+							<Ellipse Stroke="Black" StrokeThickness="0">
+								<Ellipse.Fill>
+									<LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+										<GradientStop Color="#FF030562" Offset="0.804"/>
+										<GradientStop Color="White"/>
+									</LinearGradientBrush>
+								</Ellipse.Fill>
+							</Ellipse>
+							<ed:RegularPolygon Fill="#FFFFD200" InnerRadius="1" Margin="11,5,8,4" PointCount="3" Stretch="Fill" Stroke="Black" StrokeThickness="0" RenderTransformOrigin="0.5,0.5">
+								<ed:RegularPolygon.RenderTransform>
+									<TransformGroup>
+										<ScaleTransform ScaleY="-1" ScaleX="-1"/>
+										<SkewTransform AngleY="0" AngleX="0"/>
+										<RotateTransform Angle="-90"/>
+										<TranslateTransform/>
+									</TransformGroup>
+								</ed:RegularPolygon.RenderTransform>
+							</ed:RegularPolygon>
+							<ContentPresenter HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" RecognizesAccessKey="True" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}"/>
+						</Grid>
+						<ControlTemplate.Triggers>
+							<Trigger Property="IsFocused" Value="True"/>
+							<Trigger Property="IsDefaulted" Value="True"/>
+							<Trigger Property="IsMouseOver" Value="True"/>
+							<Trigger Property="IsPressed" Value="True"/>
+							<Trigger Property="IsEnabled" Value="False"/>
+						</ControlTemplate.Triggers>
+					</ControlTemplate>
+				</Setter.Value>
+			</Setter>
+		</Style>
+		<Style x:Key="ButtonStyle4" TargetType="{x:Type Button}">
+			<Setter Property="Template">
+				<Setter.Value>
+					<ControlTemplate TargetType="{x:Type Button}">
+						<Grid>
+							<Ellipse Stroke="Black" StrokeThickness="0">
+								<Ellipse.Fill>
+									<LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+										<GradientStop Color="#FF030562" Offset="0.804"/>
+										<GradientStop Color="White"/>
+									</LinearGradientBrush>
+								</Ellipse.Fill>
+							</Ellipse>
+							<Rectangle Margin="10,5,11,6" Stroke="Black" StrokeThickness="0" Fill="#FFFFD200"/>
+							<ContentPresenter HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" RecognizesAccessKey="True" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}"/>
+						</Grid>
+						<ControlTemplate.Triggers>
+							<Trigger Property="IsFocused" Value="True"/>
+							<Trigger Property="IsDefaulted" Value="True"/>
+							<Trigger Property="IsMouseOver" Value="True"/>
+							<Trigger Property="IsPressed" Value="True"/>
+							<Trigger Property="IsEnabled" Value="False"/>
+						</ControlTemplate.Triggers>
+					</ControlTemplate>
+				</Setter.Value>
+			</Setter>
+		</Style>
+		<Style x:Key="ButtonStyle5" TargetType="{x:Type Button}">
+			<Setter Property="Template">
+				<Setter.Value>
+					<ControlTemplate TargetType="{x:Type Button}">
+						<Grid>
+							<Ellipse Stroke="Black" StrokeThickness="0">
+								<Ellipse.Fill>
+									<LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+										<GradientStop Color="#FF030562" Offset="0.804"/>
+										<GradientStop Color="White"/>
+									</LinearGradientBrush>
+								</Ellipse.Fill>
+							</Ellipse>
+							<ed:BlockArrow Margin="4,8,11,5" Orientation="Left" Stroke="Black" StrokeThickness="0" RenderTransformOrigin="0.5,0.5" Fill="#FFFFD200" ArrowheadAngle="71">
+								<ed:BlockArrow.RenderTransform>
+									<TransformGroup>
+										<ScaleTransform ScaleY="-1"/>
+										<SkewTransform/>
+										<RotateTransform/>
+										<TranslateTransform/>
+									</TransformGroup>
+								</ed:BlockArrow.RenderTransform>
+							</ed:BlockArrow>
+							<Rectangle Fill="#FFFFD200" HorizontalAlignment="Right" Margin="0,3,11,10" Stroke="Black" StrokeThickness="0" Width="5"/>
+							<ContentPresenter HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" RecognizesAccessKey="True" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}"/>
+						</Grid>
+						<ControlTemplate.Triggers>
+							<Trigger Property="IsFocused" Value="True"/>
+							<Trigger Property="IsDefaulted" Value="True"/>
+							<Trigger Property="IsMouseOver" Value="True"/>
+							<Trigger Property="IsPressed" Value="True"/>
+							<Trigger Property="IsEnabled" Value="False"/>
+						</ControlTemplate.Triggers>
+					</ControlTemplate>
+				</Setter.Value>
+			</Setter>
+		</Style>
+		<Style x:Key="ButtonStyle6" TargetType="{x:Type Button}">
+			<Setter Property="Template">
+				<Setter.Value>
+					<ControlTemplate TargetType="{x:Type Button}">
+						<Grid>
+							<Ellipse Stroke="Black" StrokeThickness="0" Width="33">
+								<Ellipse.Fill>
+									<LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+										<GradientStop Color="#FF030562" Offset="0.804"/>
+										<GradientStop Color="White"/>
+									</LinearGradientBrush>
+								</Ellipse.Fill>
+							</Ellipse>
+							<ed:BlockArrow Margin="8,4,7,5" Orientation="Right" Stroke="Black" StrokeThickness="0" Fill="#FFFFD200" Width="18"/>
+							<ContentPresenter HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" RecognizesAccessKey="True" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}"/>
+						</Grid>
+						<ControlTemplate.Triggers>
+							<Trigger Property="IsFocused" Value="True"/>
+							<Trigger Property="IsDefaulted" Value="True"/>
+							<Trigger Property="IsMouseOver" Value="True"/>
+							<Trigger Property="IsPressed" Value="True"/>
+							<Trigger Property="IsEnabled" Value="False"/>
+						</ControlTemplate.Triggers>
+					</ControlTemplate>
+				</Setter.Value>
+			</Setter>
+		</Style>
+		<Style x:Key="ButtonStyle7" TargetType="{x:Type Button}">
+			<Setter Property="Template">
+				<Setter.Value>
+					<ControlTemplate TargetType="{x:Type Button}">
+						<Grid>
+							<Ellipse Stroke="Black" StrokeThickness="0">
+								<Ellipse.Fill>
+									<LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+										<GradientStop Color="#FF030562" Offset="0.804"/>
+										<GradientStop Color="White"/>
+									</LinearGradientBrush>
+								</Ellipse.Fill>
+							</Ellipse>
+							<ed:BlockArrow Margin="6,4,9,5" Orientation="Left" Stroke="Black" StrokeThickness="0" Fill="#FFFFD200"/>
+							<ContentPresenter HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" RecognizesAccessKey="True" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}"/>
+						</Grid>
+						<ControlTemplate.Triggers>
+							<Trigger Property="IsFocused" Value="True"/>
+							<Trigger Property="IsDefaulted" Value="True"/>
+							<Trigger Property="IsMouseOver" Value="True"/>
+							<Trigger Property="IsPressed" Value="True"/>
+							<Trigger Property="IsEnabled" Value="False"/>
+						</ControlTemplate.Triggers>
+					</ControlTemplate>
+				</Setter.Value>
+			</Setter>
+		</Style>
+		<Style x:Key="ButtonStyle8" TargetType="{x:Type Button}">
+			<Setter Property="Template">
+				<Setter.Value>
+					<ControlTemplate TargetType="{x:Type Button}">
+						<Grid>
+							<Ellipse Stroke="Black" StrokeThickness="0">
+								<Ellipse.Fill>
+									<LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+										<GradientStop Color="#FF030562" Offset="0.804"/>
+										<GradientStop Color="White"/>
+									</LinearGradientBrush>
+								</Ellipse.Fill>
+							</Ellipse>
+							<ed:BlockArrow Margin="16,4,7,5" Orientation="Right" Stroke="Black" StrokeThickness="0" Fill="#FFFFD200"/>
+							<ed:BlockArrow Margin="7,4,16,5" Orientation="Right" Stroke="Black" StrokeThickness="0" Fill="#FFFFD200"/>
+							<ContentPresenter HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" RecognizesAccessKey="True" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}"/>
+						</Grid>
+						<ControlTemplate.Triggers>
+							<Trigger Property="IsFocused" Value="True"/>
+							<Trigger Property="IsDefaulted" Value="True"/>
+							<Trigger Property="IsMouseOver" Value="True"/>
+							<Trigger Property="IsPressed" Value="True"/>
+							<Trigger Property="IsEnabled" Value="False"/>
+						</ControlTemplate.Triggers>
+					</ControlTemplate>
+				</Setter.Value>
+			</Setter>
+		</Style>
+		<Style x:Key="ButtonStyle9" TargetType="{x:Type Button}">
+			<Setter Property="Template">
+				<Setter.Value>
+					<ControlTemplate TargetType="{x:Type Button}">
+						<Grid>
+							<Ellipse Stroke="Black" StrokeThickness="0">
+								<Ellipse.Fill>
+									<LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+										<GradientStop Color="#FF030562" Offset="0.804"/>
+										<GradientStop Color="White"/>
+									</LinearGradientBrush>
+								</Ellipse.Fill>
+							</Ellipse>
+							<ed:BlockArrow Margin="5,4,0,5" Orientation="Left" Stroke="Black" StrokeThickness="0" Fill="#FFFFD200" HorizontalAlignment="Left" Width="10"/>
+							<ed:BlockArrow Margin="15,4,8,5" Orientation="Left" Stroke="Black" StrokeThickness="0" Fill="#FFFFD200"/>
+							<ContentPresenter HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" RecognizesAccessKey="True" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}"/>
+						</Grid>
+						<ControlTemplate.Triggers>
+							<Trigger Property="IsFocused" Value="True"/>
+							<Trigger Property="IsDefaulted" Value="True"/>
+							<Trigger Property="IsMouseOver" Value="True"/>
+							<Trigger Property="IsPressed" Value="True"/>
+							<Trigger Property="IsEnabled" Value="False"/>
+						</ControlTemplate.Triggers>
+					</ControlTemplate>
+				</Setter.Value>
+			</Setter>
+		</Style>
+	</Window.Resources>
+
+	<Grid x:Name="LayoutRoot" Background="Black">
+		<MediaElement x:Name="me" Margin="0,0,0,87" LoadedBehavior="Manual" Volume="{Binding Value, ElementName=slider}"/>
+		<ScrollBar x:Name="sbar" Height="20" Margin="17,0,21,56" VerticalAlignment="Bottom" Orientation="Horizontal" Maximum="1000" Cursor="Hand" Scroll="sbar_Scroll" Foreground="{x:Null}" ScrollViewer.HorizontalScrollBarVisibility="Visible"/>
+		<TextBlock x:Name="tb1" Height="21" Margin="0,0,250,24" TextWrapping="Wrap" Text="00:00:00" VerticalAlignment="Bottom" Foreground="Lime" FontSize="13.333" HorizontalAlignment="Right" Width="60"/>
+		<Slider x:Name="slider" HorizontalAlignment="Right" Margin="0,0,16,28" VerticalAlignment="Bottom" Width="91" Height="22" Cursor="Hand" Value="0.5" Maximum="1" LargeChange="0.1" Background="#00E4DB00" BorderBrush="#FFCFFF02" Foreground="#FFFFFF0B" SmallChange="0.01"/>
+		<Image x:Name="image" HorizontalAlignment="Right" Height="16" Margin="0,0,104,30" Source="s1.png" Stretch="Fill" VerticalAlignment="Bottom" Width="20" Cursor="Hand" MouseLeftButtonDown="Image_MouseLeftButtonDown"/>
+		<Button x:Name="pause" Content="" HorizontalAlignment="Left" Height="23" Margin="74,0,0,26" Style="{DynamicResource ButtonStyle2}" VerticalAlignment="Bottom" Width="33" Cursor="Hand" Click="pause_Click" ToolTip="暂停"/>
+		<Button x:Name="play" Content="" HorizontalAlignment="Left" Height="23" Margin="113,0,0,26" Style="{DynamicResource ButtonStyle3}" VerticalAlignment="Bottom" Width="33" Click="play_Click" ToolTip="继续播放" Cursor="Hand"/>
+		<Button x:Name="stop" Content="" HorizontalAlignment="Left" Height="23" Margin="151,0,0,26" Style="{DynamicResource ButtonStyle4}" VerticalAlignment="Bottom" Width="33" Click="stop_Click" ToolTip="停止" Cursor="Hand"/>
+		<Button x:Name="button" Content="F" HorizontalAlignment="Left" Height="23" Margin="35,0,0,26" Style="{DynamicResource ButtonStyle1}" VerticalAlignment="Bottom" Width="33" Cursor="Hand" Click="button_Click" ToolTip="选择WMV文件"/>
+		<Button x:Name="repeat" Content="" HorizontalAlignment="Left" Height="23" Margin="189,0,0,26" Style="{DynamicResource ButtonStyle5}" VerticalAlignment="Bottom" Width="33" Click="repeat_Click" ToolTip="重播" Cursor="Hand"/>
+		<Button x:Name="forward" Content="" Height="23" Margin="227,0,0,26" Style="{DynamicResource ButtonStyle6}" VerticalAlignment="Bottom" Click="forward_Click" ToolTip="前进" Cursor="Hand" HorizontalAlignment="Left" Width="33"/>
+		<Button x:Name="back" Content="" Height="23" Margin="264,0,0,26" Style="{DynamicResource ButtonStyle7}" VerticalAlignment="Bottom" Click="back_Click" ToolTip="后退" Cursor="Hand" HorizontalAlignment="Left" Width="33"/>
+	</Grid>
+</Window>

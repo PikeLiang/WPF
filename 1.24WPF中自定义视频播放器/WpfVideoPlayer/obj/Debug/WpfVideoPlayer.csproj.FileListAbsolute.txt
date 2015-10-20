@@ -1,0 +1,58 @@
+D:\Expression Blend NewBook\Example\WpfVideoPlayer\WpfVideoPlayer\bin\Debug\WpfVideoPlayer.exe
+D:\Expression Blend NewBook\Example\WpfVideoPlayer\WpfVideoPlayer\bin\Debug\WpfVideoPlayer.pdb
+D:\Expression Blend NewBook\Example\WpfVideoPlayer\WpfVideoPlayer\obj\Debug\ResolveAssemblyReference.cache
+D:\Expression Blend NewBook\Example\WpfVideoPlayer\WpfVideoPlayer\obj\Debug\MainWindow.baml
+D:\Expression Blend NewBook\Example\WpfVideoPlayer\WpfVideoPlayer\obj\Debug\MainWindow.g.cs
+D:\Expression Blend NewBook\Example\WpfVideoPlayer\WpfVideoPlayer\obj\Debug\App.g.cs
+D:\Expression Blend NewBook\Example\WpfVideoPlayer\WpfVideoPlayer\obj\Debug\WpfVideoPlayer_MarkupCompile.cache
+D:\Expression Blend NewBook\Example\WpfVideoPlayer\WpfVideoPlayer\obj\Debug\WpfVideoPlayer.g.resources
+D:\Expression Blend NewBook\Example\WpfVideoPlayer\WpfVideoPlayer\obj\Debug\WpfVideoPlayer.exe
+D:\Expression Blend NewBook\Example\WpfVideoPlayer\WpfVideoPlayer\obj\Debug\WpfVideoPlayer.pdb
+D:\Expression Blend NewBook\Example\WPF中自定义MediaPlayer\WpfVideoPlayer\bin\Debug\WpfVideoPlayer.exe
+D:\Expression Blend NewBook\Example\WPF中自定义MediaPlayer\WpfVideoPlayer\bin\Debug\WpfVideoPlayer.pdb
+D:\Expression Blend NewBook\Example\WPF中自定义MediaPlayer\WpfVideoPlayer\obj\Debug\ResolveAssemblyReference.cache
+D:\Expression Blend NewBook\Example\WPF中自定义MediaPlayer\WpfVideoPlayer\obj\Debug\MainWindow.baml
+D:\Expression Blend NewBook\Example\WPF中自定义MediaPlayer\WpfVideoPlayer\obj\Debug\MainWindow.g.cs
+D:\Expression Blend NewBook\Example\WPF中自定义MediaPlayer\WpfVideoPlayer\obj\Debug\App.g.cs
+D:\Expression Blend NewBook\Example\WPF中自定义MediaPlayer\WpfVideoPlayer\obj\Debug\WpfVideoPlayer_MarkupCompile.cache
+D:\Expression Blend NewBook\Example\WPF中自定义MediaPlayer\WpfVideoPlayer\obj\Debug\WpfVideoPlayer.g.resources
+D:\Expression Blend NewBook\Example\WPF中自定义MediaPlayer\WpfVideoPlayer\obj\Debug\WpfVideoPlayer.exe
+D:\Expression Blend NewBook\Example\WPF中自定义MediaPlayer\WpfVideoPlayer\obj\Debug\WpfVideoPlayer.pdb
+D:\Expression Blend NewBook\Example\WPF中自定义MediaPlayer\WpfVideoPlayer\bin\Debug\Microsoft.Expression.Drawing.dll
+D:\Expression Blend NewBook\Example\WPF中自定义MediaPlayer\WpfVideoPlayer\bin\Debug\Microsoft.Expression.Drawing.xml
+D:\Expression Blend NewBook\Example\16WPF中自定义视频播放器\WpfVideoPlayer\bin\Debug\WpfVideoPlayer.exe
+D:\Expression Blend NewBook\Example\16WPF中自定义视频播放器\WpfVideoPlayer\bin\Debug\WpfVideoPlayer.pdb
+D:\Expression Blend NewBook\Example\16WPF中自定义视频播放器\WpfVideoPlayer\bin\Debug\Microsoft.Expression.Drawing.dll
+D:\Expression Blend NewBook\Example\16WPF中自定义视频播放器\WpfVideoPlayer\bin\Debug\Microsoft.Expression.Drawing.xml
+D:\Expression Blend NewBook\Example\16WPF中自定义视频播放器\WpfVideoPlayer\obj\Debug\ResolveAssemblyReference.cache
+D:\Expression Blend NewBook\Example\16WPF中自定义视频播放器\WpfVideoPlayer\obj\Debug\MainWindow.baml
+D:\Expression Blend NewBook\Example\16WPF中自定义视频播放器\WpfVideoPlayer\obj\Debug\MainWindow.g.cs
+D:\Expression Blend NewBook\Example\16WPF中自定义视频播放器\WpfVideoPlayer\obj\Debug\App.g.cs
+D:\Expression Blend NewBook\Example\16WPF中自定义视频播放器\WpfVideoPlayer\obj\Debug\WpfVideoPlayer_MarkupCompile.cache
+D:\Expression Blend NewBook\Example\16WPF中自定义视频播放器\WpfVideoPlayer\obj\Debug\WpfVideoPlayer.g.resources
+D:\Expression Blend NewBook\Example\16WPF中自定义视频播放器\WpfVideoPlayer\obj\Debug\WpfVideoPlayer.exe
+D:\Expression Blend NewBook\Example\16WPF中自定义视频播放器\WpfVideoPlayer\obj\Debug\WpfVideoPlayer.pdb
+D:\Expression Blend NewBook\Example\1.24WPF中自定义视频播放器\WpfVideoPlayer\bin\Debug\WpfVideoPlayer.exe
+D:\Expression Blend NewBook\Example\1.24WPF中自定义视频播放器\WpfVideoPlayer\bin\Debug\WpfVideoPlayer.pdb
+D:\Expression Blend NewBook\Example\1.24WPF中自定义视频播放器\WpfVideoPlayer\bin\Debug\Microsoft.Expression.Drawing.dll
+D:\Expression Blend NewBook\Example\1.24WPF中自定义视频播放器\WpfVideoPlayer\bin\Debug\Microsoft.Expression.Drawing.xml
+D:\Expression Blend NewBook\Example\1.24WPF中自定义视频播放器\WpfVideoPlayer\obj\Debug\ResolveAssemblyReference.cache
+D:\Expression Blend NewBook\Example\1.24WPF中自定义视频播放器\WpfVideoPlayer\obj\Debug\MainWindow.baml
+D:\Expression Blend NewBook\Example\1.24WPF中自定义视频播放器\WpfVideoPlayer\obj\Debug\MainWindow.g.cs
+D:\Expression Blend NewBook\Example\1.24WPF中自定义视频播放器\WpfVideoPlayer\obj\Debug\App.g.cs
+D:\Expression Blend NewBook\Example\1.24WPF中自定义视频播放器\WpfVideoPlayer\obj\Debug\WpfVideoPlayer_MarkupCompile.cache
+D:\Expression Blend NewBook\Example\1.24WPF中自定义视频播放器\WpfVideoPlayer\obj\Debug\WpfVideoPlayer.g.resources
+D:\Expression Blend NewBook\Example\1.24WPF中自定义视频播放器\WpfVideoPlayer\obj\Debug\WpfVideoPlayer.exe
+D:\Expression Blend NewBook\Example\1.24WPF中自定义视频播放器\WpfVideoPlayer\obj\Debug\WpfVideoPlayer.pdb
+G:\WPF\光盘案例\项目\Example\1.24WPF中自定义视频播放器\WpfVideoPlayer\bin\Debug\WpfVideoPlayer.exe
+G:\WPF\光盘案例\项目\Example\1.24WPF中自定义视频播放器\WpfVideoPlayer\bin\Debug\WpfVideoPlayer.pdb
+G:\WPF\光盘案例\项目\Example\1.24WPF中自定义视频播放器\WpfVideoPlayer\bin\Debug\Microsoft.Expression.Drawing.dll
+G:\WPF\光盘案例\项目\Example\1.24WPF中自定义视频播放器\WpfVideoPlayer\bin\Debug\Microsoft.Expression.Drawing.xml
+G:\WPF\光盘案例\项目\Example\1.24WPF中自定义视频播放器\WpfVideoPlayer\obj\Debug\ResolveAssemblyReference.cache
+G:\WPF\光盘案例\项目\Example\1.24WPF中自定义视频播放器\WpfVideoPlayer\obj\Debug\MainWindow.baml
+G:\WPF\光盘案例\项目\Example\1.24WPF中自定义视频播放器\WpfVideoPlayer\obj\Debug\MainWindow.g.cs
+G:\WPF\光盘案例\项目\Example\1.24WPF中自定义视频播放器\WpfVideoPlayer\obj\Debug\App.g.cs
+G:\WPF\光盘案例\项目\Example\1.24WPF中自定义视频播放器\WpfVideoPlayer\obj\Debug\WpfVideoPlayer_MarkupCompile.cache
+G:\WPF\光盘案例\项目\Example\1.24WPF中自定义视频播放器\WpfVideoPlayer\obj\Debug\WpfVideoPlayer.g.resources
+G:\WPF\光盘案例\项目\Example\1.24WPF中自定义视频播放器\WpfVideoPlayer\obj\Debug\WpfVideoPlayer.exe
+G:\WPF\光盘案例\项目\Example\1.24WPF中自定义视频播放器\WpfVideoPlayer\obj\Debug\WpfVideoPlayer.pdb
