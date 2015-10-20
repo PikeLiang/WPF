@@ -1,0 +1,90 @@
+﻿<UserControl
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:ed="http://schemas.microsoft.com/expression/2010/drawing" mc:Ignorable="d"
+	x:Class="SilverlightStoryBoard.MainPage" d:DesignWidth="669" d:DesignHeight="536">
+	<UserControl.Resources>
+		<Style x:Key="ButtonStyle1" TargetType="Button">
+			<Setter Property="Template">
+				<Setter.Value>
+					<ControlTemplate TargetType="Button">
+						<Grid x:Name="button1" Cursor="Hand" >
+							<Grid.Effect>
+								<DropShadowEffect/>
+							</Grid.Effect>
+							<ed:RegularPolygon InnerRadius="0.47211" PointCount="96" Stretch="Fill" UseLayoutRounding="False" Fill="Blue" StrokeThickness="0" Cursor="Hand"/>
+							<ContentPresenter Margin="27,15,23,7"/>
+						</Grid>
+					</ControlTemplate>
+				</Setter.Value>
+			</Setter>
+			<Setter Property="FontSize" Value="13.333"/>
+			<Setter Property="Foreground" Value="White"/>
+		</Style>
+		<Style x:Key="ButtonStyle2" TargetType="Button">
+			<Setter Property="Template">
+				<Setter.Value>
+					<ControlTemplate TargetType="Button">
+						<Grid x:Name="button2" Cursor="Hand" >
+							<Grid.Effect>
+								<DropShadowEffect/>
+							</Grid.Effect>
+							<ed:RegularPolygon InnerRadius="0.47211" PointCount="96" Stretch="Fill" UseLayoutRounding="False" Fill="Blue" StrokeThickness="0" Cursor="Hand"/>
+							<ContentPresenter Margin="27,15,23,7"/>
+						</Grid>
+					</ControlTemplate>
+				</Setter.Value>
+			</Setter>
+			<Setter Property="FontSize" Value="13.333"/>
+			<Setter Property="Foreground" Value="White"/>
+		</Style>
+		<Style x:Key="ButtonStyle3" TargetType="Button">
+			<Setter Property="Template">
+				<Setter.Value>
+					<ControlTemplate TargetType="Button">
+						<Grid x:Name="button3" Cursor="Hand" >
+							<Grid.Effect>
+								<DropShadowEffect/>
+							</Grid.Effect>
+							<ed:RegularPolygon InnerRadius="0.47211" PointCount="96" Stretch="Fill" UseLayoutRounding="False" Fill="Blue" StrokeThickness="0" Cursor="Hand"/>
+							<ContentPresenter Margin="27,15,23,7"/>
+						</Grid>
+					</ControlTemplate>
+				</Setter.Value>
+			</Setter>
+			<Setter Property="FontSize" Value="13.333"/>
+			<Setter Property="Foreground" Value="White"/>
+		</Style>
+		<Style x:Key="ButtonStyle4" TargetType="Button">
+			<Setter Property="Template">
+				<Setter.Value>
+					<ControlTemplate TargetType="Button">
+						<Grid x:Name="button4" Cursor="Hand" >
+							<Grid.Effect>
+								<DropShadowEffect/>
+							</Grid.Effect>
+							<ed:RegularPolygon InnerRadius="0.47211" PointCount="96" Stretch="Fill" UseLayoutRounding="False" Fill="Blue" StrokeThickness="0" Cursor="Hand"/>
+							<ContentPresenter Margin="27,15,23,7"/>
+						</Grid>
+					</ControlTemplate>
+				</Setter.Value>
+			</Setter>
+			<Setter Property="FontSize" Value="13.333"/>
+			<Setter Property="Foreground" Value="White"/>
+		</Style>
+	</UserControl.Resources>
+
+	<ScrollViewer x:Name="LayoutRoot" Background="White">
+		<Canvas x:Name="canvas1" Height="333" Width="481">
+			<Image x:Name="image" Height="333" Source="im10.JPG" Width="482" Stretch="Fill">
+				<Image.Projection>
+					<PlaneProjection/>
+				</Image.Projection>
+			</Image>
+			<Button x:Name="button1" Content="椭圆剪裁" Height="49" Style="{StaticResource ButtonStyle1}" Canvas.Top="284" Width="108" Click="button1_Click"/>
+			<Button x:Name="button2" Content="颜色变化" Height="49" Canvas.Left="374" Style="{StaticResource ButtonStyle2}" Canvas.Top="284" Width="108" Click="button2_Click"/>
+			<Button x:Name="button3" Content="随机运动" Height="49" Canvas.Left="374" Style="{StaticResource ButtonStyle3}" Canvas.Top="1" Width="108" Click="button3_Click"/>
+			<Button x:Name="button4" Content="图片旋转" Height="49" Canvas.Left="1" Style="{StaticResource ButtonStyle4}" Canvas.Top="1" Width="108" Click="button4_Click"/>
+		</Canvas>
+	</ScrollViewer>
+</UserControl>
