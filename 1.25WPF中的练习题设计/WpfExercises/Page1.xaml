@@ -1,0 +1,108 @@
+﻿<Page
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d"
+	x:Class="WpfExercises.Page1"
+	x:Name="Page"
+	WindowTitle="Page"
+	FlowDirection="LeftToRight"
+	WindowWidth="640" WindowHeight="480" d:DesignWidth="800" d:DesignHeight="600" Title="单选题" Width="792" Height="400" MouseEnter="Page_MouseEnter">
+
+	<Grid x:Name="LayoutRoot">
+		<Grid.Background>
+			<LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+				<GradientStop Color="#FFDCDCFF" Offset="0"/>
+				<GradientStop Color="White" Offset="1"/>
+			</LinearGradientBrush>
+		</Grid.Background>
+		<TabControl>
+			<TabItem Header="1组">
+				<Grid Background="#FFE5E5E5" Margin="0,0,0,-3">
+					<Grid.ColumnDefinitions>
+						<ColumnDefinition Width="0*"/>
+						<ColumnDefinition/>
+					</Grid.ColumnDefinitions>
+					<Grid x:Name="grid1" Grid.Column="1" HorizontalAlignment="Left" Height="232.117" Margin="35,24.883,0,0" VerticalAlignment="Top" Width="356">
+						<TextBlock Height="22" TextWrapping="Wrap" Text="1、WPF是：" VerticalAlignment="Top"/>
+						<RadioButton x:Name="dt1_1" Content="Adobe公司的产品" HorizontalAlignment="Left" Margin="27,70,0,0" VerticalAlignment="Top" Click="dt1_Click"/>
+						<RadioButton x:Name="dt1_2" Content="Macromedia公司的产品" Margin="27,105,137.813,106" d:LayoutOverrides="Width, Height" Click="dt1_Click"/>
+						<RadioButton x:Name="dt1_3" Content="微软公司的产品" Click="dt1_Click" HorizontalAlignment="Left" Margin="27,0,0,69" VerticalAlignment="Bottom"/>
+						<RadioButton x:Name="dt1_4" Content="Sun公司的产品" HorizontalAlignment="Left" Margin="27,0,0,28" VerticalAlignment="Bottom" Click="dt1_Click"/>
+						<TextBlock x:Name="dxt1" HorizontalAlignment="Left" Height="27" Margin="8,26,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="44" Foreground="Red" FontSize="21.333"/>
+					</Grid>
+					<Grid x:Name="grid2" Grid.Column="1" Margin="0,24.883,17,0" HorizontalAlignment="Right" Width="353" Height="232.117" VerticalAlignment="Top">
+						<TextBlock Height="22" TextWrapping="Wrap" Text="2、WPF是什么类型的软件？" VerticalAlignment="Top"/>
+						<RadioButton x:Name="dt2_1" Content="“RIA”设计软件" Margin="27,73,49.04,0" d:LayoutOverrides="Width" VerticalAlignment="Top" Click="dt2_Click"/>
+						<RadioButton x:Name="dt2_2" Content="动画制作软件" Margin="27,109,3.813,102" d:LayoutOverrides="Width, Height" Click="dt2_Click"/>
+						<RadioButton x:Name="dt2_3" Content="数据库应用软件" Margin="27,0,68,64" VerticalAlignment="Bottom" d:LayoutOverrides="Width" Click="dt2_Click"/>
+						<RadioButton x:Name="dt2_4" Content="图形处理软件" Margin="27,0,71.046,26" VerticalAlignment="Bottom" d:LayoutOverrides="Width" Click="dt2_Click"/>
+						<TextBlock x:Name="dxt2" HorizontalAlignment="Left" Height="27" Margin="14,28,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="44" Foreground="Red" FontSize="21.333"/>
+					</Grid>
+				</Grid>
+			</TabItem>
+			<TabItem Header="2组">
+				<Grid Background="#FFE5E5E5">
+					<Grid x:Name="grid3" HorizontalAlignment="Left" Height="232.117" Margin="35,24.883,0,0" VerticalAlignment="Top" Width="356">
+						<TextBlock Height="22" TextWrapping="Wrap" Text="3、WPF中故事板作用" VerticalAlignment="Top"/>
+						<RadioButton x:Name="dt3_1" Content="用于视频编辑" HorizontalAlignment="Left" Margin="27,70,0,0" VerticalAlignment="Top" Click="dt3_Click"/>
+						<RadioButton x:Name="dt3_2" Content="制作动画的时间线" Margin="27,105,137.813,106" d:LayoutOverrides="Width, Height" Click="dt3_Click"/>
+						<RadioButton x:Name="dt3_3" Content="动画动作处理" Click="dt3_Click" HorizontalAlignment="Left" Margin="27,0,0,69" VerticalAlignment="Bottom"/>
+						<RadioButton x:Name="dt3_4" Content="音频编辑" HorizontalAlignment="Left" Margin="27,0,0,28" VerticalAlignment="Bottom" Click="dt3_Click"/>
+						<TextBlock x:Name="dxt3" HorizontalAlignment="Left" Height="27" Margin="14,28,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="44" Foreground="Red" FontSize="21.333"/>
+					</Grid>
+					<Grid x:Name="grid4" Margin="0,24.883,17,0" HorizontalAlignment="Right" Width="353" Height="232.117" VerticalAlignment="Top">
+						<TextBlock Height="22" TextWrapping="Wrap" Text="4、WPF中画笔的作用" VerticalAlignment="Top"/>
+						<RadioButton x:Name="dt4_1" Content="绘制路径动画" Margin="27,73,49.04,0" d:LayoutOverrides="Width" VerticalAlignment="Top" Click="dt4_Click"/>
+						<RadioButton x:Name="dt4_2" Content="绘制图形" Margin="27,109,3.813,102" d:LayoutOverrides="Width, Height" Click="dt4_Click"/>
+						<RadioButton x:Name="dt4_3" Content="文字输入" Margin="27,0,68,64" VerticalAlignment="Bottom" d:LayoutOverrides="Width" Click="dt4_Click"/>
+						<RadioButton x:Name="dt4_4" Content="对象外观属性设置" Margin="27,0,71.046,26" VerticalAlignment="Bottom" d:LayoutOverrides="Width" Click="dt4_Click"/>
+						<TextBlock x:Name="dxt4" HorizontalAlignment="Left" Height="27" Margin="27,26,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="44" Foreground="Red" FontSize="21.333"/>
+					</Grid>
+				</Grid>
+			</TabItem>
+			<TabItem Header="3组">
+				<Grid Background="#FFE5E5E5">
+					<Grid.ColumnDefinitions>
+						<ColumnDefinition Width="0*"/>
+						<ColumnDefinition/>
+					</Grid.ColumnDefinitions>
+					<Grid x:Name="grid5" HorizontalAlignment="Left" Height="232.117" Margin="35,24.883,0,0" VerticalAlignment="Top" Width="356" Grid.Column="1">
+						<TextBlock Height="22" TextWrapping="Wrap" Text="5、WPF中数据绑定的含义" VerticalAlignment="Top"/>
+						<RadioButton x:Name="dt5_1" Content="数据源和绑定目标的数据关联" HorizontalAlignment="Left" Margin="27,70,0,0" VerticalAlignment="Top" Click="dt5_Click"/>
+						<RadioButton x:Name="dt5_2" Content="数据库的一种操作" Margin="27,105,137.813,106" d:LayoutOverrides="Width, Height" Click="dt5_Click"/>
+						<RadioButton x:Name="dt5_3" Content="数据和数据之间的关联" HorizontalAlignment="Left" Margin="27,0,0,69" VerticalAlignment="Bottom" Click="dt5_Click"/>
+						<RadioButton x:Name="dt5_4" Content="数据的选择范围" HorizontalAlignment="Left" Margin="27,0,0,28" VerticalAlignment="Bottom" Click="dt5_Click"/>
+						<TextBlock x:Name="dxt5" HorizontalAlignment="Left" Height="27" Margin="27,26,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="44" Foreground="Red" FontSize="21.333"/>
+					</Grid>
+					<Grid x:Name="grid6" Margin="0,24.883,17,0" HorizontalAlignment="Right" Width="353" Height="232.117" VerticalAlignment="Top" Grid.Column="1">
+						<TextBlock Height="22" TextWrapping="Wrap" Text="6、WPF中触发器的功能" VerticalAlignment="Top"/>
+						<RadioButton x:Name="dt6_1" Content="数据库的一种操作" Margin="27,73,49.04,0" d:LayoutOverrides="Width" VerticalAlignment="Top" Click="dt6_Click"/>
+						<RadioButton x:Name="dt6_2" Content="可以用于动画的播放控制" Margin="27,109,3.813,102" d:LayoutOverrides="Width, Height" Click="dt6_Click"/>
+						<RadioButton x:Name="dt6_3" Content="定时器启动" Margin="27,0,68,64" VerticalAlignment="Bottom" d:LayoutOverrides="Width" Click="dt6_Click"/>
+						<RadioButton x:Name="dt6_4" Content="对象的方法启动" Margin="27,0,71.046,26" VerticalAlignment="Bottom" d:LayoutOverrides="Width" Click="dt6_Click"/>
+						<TextBlock x:Name="dxt6" HorizontalAlignment="Left" Height="27" Margin="23,26,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="44" Foreground="Red" FontSize="21.333"/>
+					</Grid>
+				</Grid>
+			</TabItem>
+			<TabItem Header="4组">
+				<Grid Background="#FFE5E5E5">
+					<Grid.ColumnDefinitions>
+						<ColumnDefinition Width="0*"/>
+						<ColumnDefinition/>
+					</Grid.ColumnDefinitions>
+				</Grid>
+			</TabItem>
+			<TabItem Header="5组">
+				<Grid Background="#FFE5E5E5">
+					<Grid.ColumnDefinitions>
+						<ColumnDefinition Width="0*"/>
+						<ColumnDefinition/>
+					</Grid.ColumnDefinitions>
+				</Grid>
+			</TabItem>
+		</TabControl>
+		<TextBlock x:Name="tb1" HorizontalAlignment="Right" Height="22" Margin="0,3.5,8,0" TextWrapping="Wrap" Text="{Binding Danxuanfenx}" VerticalAlignment="Top" Width="49"/>
+		<Label Content="单选题得分：" HorizontalAlignment="Right" Height="29" Margin="0,-1.5,63,0" VerticalAlignment="Top" Width="100"/>
+		<TextBlock x:Name="zf" Width="76" FontSize="13.333" Text="{Binding Zongfenx}" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,7.903,266,0"/>
+	</Grid>
+</Page>

@@ -1,0 +1,32 @@
+﻿<Page
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	x:Class="WpfExercises.Page4"
+	x:Name="Page"
+	WindowTitle="Page"
+	FlowDirection="LeftToRight"
+	Width="792" Height="400"
+	WindowWidth="640" WindowHeight="480">
+
+	<Grid x:Name="LayoutRoot" Background="#FFDCDCFF" DataContext="{Binding Source={StaticResource ExercisesDataSource}}">
+		<DataGrid x:Name="datagrid1" Margin="0,2.195,0,50.132" AutoGenerateColumns="False" ItemsSource="{Binding XPath=/exercises/exercise}" SelectionChanged="datagrid1_SelectionChanged" FontSize="13.333" DataContext="{Binding XPath=/exercises}">
+			<DataGrid.Columns>
+				<DataGridTextColumn Binding="{Binding XPath=@date}" Header="存储日期时间" Width="140"/>
+				<DataGridTextColumn Binding="{Binding XPath=@danxuanti}" Header="单选题分" Width="70"/>
+				<DataGridTextColumn Binding="{Binding XPath=@xz1}" Header="选题" Width="50"/>
+				<DataGridTextColumn Binding="{Binding XPath=@rt1}" Header="正确" Width="50"/>
+				<DataGridTextColumn Binding="{Binding XPath=@duoxuanti}" Header="多选题分" Width="70"/>
+				<DataGridTextColumn Binding="{Binding XPath=@xz2}" Header="选题" Width="50"/>
+				<DataGridTextColumn Binding="{Binding XPath=@rt2}" Header="正确" Width="50"/>
+				<DataGridTextColumn Binding="{Binding XPath=@panduanti}" Header="判断题分" Width="70"/>
+				<DataGridTextColumn Binding="{Binding XPath=@xz3}" Header="选题" Width="50"/>
+				<DataGridTextColumn Binding="{Binding XPath=@rt3}" Header="正确" Width="50"/>
+				<DataGridTextColumn Binding="{Binding XPath=@zongfen}" Header="总分" Width="60"/>
+				<DataGridTextColumn Binding="{Binding XPath=@time}" Header="用时" Width="70"/>				
+			</DataGrid.Columns>
+		</DataGrid>
+		<Button x:Name="deletecurrent" Content="删除当前选择行" Height="25" Margin="241.123,0,0,22.132" VerticalAlignment="Bottom" Cursor="Hand" Click="deletecurrent_Click" HorizontalAlignment="Left" Width="120" IsEnabled="False" FontSize="13.333"/>
+		<Button x:Name="save" Content="保存目前答题情况" HorizontalAlignment="Left" Height="25" Margin="119.864,0,0,22.132" VerticalAlignment="Bottom" Width="120" Cursor="Hand" FontSize="13.333" Click="save_Click" ToolTip="将做题的最后得分保存到xml文件"/>
+		<Button x:Name="deleteall" Content="删除全部数据" Height="25" Margin="365.123,0,306.877,21.132" VerticalAlignment="Bottom" Cursor="Hand" Click="deleteall_Click" FontSize="13.333"/>
+	</Grid>
+</Page>
