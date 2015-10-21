@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "SilverlightMediaPlayerSite", "SilverlightMediaPlayerSite\", "{1b0803a7-9c2b-4cb2-a78c-a1a2a2b4ccb3}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		ProjOutputReferences = "{e449cbea-44e7-45e8-9fdd-797dbac3157c}|ClientBin|false;"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SilverlightMediaPlayer", "SilverlightMediaPlayer\SilverlightMediaPlayer.csproj", "{e449cbea-44e7-45e8-9fdd-797dbac3157c}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1B0803A7-9C2B-4CB2-A78C-A1A2A2B4CCB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B0803A7-9C2B-4CB2-A78C-A1A2A2B4CCB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B0803A7-9C2B-4CB2-A78C-A1A2A2B4CCB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B0803A7-9C2B-4CB2-A78C-A1A2A2B4CCB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E449CBEA-44E7-45E8-9FDD-797DBAC3157C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E449CBEA-44E7-45E8-9FDD-797DBAC3157C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E449CBEA-44E7-45E8-9FDD-797DBAC3157C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E449CBEA-44E7-45E8-9FDD-797DBAC3157C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
