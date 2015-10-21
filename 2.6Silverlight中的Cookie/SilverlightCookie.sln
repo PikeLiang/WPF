@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "SilverlightCookieSite", "SilverlightCookieSite\", "{c5a5fe4d-1028-4302-9268-e0509307e2ff}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		ProjOutputReferences = "{45c0160e-8c7a-4efd-9603-7828da11db5d}|ClientBin|false;"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SilverlightCookie", "SilverlightCookie\SilverlightCookie.csproj", "{45c0160e-8c7a-4efd-9603-7828da11db5d}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C5A5FE4D-1028-4302-9268-E0509307E2FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5A5FE4D-1028-4302-9268-E0509307E2FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5A5FE4D-1028-4302-9268-E0509307E2FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5A5FE4D-1028-4302-9268-E0509307E2FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45C0160E-8C7A-4EFD-9603-7828DA11DB5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45C0160E-8C7A-4EFD-9603-7828DA11DB5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45C0160E-8C7A-4EFD-9603-7828DA11DB5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45C0160E-8C7A-4EFD-9603-7828DA11DB5D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
