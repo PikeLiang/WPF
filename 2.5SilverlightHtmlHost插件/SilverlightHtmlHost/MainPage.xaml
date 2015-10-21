@@ -1,0 +1,42 @@
+﻿<UserControl
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:divtools="clr-namespace:Divelements.SilverlightTools;assembly=Divelements.SilverlightTools"
+	x:Class="SilverlightHtmlHost.MainPage">
+
+	<ScrollViewer x:Name="LayoutRoot" Background="White">
+		<Grid Height="718" Width="710">
+			<Grid.Background>
+				<LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+					<GradientStop Color="Blue" Offset="0"/>
+					<GradientStop Color="White" Offset="1"/>
+				</LinearGradientBrush>
+			</Grid.Background>
+			<TextBlock Height="52" Margin="8,15,201,0" TextWrapping="Wrap" Text="Silverlight的插件HtmlHost" VerticalAlignment="Top" FontSize="32" FontWeight="Bold">
+				<TextBlock.Foreground>
+					<LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+						<GradientStop Color="#FFFBCF00" Offset="0"/>
+						<GradientStop Color="White" Offset="1"/>
+					</LinearGradientBrush>
+				</TextBlock.Foreground>
+			</TextBlock>
+			<Grid Height="23" Margin="0,72,0,0" VerticalAlignment="Top" Background="White">
+				<TextBlock x:Name="tb1" HorizontalAlignment="Left" Margin="17,2,0,1" TextWrapping="Wrap" Text="嵌入Flash动画" Width="106" Height="20" Cursor="Hand" FontSize="14.667" MouseLeftButtonDown="tb1_MouseLeftButtonDown" FontWeight="Bold"/>
+				<TextBlock x:Name="tb2" HorizontalAlignment="Left" Margin="127,2,0,1" TextWrapping="Wrap" Text="嵌入PDF文件" Width="98" Height="20" Cursor="Hand" FontSize="14.667" MouseLeftButtonDown="tb2_MouseLeftButtonDown" FontWeight="Bold"/>
+				<TextBlock x:Name="tb3" HorizontalAlignment="Left" Margin="228,2,0,1" TextWrapping="Wrap" Text="嵌入HTML" Width="80" Height="20" Cursor="Hand" FontSize="14.667" MouseLeftButtonDown="tb3_MouseLeftButtonDown" FontWeight="Bold"/>
+				<TextBlock x:Name="tb4" Margin="312,2,331,1" TextWrapping="Wrap" Text="嵌入网站" Height="20" Cursor="Hand" FontSize="14.667" MouseLeftButtonDown="tb4_MouseLeftButtonDown" FontWeight="Bold"/>
+				<TextBlock x:Name="tb5" Margin="0,2,237,1" TextWrapping="Wrap" Text="链接Flv视频" Height="20" Cursor="Hand" FontSize="14.667" MouseLeftButtonDown="tb5_MouseLeftButtonDown" FontWeight="Bold" HorizontalAlignment="Right" Width="89"/>
+				<TextBlock x:Name="tb6" Margin="0,2,166,1" TextWrapping="Wrap" Text="下载文件" Height="20" Cursor="Hand" FontSize="14.667" MouseLeftButtonDown="tb6_MouseLeftButtonDown" FontWeight="Bold" HorizontalAlignment="Right" Width="67"/>
+			</Grid>
+			<divtools:HtmlHost x:Name="host" HorizontalAlignment="Left" Margin="14,125,0,213" Width="680"/>
+			<Rectangle Margin="4,115,6,203" StrokeThickness="10">
+				<Rectangle.Stroke>
+					<LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+						<GradientStop Color="Blue" Offset="1"/>
+						<GradientStop Color="#FFF8F96A"/>
+					</LinearGradientBrush>
+				</Rectangle.Stroke>
+			</Rectangle>
+		</Grid>
+	</ScrollViewer>
+</UserControl>

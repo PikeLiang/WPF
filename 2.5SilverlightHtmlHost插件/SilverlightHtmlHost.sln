@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "SilverlightHtmlHostSite", "SilverlightHtmlHostSite\", "{ad4e0176-d6c1-4a65-a1df-e08404d2703a}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		ProjOutputReferences = "{22f7c3a3-34d3-4513-bfb2-da456d3407cd}|ClientBin|false;"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SilverlightHtmlHost", "SilverlightHtmlHost\SilverlightHtmlHost.csproj", "{22f7c3a3-34d3-4513-bfb2-da456d3407cd}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AD4E0176-D6C1-4A65-A1DF-E08404D2703A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD4E0176-D6C1-4A65-A1DF-E08404D2703A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD4E0176-D6C1-4A65-A1DF-E08404D2703A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD4E0176-D6C1-4A65-A1DF-E08404D2703A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22F7C3A3-34D3-4513-BFB2-DA456D3407CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22F7C3A3-34D3-4513-BFB2-DA456D3407CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22F7C3A3-34D3-4513-BFB2-DA456D3407CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22F7C3A3-34D3-4513-BFB2-DA456D3407CD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
