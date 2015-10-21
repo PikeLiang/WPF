@@ -1,0 +1,106 @@
+﻿<UserControl
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:sdk="http://schemas.microsoft.com/winfx/2006/xaml/presentation/sdk" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d"
+	x:Class="SilverlightChildWindow.MainPage">
+	<UserControl.Resources>
+		<Storyboard x:Name="Storyboard1">
+			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Projection).(PlaneProjection.RotationY)" Storyboard.TargetName="childw">
+				<EasingDoubleKeyFrame KeyTime="0" Value="0"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:3" Value="360">
+					<EasingDoubleKeyFrame.EasingFunction>
+						<BackEase EasingMode="EaseOut"/>
+					</EasingDoubleKeyFrame.EasingFunction>
+				</EasingDoubleKeyFrame>
+			</DoubleAnimationUsingKeyFrames>
+		</Storyboard>
+		<Storyboard x:Name="Storyboard2">
+			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Projection).(PlaneProjection.RotationX)" Storyboard.TargetName="image1">
+				<EasingDoubleKeyFrame KeyTime="0" Value="0"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:1" Value="45"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:3" Value="45"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:5" Value="0">
+					<EasingDoubleKeyFrame.EasingFunction>
+						<BackEase EasingMode="EaseOut"/>
+					</EasingDoubleKeyFrame.EasingFunction>
+				</EasingDoubleKeyFrame>
+			</DoubleAnimationUsingKeyFrames>
+			<ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="image1">
+				<DiscreteObjectKeyFrame KeyTime="0">
+					<DiscreteObjectKeyFrame.Value>
+						<Visibility>Visible</Visibility>
+					</DiscreteObjectKeyFrame.Value>
+				</DiscreteObjectKeyFrame>
+				<DiscreteObjectKeyFrame KeyTime="0:0:1">
+					<DiscreteObjectKeyFrame.Value>
+						<Visibility>Visible</Visibility>
+					</DiscreteObjectKeyFrame.Value>
+				</DiscreteObjectKeyFrame>
+				<DiscreteObjectKeyFrame KeyTime="0:0:3">
+					<DiscreteObjectKeyFrame.Value>
+						<Visibility>Visible</Visibility>
+					</DiscreteObjectKeyFrame.Value>
+				</DiscreteObjectKeyFrame>
+				<DiscreteObjectKeyFrame KeyTime="0:0:5">
+					<DiscreteObjectKeyFrame.Value>
+						<Visibility>Visible</Visibility>
+					</DiscreteObjectKeyFrame.Value>
+				</DiscreteObjectKeyFrame>
+			</ObjectAnimationUsingKeyFrames>
+		</Storyboard>
+	</UserControl.Resources>
+
+	<ScrollViewer x:Name="LayoutRoot" Background="White">
+		<Canvas Height="687" Width="660">
+			<Canvas.Background>
+				<LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+					<GradientStop Color="Blue" Offset="0.378"/>
+					<GradientStop Color="White" Offset="1"/>
+				</LinearGradientBrush>
+			</Canvas.Background>
+			<Grid Height="25" Canvas.Top="91" Width="660" Background="White">
+				<TextBlock x:Name="tb1" HorizontalAlignment="Left" Margin="18,2,0,4" TextWrapping="Wrap" Text="登录（作为控件）" FontSize="14.667" Cursor="Hand" MouseLeftButtonDown="tb1_MouseLeftButtonDown"/>
+				<TextBlock x:Name="tb2" HorizontalAlignment="Left" Margin="157,2,0,4" TextWrapping="Wrap" Text="单独创建" FontSize="14.667" Cursor="Hand" MouseLeftButtonDown="tb2_MouseLeftButtonDown"/>
+			</Grid>
+			<TextBlock Height="51" Canvas.Left="18" TextWrapping="Wrap" Text="Silverlight中的子窗口" Canvas.Top="25" Width="369" FontSize="32" FontWeight="Bold">
+				<TextBlock.Foreground>
+					<LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+						<GradientStop Color="#FFFDFF00" Offset="0"/>
+						<GradientStop Color="White" Offset="1"/>
+					</LinearGradientBrush>
+				</TextBlock.Foreground>
+			</TextBlock>
+			<TextBlock x:Name="textblock1" Height="30" Canvas.Left="47" TextWrapping="Wrap" Canvas.Top="175" Width="193" Foreground="White" FontSize="16"/>
+			<Image x:Name="image1" Height="383" Canvas.Left="45" Source="/sucai/pict2.JPG" Stretch="Fill" Canvas.Top="174" Width="574" Visibility="Collapsed">
+				<Image.Projection>
+					<PlaneProjection/>
+				</Image.Projection>
+			</Image>
+			<sdk:ChildWindow x:Name="childw" HorizontalAlignment="Stretch" Canvas.Left="47" Canvas.Top="133" VerticalAlignment="Stretch" Height="230" Width="302" BorderThickness="10" OverlayBrush="#7FFF0000" Foreground="Black">
+				<sdk:ChildWindow.BorderBrush>
+					<LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+						<GradientStop Color="#FFF7EE00" Offset="0"/>
+						<GradientStop Color="#FFFD00FF" Offset="0.378"/>
+						<GradientStop Color="#FF00FD04" Offset="0.378"/>
+						<GradientStop Color="#FFF2F319" Offset="1"/>
+						<GradientStop Color="#FFEDB006" Offset="0.691"/>
+						<GradientStop Color="Red" Offset="0.783"/>
+					</LinearGradientBrush>
+				</sdk:ChildWindow.BorderBrush>
+				<sdk:ChildWindow.Projection>
+					<PlaneProjection/>
+				</sdk:ChildWindow.Projection>
+				<Grid Margin="-11,-7,-10,-7">
+
+					<Button x:Name="OKButton" Content="登录" Click="OKButton_Click" Width="75" Height="23" Margin="0,0,118,51" HorizontalAlignment="Right" FontSize="13.333" VerticalAlignment="Bottom" Cursor="Hand" d:LayoutOverrides="Height" />
+					<Button x:Name="CancelButton" Content="取消" Click="CancelButton_Click" Width="75" Height="23" HorizontalAlignment="Right" FontSize="13.333" Margin="0,0,39,51" VerticalAlignment="Bottom" Cursor="Hand" d:LayoutOverrides="Height" />
+					<TextBlock HorizontalAlignment="Left" Height="21" Margin="25,36,0,0" TextWrapping="Wrap" Text="用户名:" VerticalAlignment="Top" Width="60" FontSize="16"/>
+					<TextBox x:Name="textbox1" Height="26" Margin="100,36,30,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="13.333"/>
+					<TextBlock HorizontalAlignment="Left" Margin="25,0,0,114" TextWrapping="Wrap" Text="密   码:" Width="60" FontSize="16" Height="21" VerticalAlignment="Bottom"/>
+					<Image Margin="51,0,0,48" Source="sucai/jlb.png" Stretch="Fill" HorizontalAlignment="Left" Width="34" RenderTransformOrigin="0.353,0.233" Height="43" VerticalAlignment="Bottom"/>
+					<PasswordBox x:Name="pwbox" Margin="100,76,30,0" Height="26" FontSize="13.333" VerticalAlignment="Top" d:LayoutOverrides="Height"/>
+				</Grid>
+			</sdk:ChildWindow>
+		</Canvas>
+	</ScrollViewer>
+</UserControl>

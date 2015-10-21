@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "SilverlightChildWindowSite", "SilverlightChildWindowSite\", "{5a02d17f-4a9c-4c24-9cba-2d0303127e91}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		ProjOutputReferences = "{7fdf9d60-3d6e-4d05-ad77-c3868471509b}|ClientBin|false;"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SilverlightChildWindow", "SilverlightChildWindow\SilverlightChildWindow.csproj", "{7fdf9d60-3d6e-4d05-ad77-c3868471509b}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5A02D17F-4A9C-4C24-9CBA-2D0303127E91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A02D17F-4A9C-4C24-9CBA-2D0303127E91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A02D17F-4A9C-4C24-9CBA-2D0303127E91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A02D17F-4A9C-4C24-9CBA-2D0303127E91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7FDF9D60-3D6E-4D05-AD77-C3868471509B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FDF9D60-3D6E-4D05-AD77-C3868471509B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FDF9D60-3D6E-4D05-AD77-C3868471509B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FDF9D60-3D6E-4D05-AD77-C3868471509B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
