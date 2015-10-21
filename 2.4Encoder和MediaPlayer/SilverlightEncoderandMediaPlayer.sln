@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "SilverlightEncoderandMediaPlayerSite", "SilverlightEncoderandMediaPlayerSite\", "{47f57864-7e07-488e-a1a9-2089f673ebce}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		ProjOutputReferences = "{14c27054-c994-4d5f-aa1d-460613804d26}|ClientBin|false;"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SilverlightEncoderandMediaPlayer", "SilverlightEncoderandMediaPlayer\SilverlightEncoderandMediaPlayer.csproj", "{14c27054-c994-4d5f-aa1d-460613804d26}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{47F57864-7E07-488E-A1A9-2089F673EBCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47F57864-7E07-488E-A1A9-2089F673EBCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47F57864-7E07-488E-A1A9-2089F673EBCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47F57864-7E07-488E-A1A9-2089F673EBCE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14C27054-C994-4D5F-AA1D-460613804D26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14C27054-C994-4D5F-AA1D-460613804D26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14C27054-C994-4D5F-AA1D-460613804D26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14C27054-C994-4D5F-AA1D-460613804D26}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

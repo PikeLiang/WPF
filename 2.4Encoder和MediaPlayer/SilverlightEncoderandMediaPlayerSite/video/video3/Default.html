@@ -1,0 +1,218 @@
+﻿
+
+<!--  -->
+
+
+
+<!--  -->
+<!--  -->
+<!--  -->
+<!--   -->
+<!--   -->
+<!--   -->
+
+
+<!--   -->
+
+<!--   -->
+<!--   -->
+<!--   -->
+<!--   -->
+<!--   -->
+<!--   -->
+<!--  -->
+
+
+
+
+<!--  -->
+
+
+<!--
+
+
+ 
+-->
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<!-- saved from url=(0014)about:internet -->
+
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <style type="text/css">
+    html, body {
+        height: 100%;
+        overflow: auto;
+    }
+    body {
+        padding: 0;
+        margin: 0;
+    }
+    .fadeSome {
+        opacity:0.30;
+        filter:alpha(opacity=30);
+        -moz-opacity: 30%;        
+    }
+    .fadeLots {
+        opacity:0.50;
+        filter:alpha(opacity=50);
+        -moz-opacity: 0.5;        
+    }  
+    .fadeCompletely {
+        opacity:0.0;
+        filter:alpha(opacity=0);
+        -moz-opacity: 0.0;
+    }     
+    #silverlightControlHost {
+        height: 100%;
+    }
+    </style>
+    
+    <script type="text/javascript">
+        function onSilverlightError(sender, args) {
+
+            var appSource = "";
+            if (sender != null && sender != 0) {
+                appSource = sender.getHost().Source;
+            }
+            var errorType = args.ErrorType;
+            var iErrorCode = args.ErrorCode;
+
+            var errMsg = "Silverlight 应用程序中存在未处理的错误 " + appSource + "\n";
+
+            errMsg += "Code: " + iErrorCode + "    \n";
+            errMsg += "Category: " + errorType + "       \n";
+            errMsg += "Message: " + args.ErrorMessage + "     \n";
+
+            if (errorType == "ParserError") {
+                errMsg += "File: " + args.xamlFile + "     \n";
+                errMsg += "Line: " + args.lineNumber + "     \n";
+                errMsg += "Position: " + args.charPosition + "     \n";
+            }
+            else if (errorType == "RuntimeError") {
+                if (args.lineNumber != 0) {
+                    errMsg += "Line: " + args.lineNumber + "     \n";
+                    errMsg += "Position: " + args.charPosition + "     \n";
+                }
+                errMsg += "MethodName: " + args.methodName + "     \n";
+            }
+
+            throw new Error(errMsg);
+        }
+
+        function highlightDownloadArea(fOn) {
+            document.getElementById("overlay").className = (fOn) ? "fadeSome" : "fadeLots";            
+        }
+
+	function CloseWindow()
+	{
+	    window.close();
+	}
+
+
+
+
+    </script>
+</head>
+
+
+
+<body>
+    <!-- Runtime errors from Silverlight will be displayed here.
+    This will contain debugging information and should be removed or hidden when debugging is completed -->
+    <div id='errorLocation' style="font-size: small;color: Gray;"></div>
+
+    <div id="silverlightControlHost">
+        <object data="data:application/x-silverlight," type="application/x-silverlight"
+
+
+
+width="100%" height="100%"
+
+	    >
+            <param name="source" value="MediaPlayerTemplate.xap"/>
+            <param name="onerror" value="onSilverlightError" />
+            <param name="autoUpgrade" value="true" />
+            <param name="minRuntimeVersion" value="4.0.50401.0" />
+            <param name="enableHtmlAccess" value="true" />
+
+            <param name="enableGPUAcceleration" value="true" />
+
+            <param name="initparams" value='playerSettings = 
+                        <Playlist>
+                            <AutoLoad>true</AutoLoad>
+                            <AutoPlay>true</AutoPlay>
+                            <DisplayTimeCode>false</DisplayTimeCode>
+                            <EnableOffline>true</EnableOffline>
+                            <EnablePopOut>true</EnablePopOut>
+
+                            <EnableCaptions>true</EnableCaptions>
+                            <EnableCachedComposition>true</EnableCachedComposition>
+                            <StretchNonSquarePixels>NoStretch</StretchNonSquarePixels>
+                            <StartMuted>false</StartMuted>
+
+                            <StartWithPlaylistShowing>false</StartWithPlaylistShowing>
+
+
+                            <Items>
+                                
+								<PlaylistItem>
+									<AudioCodec>WmaProfessional</AudioCodec>
+									<Description></Description>
+									<FileSize>2061574</FileSize>
+									<IsAdaptiveStreaming>false</IsAdaptiveStreaming>
+									<MediaSource>video3.wmv</MediaSource>
+									<ThumbSource></ThumbSource>
+									<Title>video3</Title>
+									<DRM>false</DRM>
+									<VideoCodec>VC1</VideoCodec>
+									<FrameRate>30.00003000003</FrameRate>
+									<Width>512</Width>
+									<Height>384</Height>
+									<AspectRatioWidth>4</AspectRatioWidth>
+									<AspectRatioHeight>3</AspectRatioHeight>
+								</PlaylistItem>
+			    </Items>
+                        </Playlist>'/>       
+            <!--  unused valid silverlight init parameters
+            <param name="enableFrameRateCounter" value="bool" />
+            <param name="enableRedrawRegions" value="bool" />
+            <param name="maxFrameRate" value="int" />
+            <param name="allowHtmlPopupWindow" value="bool"/>
+            <param name="background" value="colorValue"/>
+            <param name="splashScreenSource" value="uri"/>
+            <param name="fullScreen" value="bool"/>
+            <param name="onFullScreenChanged" value="functionname"/>
+            <param name="onResize" value="functionname"/>
+            <param name="onSourceDownloadComplete" value="functionname"/>
+            <param name="onSourceDownloadProgressChanged" value="functionname"/>
+            <param name="windowLess" value="bool"/>
+             --> 
+
+             <div onmouseover="highlightDownloadArea(true)" onmouseout="highlightDownloadArea(false)">
+                    <img src="" style="position:absolute;width:100%;height:100%;border-style:none;" onerror="this.style.display='none'"/>
+                    <img src="Preview.png" style="position:absolute;width:100%;height:100%;border-style:none;" onerror="this.style.display='none'"/>                                            
+                    <div id="overlay" class="fadeLots" style="position:absolute;width:100%;height:100%;border-style:none;background-color:white;"/></div>
+                    <table width="100%" height="100%" style="position:absolute;"><tr><td align="center" valign="middle">                       
+                    <img src="http://go2.microsoft.com/fwlink/?LinkId=108181" alt="获取 Microsoft Silverlight"> 
+                    </td></tr></table>                   
+                    <a href="http://go2.microsoft.com/fwlink/?LinkID=149156">
+                        <img src="" class="fadeCompletely" style="position:absolute;width:100%;height:100%;border-style:none;" alt="获取 Microsoft Silverlight"/>
+                    </a>                   
+             </div>             
+        </object>
+        <iframe id='_sl_historyFrame' style='visibility:hidden;height:0;width:0;border:0px'></iframe>
+
+
+
+</div>
+</body> 
+
+
+</html>
+
+
+
