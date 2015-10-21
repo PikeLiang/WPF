@@ -1,0 +1,19 @@
+﻿<!--
+      *********    请勿修改此文件     *********
+      此文件由设计工具再生成。更改
+      此文件可能会导致错误。
+-->
+<SampleData:SampleDataSource xmlns:SampleData="clr-namespace:Expression.Blend.SampleData.SampleDataSource" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+  <SampleData:SampleDataSource.Collection>
+    <SampleData:Item id="86" name="Aaberg, Jesper" password="Aenean mauris nullam nam maecenas cras" />
+    <SampleData:Item id="60" name="Adams, Ellen" password="Aptent auctor aliquam integer class quisque" />
+    <SampleData:Item id="44" name="Adams, Terry" password="Sed duis congue nunc cursus dis curae est amet" />
+    <SampleData:Item id="38" name="Adams, Terry" password="Vivamus aliquam hac ante dictum leo" />
+    <SampleData:Item id="33" name="Penor, Lori" password="Praesent lectus mus nec donec non per arcu" />
+    <SampleData:Item id="29" name="Pfeiffer, Michael" password="Diam eget accumsan libero sed aliquet etiam bibendum elit blandit" />
+    <SampleData:Item id="96" name="Philips, Carol" password="Fusce enim dictumst erat lorem morbi eros eleifend commodo" />
+    <SampleData:Item id="47" name="Poe, Toni" password="Sem facilisi conubia nulla faucibus nibh sit cubilia habitant" />
+    <SampleData:Item id="30" name="Hicks, Cassie" password="Ligula litora vel luctus inceptos nam proin sed dapibus" />
+    <SampleData:Item id="93" name="Argentiero, Luca" password="Augue nisi dolor egestas interdum fames felis euismod ipsum nisl" />
+  </SampleData:SampleDataSource.Collection>
+</SampleData:SampleDataSource>

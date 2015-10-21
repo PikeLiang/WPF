@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="ce3aff7b-161a-4e9e-aa3a-281b2d3a1478" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>true</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings>
+      <CollectionMapping TypeName="System.Collections.ObjectModel.ObservableCollection`1" Category="List" />
+    </CollectionMappings>
+    <GenerateSerializableTypes>false</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:1393/SilverlightLoginSQLSite/ClientBin/Service.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="Service.xsd" MetadataType="Schema" ID="84359e3e-650f-4186-92f0-7d3609ff0a24" SourceId="1" SourceUrl="http://localhost:1393/SilverlightLoginSQLSite/ClientBin/Service.svc?xsd=xsd0" />
+    <MetadataFile FileName="Service1.xsd" MetadataType="Schema" ID="3602aa7c-7827-45b8-a71e-6a266dada2a8" SourceId="1" SourceUrl="http://localhost:1393/SilverlightLoginSQLSite/ClientBin/Service.svc?xsd=xsd2" />
+    <MetadataFile FileName="Service.wsdl" MetadataType="Wsdl" ID="75152ae0-72da-48f4-b408-4250fb3134f3" SourceId="1" SourceUrl="http://localhost:1393/SilverlightLoginSQLSite/ClientBin/Service.svc?wsdl" />
+    <MetadataFile FileName="Service2.xsd" MetadataType="Schema" ID="57b73110-4f82-41e4-aa86-305637d2f699" SourceId="1" SourceUrl="http://localhost:1393/SilverlightLoginSQLSite/ClientBin/Service.svc?xsd=xsd1" />
+    <MetadataFile FileName="Service.disco" MetadataType="Disco" ID="6564e176-9a69-44e9-b22c-0c793a70fc54" SourceId="1" SourceUrl="http://localhost:1393/SilverlightLoginSQLSite/ClientBin/Service.svc?disco" />
+    <MetadataFile FileName="Service1.wsdl" MetadataType="Wsdl" ID="7e16ad82-b468-4cf9-9ed7-f22eee0ecbbc" SourceId="1" SourceUrl="http://localhost:1393/SilverlightLoginSQLSite/ClientBin/Service.svc?wsdl=wsdl0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
