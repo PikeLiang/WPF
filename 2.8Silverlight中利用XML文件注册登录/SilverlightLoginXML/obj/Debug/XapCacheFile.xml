@@ -1,0 +1,7 @@
+﻿<xapCache source="D:\Expression Blend NewBook\Example\2.8Silverlight中利用XML文件注册登录\SilverlightLoginXML\Bin\Debug\SilverlightLoginXML.xap" wasSigned="False" certificateThumbprint="" TimeStampUrl="" lastWriteTime="2011-11-5 18:55:04">
+  <file source="D:\Expression Blend NewBook\Example\2.8Silverlight中利用XML文件注册登录\SilverlightLoginXML\obj\Debug\SilverlightLoginXML.dll" archivePath="SilverlightLoginXML.dll" lastWriteTime="2011-11-5 18:55:03" />
+  <file source="C:\Program Files\Microsoft SDKs\Silverlight\v4.0\Libraries\Client\System.Windows.Controls.Navigation.dll" archivePath="System.Windows.Controls.Navigation.dll" lastWriteTime="2010-8-26 2:17:48" />
+  <file source="C:\Program Files\Microsoft SDKs\Silverlight\v4.0\Libraries\Client\System.Xml.Linq.dll" archivePath="System.Xml.Linq.dll" lastWriteTime="2010-8-26 2:17:48" />
+  <file source="D:\Expression Blend NewBook\Example\2.8Silverlight中利用XML文件注册登录\SilverlightLoginXML\loginXML\zhuce.xml" archivePath="loginXML\zhuce.xml" lastWriteTime="2011-8-5 14:30:31" />
+  <file source="D:\Expression Blend NewBook\Example\2.8Silverlight中利用XML文件注册登录\SilverlightLoginXML\Bin\Debug\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="2011-8-12 7:42:07" />
+</xapCache>
