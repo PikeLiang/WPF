@@ -1,0 +1,1 @@
+D:\Expression Blend NewBook\Example\2.10SilverlightWCF RIA服务\SilverlightWCF_RIA\Generated_Code\SilverlightWCF_RIA.Web.g.cs

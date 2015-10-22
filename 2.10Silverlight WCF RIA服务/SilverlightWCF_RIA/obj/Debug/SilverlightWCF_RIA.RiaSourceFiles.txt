@@ -1,0 +1,1 @@
+D:\Expression Blend NewBook\Example\26SilverlightWCF_RIA服务\SilverlightWCF_RIA.Web\SilverlightWCF_RIA.Web.csproj,634496087460000000,DomainServiceRIA.cs,DomainServiceRIA.metadata.cs,ModelRIA.Designer.cs,Properties\AssemblyInfo.cs,

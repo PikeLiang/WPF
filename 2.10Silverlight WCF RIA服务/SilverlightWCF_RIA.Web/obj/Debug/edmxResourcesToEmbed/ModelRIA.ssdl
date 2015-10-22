@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="StudentsModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2005" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+  <EntityContainer Name="StudentsModelStoreContainer">
+    <EntitySet Name="student" EntityType="StudentsModel.Store.student" store:Type="Tables" Schema="dbo" />
+  </EntityContainer>
+  <EntityType Name="student">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" />
+    <Property Name="xingming" Type="nchar" MaxLength="10" />
+    <Property Name="xingbie" Type="nchar" MaxLength="2" />
+    <Property Name="jiguan" Type="nchar" MaxLength="16" />
+    <Property Name="zhuanye" Type="nchar" MaxLength="20" />
+    <Property Name="kaofen" Type="float" />
+    <Property Name="dianhua" Type="nchar" MaxLength="11" />
+    <Property Name="zhaopian" Type="image" />
+  </EntityType>
+</Schema>

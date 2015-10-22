@@ -1,0 +1,4 @@
+确认已经安装了Visual Studio 2010
+组件安装：
+  1、RiaServicesToolkit.msi
+  2、Silverlight4_Tools.exe
