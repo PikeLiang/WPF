@@ -1,0 +1,87 @@
+﻿<UserControl
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:sdk="http://schemas.microsoft.com/winfx/2006/xaml/presentation/sdk"
+	xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d"
+	x:Class="SilverlightPrint.MainPage" d:DesignHeight="1278">
+
+	<ScrollViewer x:Name="LayoutRoot" Background="White">
+		<Canvas Height="1270" Width="900" RenderTransformOrigin="0.5,0.5">
+			<Canvas.Background>
+				<LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+					<GradientStop Color="Blue" Offset="0.372"/>
+					<GradientStop Color="White" Offset="1"/>
+				</LinearGradientBrush>
+			</Canvas.Background>
+			<Grid Height="301" Canvas.Left="1" Width="871">
+				<MediaElement x:Name="me" Source="/sucai/silverlight.wmv" Stretch="Fill" Width="285" HorizontalAlignment="Right" Margin="0,138,0,0" MediaEnded="me_MediaEnded"/>
+				<Button x:Name="BTprintVideo" Content="进入预览" FontSize="14.667" Cursor="Hand" Width="74" HorizontalAlignment="Right" Margin="0,138,211,137" Click="BTprintVideo_Click"/>
+			</Grid>
+			<Grid Height="25" Canvas.Top="77" Width="900" Background="White">
+				<TextBlock x:Name="tb1" HorizontalAlignment="Left" Margin="42,4,0,4" TextWrapping="Wrap" Text="基本打印功能" Width="96" FontSize="14.667" FontWeight="Bold" Cursor="Hand" MouseLeftButtonDown="tb1_MouseLeftButtonDown"/>
+			</Grid>
+			<Grid Height="173" Canvas.Left="17" Canvas.Top="138" Width="244">
+				<Image x:Name="image1" Source="sucai/im2.JPG" Stretch="Fill" RenderTransformOrigin="0.5,0.5"/>
+				<Button x:Name="BTprintImage" Content="进入预览" Height="26" Width="74" FontSize="14.667" Cursor="Hand" Click="BTprintImage_Click" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+			</Grid>
+			<Grid x:Name="grid1" Height="320" Canvas.Left="268" Canvas.Top="138" Width="296">
+				<TextBlock x:Name="textblock1" TextWrapping="Wrap" FontSize="13.333" Foreground="White" d:LayoutOverrides="GridBox" Margin="0,31,0,0"><Run Text="      "/><Run Text="计算机的操作系统是从单一文本界面发展起家的，乔布斯、比尔盖茨提出并发展了图像化的"/><Run Text="Windows"/><Run Text="，"/><Run Text=" "/><Run Text="计算机界面的媒体形式丰富了，界面也漂亮了。随着网络技术的飞速发展，网络上的简单的文图界面也很快活跃起来，二维动画、三维动画、视频、流文档等多种媒体形式不断涌现，新技术层出不穷，“"/><Span><Run Text="RIA"/></Span><Run Text="”诞生了。"/><LineBreak/><Run Text="      "/><Run Text="微软Silverlight是Rich Internet Application（RIA）应用开发技术之一，其强大的功能以及丰富的用户体验已经得到广大开发人员和终端用户的肯定。在今天的Silverlight FireStarter大会上，微软介绍Silverlight 5将推出40多个新的功能，分别支持Silverlight多媒体领域，Silverlight桌面应用领域，Silverlight的性能提高和加固，以及新的开发特性等。"/></TextBlock>
+				<Button x:Name="BTprintText" Content="进入预览" FontSize="14.667" Cursor="Hand" Click="BTprintText_Click" Margin="1,0,0,0" Height="26" VerticalAlignment="Top" HorizontalAlignment="Left" Width="74"/>
+			</Grid>
+			<TextBlock Height="49" Canvas.Left="16" TextWrapping="Wrap" Text="Silverlight的打印功能" Canvas.Top="15" Width="388" FontSize="32" FontWeight="Bold">
+				<TextBlock.Foreground>
+					<LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+						<GradientStop Color="#FFFDFF00" Offset="0"/>
+						<GradientStop Color="White" Offset="1"/>
+					</LinearGradientBrush>
+				</TextBlock.Foreground>
+			</TextBlock>
+			<sdk:ChildWindow x:Name="ChildView" HorizontalAlignment="Stretch" Canvas.Top="62" VerticalAlignment="Stretch" Height="1074" Width="736" BorderThickness="8" Canvas.Left="76" Visibility="Collapsed">
+				<sdk:ChildWindow.BorderBrush>
+					<LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+						<GradientStop Color="#FFF6F749" Offset="0"/>
+						<GradientStop Color="#FF11FB2A" Offset="0.504"/>
+						<GradientStop Color="#FFFF6B03" Offset="0.337"/>
+						<GradientStop Color="#FFD3F317" Offset="1"/>
+						<GradientStop Color="#FFB314F1" Offset="0.751"/>
+					</LinearGradientBrush>
+				</sdk:ChildWindow.BorderBrush>
+				<Grid Margin="0">
+					<TextBlock x:Name="ziti" HorizontalAlignment="Left" Height="22" Margin="24,8,0,0" TextWrapping="Wrap" Text="字体：" VerticalAlignment="Top" Width="49" FontSize="14.667"/>
+					<TextBlock x:Name="zihao" HorizontalAlignment="Left" Height="22" Margin="252,8,0,0" TextWrapping="Wrap" Text="字号：" VerticalAlignment="Top" Width="49" FontSize="14.667"/>
+					<Button x:Name="exit" Content="关闭" Height="25" Width="56" FontSize="14.667" Cursor="Hand" Click="exit_Click" HorizontalAlignment="Right" Margin="0,5,21,0" VerticalAlignment="Top"/>
+					<Button x:Name="print" Content="打印" Height="25" Width="56" FontSize="14.667" Cursor="Hand" Click="print_Click" HorizontalAlignment="Right" Margin="0,5,77,0" VerticalAlignment="Top"/>
+					<Button x:Name="view" Content="预览" Height="25" Width="56" FontSize="14.667" Cursor="Hand" Click="view_Click" HorizontalAlignment="Right" Margin="0,5,133,0" VerticalAlignment="Top"/>
+					<Canvas x:Name="canvasprint" Margin="0,35,0,0" ScrollViewer.VerticalScrollBarVisibility="Visible" Background="White" Width="702" Height="993">
+						<Grid x:Name="printarea" Background="#FFBBFD7B" Height="410" Canvas.Left="72" Canvas.Top="68" ScrollViewer.VerticalScrollBarVisibility="Visible" Width="534"/>
+						<Rectangle x:Name="rec1" Height="14" Stroke="Red" Width="14" StrokeThickness="5" Canvas.Left="334" Canvas.Top="59" Cursor="Hand" MouseLeftButtonDown="rec1_MouseLeftButtonDown" MouseMove="rec1_MouseMove" MouseLeftButtonUp="rec1_MouseLeftButtonUp"/>
+						<Rectangle x:Name="rec2" Height="14" Stroke="Red" Width="14" StrokeThickness="5" Canvas.Left="64" Canvas.Top="272" Cursor="SizeWE" MouseLeftButtonDown="rec2_MouseLeftButtonDown" MouseMove="rec2_MouseMove" MouseLeftButtonUp="rec2_MouseLeftButtonUp"/>
+						<Rectangle x:Name="rec3" Height="14" Stroke="Red" Width="14" StrokeThickness="5" Canvas.Left="340" Canvas.Top="468" Cursor="SizeNS" MouseLeftButtonDown="rec3_MouseLeftButtonDown" MouseMove="rec3_MouseMove" MouseLeftButtonUp="rec3_MouseLeftButtonUp"/>
+						<Rectangle x:Name="rec4" Stroke="Red" Width="14" StrokeThickness="5" Height="14" Canvas.Left="595" Canvas.Top="262" Cursor="SizeWE" MouseLeftButtonDown="rec4_MouseLeftButtonDown" MouseMove="rec4_MouseMove" MouseLeftButtonUp="rec4_MouseLeftButtonUp"/>
+					</Canvas>
+					<Rectangle Stroke="Blue" StrokeThickness="2"/>
+					<ComboBox x:Name="combobox2" Margin="300,6,347,0" VerticalAlignment="Top" Height="24" FontSize="13.333">
+						<ComboBoxItem x:Name="cbb0" Content="10" Width="52" Height="22" Cursor="Hand" FontSize="13.333"/>
+						<ComboBoxItem x:Name="cbb1" Content="12" Height="22" Width="52" Cursor="Hand" FontSize="13.333"/>
+						<ComboBoxItem x:Name="cbb2" Content="14" Width="52" Height="22" Cursor="Hand" FontSize="13.333"/>
+						<ComboBoxItem x:Name="cbb3" Content="16" Width="52" Height="22" Cursor="Hand" FontSize="13.333"/>
+						<ComboBoxItem x:Name="cbb4" Content="18" Width="52" Height="22" Cursor="Hand" FontSize="13.333"/>
+						<ComboBoxItem x:Name="cbb5" Content="20" Height="22" Width="52" Cursor="Hand"/>
+						<ComboBoxItem x:Name="cbb6" Content="22" Width="52" Height="22" Cursor="Hand"/>
+						<ComboBoxItem x:Name="cbb7" Content="24" Height="22" Width="52" Cursor="Hand"/>
+					</ComboBox>
+					<ComboBox x:Name="combobox1" HorizontalAlignment="Left" Margin="74,6,0,0" VerticalAlignment="Top" Width="170" Height="24" FontSize="13.333">
+						<ComboBoxItem x:Name="cbbi0" Content="Arial" Width="134" Height="24" Cursor="Hand" FontSize="13.333" FontFamily="Tahoma"/>
+						<ComboBoxItem x:Name="cbbi1" Content="Verdana" Height="24" Width="134" Cursor="Hand" FontSize="13.333"/>
+						<ComboBoxItem x:Name="cbbi2" Content="Times New Roman" Width="134" Height="24" Cursor="Hand" FontSize="13.333"/>
+						<ComboBoxItem x:Name="cbbi3" Content="STSong" Width="134" Height="24" Cursor="Hand" FontSize="13.333"/>
+						<ComboBoxItem x:Name="cbbi4" Content="STXinwei" Width="134" Height="22" Cursor="Hand" FontSize="13.333"/>
+						<ComboBoxItem x:Name="cbbi5" Content="KaiTi_GB2312" Height="24" Width="134" Cursor="Hand" FontSize="13.333"/>
+						<ComboBoxItem x:Name="cbbi6" Content="LiSu" Width="134" Height="24" Cursor="Hand" FontSize="13.333"/>
+						<ComboBoxItem x:Name="cbbi7" Content="STXihei" Height="24" Width="134" Cursor="Hand" FontSize="13.333"/>
+					</ComboBox>
+				</Grid>
+			</sdk:ChildWindow>
+		</Canvas>
+	</ScrollViewer>
+</UserControl>

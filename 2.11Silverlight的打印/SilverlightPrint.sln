@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "SilverlightPrintSite", "SilverlightPrintSite\", "{a63fcb8f-e0be-4c4b-87fb-14215cd9afde}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		ProjOutputReferences = "{2f17e71d-bd2f-4904-903c-e0c0e4d3df2b}|ClientBin|false;"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SilverlightPrint", "SilverlightPrint\SilverlightPrint.csproj", "{2f17e71d-bd2f-4904-903c-e0c0e4d3df2b}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A63FCB8F-E0BE-4C4B-87FB-14215CD9AFDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A63FCB8F-E0BE-4C4B-87FB-14215CD9AFDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A63FCB8F-E0BE-4C4B-87FB-14215CD9AFDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A63FCB8F-E0BE-4C4B-87FB-14215CD9AFDE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F17E71D-BD2F-4904-903C-E0C0E4D3DF2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F17E71D-BD2F-4904-903C-E0C0E4D3DF2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F17E71D-BD2F-4904-903C-E0C0E4D3DF2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F17E71D-BD2F-4904-903C-E0C0E4D3DF2B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

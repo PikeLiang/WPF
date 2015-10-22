@@ -1,0 +1,39 @@
+﻿<sdk:Page	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+	xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	mc:Ignorable="d"
+	xmlns:sdk="http://schemas.microsoft.com/winfx/2006/xaml/presentation/sdk"	x:Class="SilverlightPrint.Page1" 
+	Title="Page1 Page"
+	d:DesignWidth="975" d:DesignHeight="680">
+	
+	<ScrollViewer x:Name="LayoutRoot" Background="White" >
+		<Canvas Height="700" Width="900">
+			<Canvas.Background>
+				<LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+					<GradientStop Color="Blue" Offset="0.287"/>
+					<GradientStop Color="White" Offset="1"/>
+				</LinearGradientBrush>
+			</Canvas.Background>
+			<Grid Height="25" Canvas.Top="77" Width="900" Background="White">
+				<TextBlock x:Name="tb1" HorizontalAlignment="Left" Margin="42,4,0,4" TextWrapping="Wrap" Text="返回" Width="39" FontSize="14.667" FontWeight="Bold" Cursor="Hand" MouseLeftButtonDown="tb1_MouseLeftButtonDown"/>
+			</Grid>
+			<TextBlock Height="49" Canvas.Left="16" TextWrapping="Wrap" Text="Silverlight的基本打印功能" Canvas.Top="15" Width="455" FontSize="32" FontWeight="Bold">
+				<TextBlock.Foreground>
+					<LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+						<GradientStop Color="#FFFDFF00" Offset="0"/>
+						<GradientStop Color="White" Offset="1"/>
+					</LinearGradientBrush>
+				</TextBlock.Foreground>
+			</TextBlock>
+			<Grid Height="173" Canvas.Left="17" Canvas.Top="138" Width="244">
+				<Image x:Name="image1" Source="sucai/im2.JPG" Stretch="Fill" RenderTransformOrigin="0.5,0.5"/>
+				<Button x:Name="BTprintImage" Content="打印" Height="26" Width="50" FontSize="14.667" Cursor="Hand" Click="BTprintImage_Click" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+			</Grid>
+			<Grid x:Name="grid1" Height="173" Canvas.Left="283" Canvas.Top="138" Width="255">
+				<TextBlock x:Name="textblock1" TextWrapping="Wrap" FontSize="13.333" Foreground="White"><Run Text="      "/><Run Text="计算机的操作系统是从单一文本界面发展起家的，乔布斯、比尔盖茨提出并发展了图像化的"/><Run Text="Windows"/><Run Text="，"/><Run Text=" "/><Run Text="计算机界面的媒体形式丰富了，界面也漂亮了。随着网络技术的飞速发展，网络上的简单的文图界面也很快活跃起来，二维动画、三维动画、视频、流文档等多种媒体形式不断涌现，新技术层出不穷，“"/><Span><Run Text="RIA"/></Span><Run Text="”诞生了。"/></TextBlock>
+				<Button x:Name="BTprintText" Content="打印" Height="26" Width="50" FontSize="14.667" Cursor="Hand" Click="BTprintText_Click" HorizontalAlignment="Right" Margin="0,0,10,4" VerticalAlignment="Bottom"/>
+			</Grid>
+		</Canvas>
+	</ScrollViewer>
+</sdk:Page>
