@@ -1,0 +1,15 @@
+D:\Expression Blend NewBook\Example\SilverlightWCF_RIA\SilverlightWCF_RIA.Web\bin\SilverlightWCF_RIA.Web.dll
+D:\Expression Blend NewBook\Example\SilverlightWCF_RIA\SilverlightWCF_RIA.Web\bin\SilverlightWCF_RIA.Web.pdb
+D:\Expression Blend NewBook\Example\SilverlightWCF_RIA\SilverlightWCF_RIA.Web\obj\Debug\ResolveAssemblyReference.cache
+D:\Expression Blend NewBook\Example\SilverlightWCF_RIA\SilverlightWCF_RIA.Web\obj\Debug\SilverlightWCF_RIA.Web.dll
+D:\Expression Blend NewBook\Example\SilverlightWCF_RIA\SilverlightWCF_RIA.Web\obj\Debug\SilverlightWCF_RIA.Web.pdb
+D:\Expression Blend NewBook\Example\26SilverlightWCF_RIA服务\SilverlightWCF_RIA.Web\bin\SilverlightWCF_RIA.Web.dll
+D:\Expression Blend NewBook\Example\26SilverlightWCF_RIA服务\SilverlightWCF_RIA.Web\bin\SilverlightWCF_RIA.Web.pdb
+D:\Expression Blend NewBook\Example\26SilverlightWCF_RIA服务\SilverlightWCF_RIA.Web\obj\Debug\ResolveAssemblyReference.cache
+D:\Expression Blend NewBook\Example\26SilverlightWCF_RIA服务\SilverlightWCF_RIA.Web\obj\Debug\SilverlightWCF_RIA.Web.dll
+D:\Expression Blend NewBook\Example\26SilverlightWCF_RIA服务\SilverlightWCF_RIA.Web\obj\Debug\SilverlightWCF_RIA.Web.pdb
+D:\Expression Blend NewBook\Example\2.10SilverlightWCF RIA服务\SilverlightWCF_RIA.Web\bin\SilverlightWCF_RIA.Web.dll
+D:\Expression Blend NewBook\Example\2.10SilverlightWCF RIA服务\SilverlightWCF_RIA.Web\bin\SilverlightWCF_RIA.Web.pdb
+D:\Expression Blend NewBook\Example\2.10SilverlightWCF RIA服务\SilverlightWCF_RIA.Web\obj\Debug\ResolveAssemblyReference.cache
+D:\Expression Blend NewBook\Example\2.10SilverlightWCF RIA服务\SilverlightWCF_RIA.Web\obj\Debug\SilverlightWCF_RIA.Web.dll
+D:\Expression Blend NewBook\Example\2.10SilverlightWCF RIA服务\SilverlightWCF_RIA.Web\obj\Debug\SilverlightWCF_RIA.Web.pdb

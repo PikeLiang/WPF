@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="StudentsModelStoreContainer" CdmEntityContainer="StudentsEntities">
+    <EntitySetMapping Name="student">
+      <EntityTypeMapping TypeName="StudentsModel.student">
+        <MappingFragment StoreEntitySet="student">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="xingming" ColumnName="xingming" />
+          <ScalarProperty Name="xingbie" ColumnName="xingbie" />
+          <ScalarProperty Name="jiguan" ColumnName="jiguan" />
+          <ScalarProperty Name="zhuanye" ColumnName="zhuanye" />
+          <ScalarProperty Name="kaofen" ColumnName="kaofen" />
+          <ScalarProperty Name="dianhua" ColumnName="dianhua" />
+          <ScalarProperty Name="zhaopian" ColumnName="zhaopian" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
