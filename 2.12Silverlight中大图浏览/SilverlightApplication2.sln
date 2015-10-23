@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "SilverlightApplication2Site", "SilverlightApplication2Site\", "{ef991c22-7130-496a-a955-aeee87f43615}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		ProjOutputReferences = "{b0db5181-6cf0-462d-978f-1ff87e6214c6}|ClientBin|false;"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SilverlightApplication2", "SilverlightApplication2\SilverlightApplication2.csproj", "{b0db5181-6cf0-462d-978f-1ff87e6214c6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EF991C22-7130-496A-A955-AEEE87F43615}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF991C22-7130-496A-A955-AEEE87F43615}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF991C22-7130-496A-A955-AEEE87F43615}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF991C22-7130-496A-A955-AEEE87F43615}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0DB5181-6CF0-462D-978F-1FF87E6214C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0DB5181-6CF0-462D-978F-1FF87E6214C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0DB5181-6CF0-462D-978F-1FF87E6214C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0DB5181-6CF0-462D-978F-1FF87E6214C6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
